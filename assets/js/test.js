@@ -81,8 +81,6 @@ function mostrarResultado() {
 
     // Evaluamos el estilo de vida según el puntaje
 
-    div.innerHTML += "<h3 class='resultado_titulo'>Estos son tus resultados:</h3>";
-
     if (puntaje >= 20) {
         resultado = "<span id='grasa'>PIEL GRASA</span>";
     } else if (puntaje >= 15) {
@@ -94,7 +92,7 @@ function mostrarResultado() {
         resultado = "<span id='seca'>PIEL SECA</span>";
     }
 
-    div.innerHTML += `<p class='resultado_obtenido'>¡FELICIDADES! Ahora conoces que tu tipo de piel es: ${resultado}.</p>`;
+    div.innerHTML += `<p class='resultado_obtenido'>¡FELICIDADES! Ahora conoces que tu tipo de piel es: ${resultado}.</p> </br> <p>¡Gracias por completar el LÚA CARES - TEST! Recuerda, cada tipo de piel es hermoso y único. No importa cuál sea tu resultado, estamos aquí para ayudarte a cuidar tu piel y hacerla brillar. Juntos, podemos lograr una piel radiante y saludable que te haga sentir seguro/a y feliz. ¡Estamos aquí para ti!</p> </br> <a href="test.html">QUIERO VOLVER A HACER EL TEST</a> <a href="rutinas.html">AHORA QUIERO UNA RUTINA</a>`;
 }
 
 function actualizarPuntaje(opcion) {
