@@ -1,0 +1,388 @@
+[
+    {
+        "rango": "económico",
+        "tiempo" : "mañana",
+        "piel" : "normal",
+
+        "Limpieza Facial Suave": {
+            "nombre": "Neutrogena Hydro Boost Gel Cleanser",
+            "img": "imagen_limpieza_facial_normal_economico.jpg",
+            "descripción": "Limpiador facial suave que elimina impurezas sin resecar la piel.",
+            "información": "Formulado con ácido hialurónico para una hidratación adicional.",
+            "precio": "35.94",
+            "tienda": "https://ejemplo.com/neutrogena-hydro-boost-gel-cleanser"
+        },
+        "Hidratación Intensa": {
+            "nombre": "Cetaphil Daily Hydrating Lotion with Hyaluronic Acid",
+            "img": "imagen_hidratacion_normal_economica.jpg",
+            "descripción": "Crema hidratante ligera que proporciona hidratación durante todo el día.",
+            "información": "Contiene ácido hialurónico para una hidratación intensa y duradera.",
+            "precio": "47.92",
+            "tienda": "https://ejemplo.com/cetaphil-daily-hydrating-lotion"
+        },
+        "Tratamiento Reparador": {
+            "nombre": "Neutrogena Hydro Boost Hydrating Serum",
+            "img": "imagen_tratamiento_normal_economico.jpg",
+            "descripción": "Suero hidratante que ayuda a restaurar la piel seca y deshidratada.",
+            "información": "Fórmula no grasa que absorbe rápidamente en la piel.",
+            "precio": "62.34",
+            "tienda": "https://ejemplo.com/neutrogena-hydro-boost-hydrating-serum"
+        },
+        "Protección Solar Diaria": {
+            "nombre": "Neutrogena Ultra Sheer Dry-Touch Sunscreen SPF 30",
+            "img": "imagen_proteccion_solar_normal_economica.jpg",
+            "descripción": "Protector solar ligero con SPF 30 que calma y protege la piel sensible propensa al acné, enrojecimiento y decoloración.",
+            "información": "Fórmula sin aceite que se adapta a todo tipo de piel.",
+            "precio": "42.46",
+            "tienda": "https://ejemplo.com/neutrogena-ultra-sheer-sunscreen-spf30"
+        }
+    },
+    {
+        "rango": "económico",
+        "tiempo" : "mañana",
+        "piel" : "seca",
+
+        "Limpieza Facial Suave": {
+            "nombre": "CeraVe Hydrating Facial Cleanser",
+            "img": "imagen_limpieza_facial_seca_economico.jpg",
+            "descripción": "Limpiador facial no espumoso que elimina suavemente la suciedad y el maquillaje sin alterar la barrera natural de la piel.",
+            "información": "Contiene ceramidas y ácido hialurónico para una hidratación adicional.",
+            "precio": "35.94",
+            "tienda": "https://ejemplo.com/cerave-hydrating-facial-cleanser"
+        },
+        "Hidratación Intensa": {
+            "nombre": "Cetaphil Daily Hydrating Lotion with Hyaluronic Acid",
+            "img": "imagen_hidratacion_seca_economica.jpg",
+            "descripción": "Crema hidratante ligera que proporciona hidratación durante todo el día.",
+            "información": "Contiene ácido hialurónico para una hidratación intensa y duradera.",
+            "precio": "47.92",
+            "tienda": "https://ejemplo.com/cetaphil-daily-hydrating-lotion"
+        },
+        "Tratamiento Reparador": {
+            "nombre": "Neutrogena Hydro Boost Hydrating Serum",
+            "img": "imagen_tratamiento_reparador_seco_economico.jpg",
+            "descripción": "Suero hidratante que ayuda a restaurar la piel seca y deshidratada.",
+            "información": "Fórmula no grasa que absorbe rápidamente en la piel.",
+            "precio": "62.34",
+            "tienda": "https://ejemplo.com/neutrogena-hydro-boost-hydrating-serum"
+        },
+        "Protección Solar Diaria": {
+            "nombre": "Neutrogena Ultra Sheer Dry-Touch Sunscreen SPF 30",
+            "img": "imagen_proteccion_solar_seca_economico.jpg",
+            "descripción": "Protector solar ligero con SPF 30 que proporciona protección de amplio espectro.",
+            "información": "Fórmula no grasa que se absorbe rápidamente y deja la piel suave y con un acabado mate.",
+            "precio": "42.46",
+            "tienda": "https://ejemplo.com/neutrogena-ultra-sheer-sunscreen-spf30"
+        }
+    },
+    {
+        "rango": "económico",
+        "tiempo" : "mañana",
+        "piel" : "grasa",
+
+        "Limpieza Facial Suave": {
+            "nombre": "La Roche-Posay Effaclar Purifying Foaming Gel",
+            "img": "imagen_limpieza_facial_grasa_economico.jpg",
+            "descripción": "Limpiador facial espumoso que elimina el exceso de grasa y purifica los poros sin resecar la piel.",
+            "información": "Fórmula adecuada para pieles sensibles y propensas al acné.",
+            "precio": "71.94",
+            "tienda": "https://ejemplo.com/la-roche-posay-effaclar-purifying-gel"
+        },
+        "Hidratación Intensa": {
+            "nombre": "Neutrogena Hydro Boost Water Gel",
+            "img": "imagen_hidratacion_grasa_economico.jpg",
+            "descripción": "Gel hidratante ligero que proporciona una hidratación intensa y duradera.",
+            "información": "Fórmula no grasa que se absorbe rápidamente en la piel.",
+            "precio": "62.34",
+            "tienda": "https://ejemplo.com/neutrogena-hydro-boost-water-gel"
+        },
+        "Tratamiento Reparador": {
+            "nombre": "The Ordinary Niacinamide 10% + Zinc 1%",
+            "img": "imagen_tratamiento_reparador_graso_economico.jpg",
+            "descripción": "Serum concentrado que reduce la apariencia de imperfecciones y equilibra la producción de sebo.",
+            "información": "Ayuda a mejorar la textura de la piel y reduce la producción de sebo.",
+            "precio": "29.53",
+            "tienda": "https://ejemplo.com/the-ordinary-niacinamide-zinc-serum"
+        },
+        "Protección Solar Diaria": {
+            "nombre": "Neutrogena Ultra Sheer Dry-Touch Sunscreen SPF 30",
+            "img": "imagen_proteccion_solar_grasa_economico.jpg",
+            "descripción": "Protector solar ligero con SPF 30 que proporciona protección de amplio espectro.",
+            "información": "Fórmula no grasa que se absorbe rápidamente y deja la piel suave y con un acabado mate.",
+            "precio": "42.46",
+            "tienda": "https://ejemplo.com/neutrogena-ultra-sheer-sunscreen-spf30"
+        }
+    },
+
+    {
+        "rango": "medio",
+        "tiempo" : "mañana",
+        "piel" : "normal",
+        "Limpieza Facial Suave": {
+            "nombre": "Clinique Liquid Facial Soap Mild",
+            "img": "imagen_limpieza_facial_normal_gama_media.jpg",
+            "descripción": "Jabón facial líquido suave que limpia la piel sin resecarla.",
+            "información": "Fórmula no comedogénica que mantiene la piel fresca y cómoda.",
+            "precio": "97.80",
+            "tienda": "https://ejemplo.com/clinique-liquid-facial-soap-mild"
+        },
+        "Hidratación Intensa": {
+            "nombre": "Kiehl's Ultra Facial Cream",
+            "img": "imagen_hidratacion_normal_gama_media.jpg",
+            "descripción": "Crema hidratante facial que proporciona hidratación durante 24 horas.",
+            "información": "Ayuda a fortalecer la barrera cutánea para retener la humedad.",
+            "precio": "149.90",
+            "tienda": "https://ejemplo.com/kiehls-ultra-facial-cream"
+        },
+        "Tratamiento Reparador": {
+            "nombre": "Estée Lauder Advanced Night Repair Synchronized Recovery Complex II",
+            "img": "imagen_tratamiento_normal_gama_media.jpg",
+            "descripción": "Suero reparador facial que ayuda a combatir los signos del envejecimiento.",
+            "información": "Reduce la apariencia de líneas finas y arrugas mientras mejora la luminosidad de la piel.",
+            "precio": "289.99",
+            "tienda": "https://ejemplo.com/estee-lauder-advanced-night-repair"
+        },
+        "Protección Solar Diaria": {
+            "nombre": "La Roche-Posay Anthelios XL Ultra-Light Fluid SPF 50+",
+            "img": "imagen_proteccion_solar_normal_gama_media.jpg",
+            "descripción": "Protector solar facial con SPF 50+ que ofrece una alta protección contra los rayos UVA y UVB.",
+            "información": "Textura ultraligera que se absorbe rápidamente sin dejar residuos grasos.",
+            "precio": "114.50",
+            "tienda": "https://ejemplo.com/la-roche-posay-anthelios-ultra-light-fluid"
+        }
+
+    },
+    {
+        "rango": "medio",
+        "tiempo" : "mañana",
+        "piel" : "seca",
+        "Limpieza Facial Suave": {
+            "nombre": "CeraVe Hydrating Facial Cleanser",
+            "img": "imagen_limpieza_facial_seca_gama_media.jpg",
+            "descripción": "Limpiador facial no espumoso que elimina suavemente la suciedad y el maquillaje sin alterar la barrera natural de la piel.",
+            "información": "Contiene ceramidas y ácido hialurónico para una hidratación adicional.",
+            "precio": "69.99",
+            "tienda": "https://ejemplo.com/cerave-hydrating-facial-cleanser"
+        },
+        "Hidratación Intensa": {
+            "nombre": "Embryolisse Lait-Crème Concentré",
+            "img": "imagen_hidratacion_seca_gama_media.jpg",
+            "descripción": "Crema hidratante multiusos que nutre y suaviza la piel seca.",
+            "información": "Fórmula rica en ingredientes hidratantes y emolientes.",
+            "precio": "94.99",
+            "tienda": "https://ejemplo.com/embryolisse-lait-creme-concentre"
+        },
+        "Tratamiento Reparador": {
+            "nombre": "Drunk Elephant B-Hydra Intensive Hydration Serum",
+            "img": "imagen_tratamiento_reparador_seco_gama_media.jpg",
+            "descripción": "Suero hidratante que aumenta la hidratación y mejora la textura de la piel.",
+            "información": "Contiene vitamina B5 y ceramidas para una hidratación profunda.",
+            "precio": "189.99",
+            "tienda": "https://ejemplo.com/drunk-elephant-b-hydra-serum"
+        },
+        "Protección Solar Diaria": {
+            "nombre": "Bioderma Photoderm Max Aquafluide SPF 50+",
+            "img": "imagen_proteccion_solar_seca_gama_media.jpg",
+            "descripción": "Protector solar facial con SPF 50+ que proporciona una alta protección contra los rayos UVA/UVB.",
+            "información": "Textura ultraligera y no grasa que se absorbe rápidamente.",
+            "precio": "87.50",
+            "tienda": "https://ejemplo.com/bioderma-photoderm-max-aquafluide"
+        }
+
+    },
+    {
+        "rango": "medio",
+        "tiempo" : "mañana",
+        "piel" : "grasa",
+        "Limpieza Facial Suave": {
+            "nombre": "Bioderma Sébium Gel Moussant",
+            "img": "imagen_limpieza_facial_grasa_gama_media.jpg",
+            "descripción": "Gel limpiador facial que purifica la piel y reduce la producción de sebo.",
+            "información": "Fórmula no comedogénica que elimina suavemente las impurezas.",
+            "precio": "81.50",
+            "tienda": "https://ejemplo.com/bioderma-sebium-gel-moussant"
+        },
+        "Hidratación Intensa": {
+            "nombre": "La Roche-Posay Effaclar Mat Moisturizer",
+            "img": "imagen_hidratacion_grasa_gama_media.jpg",
+            "descripción": "Hidratante facial matificante que controla el brillo y los poros.",
+            "información": "Textura ligera que hidrata sin obstruir los poros.",
+            "precio": "98.50",
+            "tienda": "https://ejemplo.com/la-roche-posay-effaclar-mat-moisturizer"
+        },
+        "Tratamiento Reparador": {
+            "nombre": "Paula's Choice Skin Perfecting 2% BHA Liquid Exfoliant",
+            "img": "imagen_tratamiento_reparador_grasa_gama_media.jpg",
+            "descripción": "Exfoliante líquido que elimina las células muertas de la piel y descongestiona los poros.",
+            "información": "Formulado con ácido salicílico para tratar los brotes de acné y prevenir futuras obstrucciones de los poros.",
+            "precio": "112.75",
+            "tienda": "https://ejemplo.com/paulas-choice-bha-liquid-exfoliant"
+        },
+        "Protección Solar Diaria": {
+            "nombre": "Bioderma Photoderm AKN Mat SPF 30",
+            "img": "imagen_proteccion_solar_grasa_gama_media.jpg",
+            "descripción": "Protector solar facial con SPF 30 que controla el brillo y ayuda a prevenir las imperfecciones.",
+            "información": "Textura ligera y no comedogénica que se absorbe rápidamente.",
+            "precio": "94.99",
+            "tienda": "https://ejemplo.com/bioderma-photoderm-akn-mat"
+        }
+        
+
+    },
+    {
+        "rango": "alta",
+        "tiempo" : "mañana",
+        "piel" : "normal",
+        "Limpieza Facial Suave": {
+            "nombre": "La Mer The Cleansing Gel",
+            "img": "imagen_limpieza_facial_normal_gama_alta.jpg",
+            "descripción": "Gel limpiador facial que elimina suavemente las impurezas sin resecar la piel.",
+            "información": "Fórmula suave que proporciona una limpieza profunda.",
+            "precio": "1059.99",
+            "tienda": "https://ejemplo.com/la-mer-the-cleansing-gel"
+        },
+        "Hidratación Intensa": {
+            "nombre": "Sisley Ecological Compound",
+            "img": "imagen_hidratacion_normal_gama_alta.jpg",
+            "descripción": "Emulsión hidratante que ayuda a mantener la piel equilibrada y radiante.",
+            "información": "Enriquecido con extractos de plantas para una hidratación duradera.",
+            "precio": "1799.99",
+            "tienda": "https://ejemplo.com/sisley-ecological-compound"
+        },
+        "Tratamiento Reparador": {
+            "nombre": "La Prairie Cellular Power Infusion",
+            "img": "imagen_tratamiento_reparador_normal_gama_alta.jpg",
+            "descripción": "Tratamiento revitalizante que mejora la luminosidad y la firmeza de la piel.",
+            "información": "Ayuda a revitalizar las células de la piel para una apariencia más joven.",
+            "precio": "3299.99",
+            "tienda": "https://ejemplo.com/la-prairie-cellular-power-infusion"
+        },
+        "Protección Solar Diaria": {
+            "nombre": "Chantecaille Ultra Sun Protection Sunscreen SPF 45",
+            "img": "imagen_proteccion_solar_normal_gama_alta.jpg",
+            "descripción": "Protector solar facial con SPF 45 que protege contra los rayos UVA/UVB.",
+            "información": "Fórmula ligera que se absorbe rápidamente y no deja residuos grasos.",
+            "precio": "1949.99",
+            "tienda": "https://ejemplo.com/chantecaille-ultra-sun-protection-sunscreen"
+        }
+
+    },
+    {
+        "rango": "alta",
+        "tiempo" : "mañana",
+        "piel" : "seca",
+        "Limpieza Facial Suave": {
+            "nombre": "La Mer The Cleansing Foam",
+            "img": "imagen_limpieza_facial_seca_gama_alta.jpg",
+            "descripción": "Espuma limpiadora facial que elimina las impurezas sin resecar la piel.",
+            "información": "Fórmula suave que aporta hidratación y deja la piel fresca y radiante.",
+            "precio": "1899.99",
+            "tienda": "https://ejemplo.com/la-mer-the-cleansing-foam"
+        },
+        "Hidratación Intensa": {
+            "nombre": "La Prairie Cellular Swiss Ice Crystal Cream",
+            "img": "imagen_hidratacion_seca_gama_alta.jpg",
+            "descripción": "Crema hidratante que proporciona una hidratación profunda y duradera.",
+            "información": "Enriquecida con extractos botánicos para calmar y revitalizar la piel seca.",
+            "precio": "4999.99",
+            "tienda": "https://ejemplo.com/la-prairie-cellular-swiss-ice-crystal-cream"
+        },
+        "Tratamiento Reparador": {
+            "nombre": "SK-II GenOptics Aura Essence",
+            "img": "imagen_tratamiento_reparador_seco_gama_alta.jpg",
+            "descripción": "Esencia reparadora que ilumina y unifica el tono de la piel.",
+            "información": "Ayuda a reducir la apariencia de manchas oscuras y mejora la luminosidad.",
+            "precio": "3599.99",
+            "tienda": "https://ejemplo.com/sk-ii-genoptics-aura-essence"
+        },
+        "Protección Solar Diaria": {
+            "nombre": "Clé de Peau Beauté UV Protective Cream SPF 50+",
+            "img": "imagen_proteccion_solar_seca_gama_alta.jpg",
+            "descripción": "Protector solar facial con SPF 50+ que protege y nutre la piel seca.",
+            "información": "Textura rica y cremosa que proporciona una protección duradera.",
+            "precio": "1949.99",
+            "tienda": "https://ejemplo.com/cle-de-peau-beaute-uv-protective-cream"
+        }
+        
+
+    },
+    {
+        "rango": "alta",
+        "tiempo" : "mañana",
+        "piel" : "grasa",
+        "Limpieza Facial Suave": {
+            "nombre": "Dermalogica Dermal Clay Cleanser",
+            "img": "imagen_limpieza_facial_grasa_gama_alta.jpg",
+            "descripción": "Limpiador facial a base de arcilla que purifica y refresca la piel.",
+            "información": "Ayuda a controlar el exceso de grasa y minimiza los poros.",
+            "precio": "269.99",
+            "tienda": "https://ejemplo.com/dermalogica-dermal-clay-cleanser"
+        },
+        "Hidratación Intensa": {
+            "nombre": "SK-II Facial Treatment Essence",
+            "img": "imagen_hidratacion_grasa_gama_alta.jpg",
+            "descripción": "Esencia facial que mejora la textura de la piel y la hidratación.",
+            "información": "Contiene Pitera™ para una piel radiante y equilibrada.",
+            "precio": "789.99",
+            "tienda": "https://ejemplo.com/sk-ii-facial-treatment-essence"
+        },
+        "Tratamiento Reparador": {
+            "nombre": "La Mer The Concentrate",
+            "img": "imagen_tratamiento_reparador_grasa_gama_alta.jpg",
+            "descripción": "Suero reparador que ayuda a calmar y fortalecer la piel.",
+            "información": "Formulado con Miracle Broth™ para una reparación intensiva.",
+            "precio": "1599.99",
+            "tienda": "https://ejemplo.com/la-mer-the-concentrate"
+        },
+        "Protección Solar Diaria": {
+            "nombre": "Shiseido Urban Environment Oil-Free UV Protector SPF 42",
+            "img": "imagen_proteccion_solar_grasa_gama_alta.jpg",
+            "descripción": "Protector solar facial sin aceite con SPF 42 que protege contra los rayos UVA/UVB.",
+            "información": "Textura ligera y resistente al agua.",
+            "precio": "449.99",
+            "tienda": "https://ejemplo.com/shiseido-urban-environment-uv-protector"
+        }
+        
+
+    },
+    {
+        "rango": "alta",
+        "tiempo" : "mañana",
+        "piel" : "mixta",
+        "Limpieza Facial Suave": {
+            "nombre": "Guerlain Abeille Royale Cleansing Oil",
+            "img": "imagen_limpieza_facial_mixta_gama_alta.jpg",
+            "descripción": "Aceite limpiador facial que elimina el maquillaje y las impurezas sin resecar la piel.",
+            "información": "Fórmula enriquecida con aceites preciosos para una limpieza suave y nutritiva.",
+            "precio": "2199.99",
+            "tienda": "https://ejemplo.com/guerlain-abeille-royale-cleansing-oil"
+        },
+        "Hidratación Intensa": {
+            "nombre": "Dior Hydra Life Fresh Hydration Sorbet Crème",
+            "img": "imagen_hidratacion_mixta_gama_alta.jpg",
+            "descripción": "Crema hidratante refrescante que equilibra la piel y minimiza los poros.",
+            "información": "Textura sorbete ligera que hidrata sin dejar residuos grasos.",
+            "precio": "2899.99",
+            "tienda": "https://ejemplo.com/dior-hydra-life-fresh-hydration-sorbet-creme"
+        },
+        "Tratamiento Reparador": {
+            "nombre": "Estée Lauder Advanced Night Repair Intense Reset Concentrate",
+            "img": "imagen_tratamiento_reparador_mixta_gama_alta.jpg",
+            "descripción": "Concentrado reparador nocturno que ayuda a calmar y fortalecer la piel.",
+            "información": "Fórmula ligera que penetra profundamente para revitalizar la piel durante la noche.",
+            "precio": "4199.99",
+            "tienda": "https://ejemplo.com/estee-lauder-advanced-night-repair-intense-reset"
+        },
+        "Protección Solar Diaria": {
+            "nombre": "Sisley Super Soin Solaire Youth Protector SPF 50",
+            "img": "imagen_proteccion_solar_mixta_gama_alta.jpg",
+            "descripción": "Protector solar facial con SPF 50 que protege la piel de los rayos UVA/UVB y los radicales libres.",
+            "información": "Fórmula ligera que se absorbe rápidamente y no obstruye los poros.",
+            "precio": "3399.99",
+            "tienda": "https://ejemplo.com/sisley-super-soin-solaire-youth-protector"
+        }
+        
+
+    }
+    
+]
