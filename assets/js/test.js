@@ -121,3 +121,27 @@ document.getElementById("op3").addEventListener("click", function () {
 document.getElementById("op4").addEventListener("click", function () {
     actualizarPuntaje(3);
 });
+
+//Modo oscuro
+const toggleSwitch = document.getElementById('darkModeToggle'); 
+// Función que cambia el tema entre oscuro y claro.
+function switchTheme(e) {
+  // Si el interruptor está marcado.
+  if (e.target.checked) {
+    document.body.classList.add('bg-dark-toggle'); 
+    localStorage.setItem('theme', 'dark');
+  // Si el interruptor no está marcado.
+  } else {
+    document.body.classList.remove('bg-dark-toggle'); 
+    localStorage.setItem('theme', 'light'); 
+  }    
+}
+
+toggleSwitch.addEventListener('change', switchTheme, false);
+
+const currentTheme = localStorage.getItem('theme') ? localStorage.getItem('theme') : null; 
+
+if (currentTheme === 'dark') { 
+  toggleSwitch.checked = true; 
+  document.body.classList.add('bg-dark-toggle'); 
+}

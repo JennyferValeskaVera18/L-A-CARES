@@ -1,0 +1,324 @@
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Truculenta:opsz,wght@12..72,100..900&display=swap');
+@keyframes slideIn {
+  0% {
+    transform: translateY(-12%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+body {
+  background-image: url('https://img.freepik.com/foto-gratis/banner-horizontal-producto-cosmetico-rodillo-jade-gua-sha_23-2149446529.jpg?w=826&t=st=1711567189~exp=1711567789~hmac=cea6cca5456a12a2c4557e63f3c7f38209d263a2ce3e79e0a0b43aa72d025f1d');
+  background-size: cover;
+  background-position: center; 
+  overflow-x: hidden; 
+  overflow-y: hidden;
+}
+
+.main-container {
+  background-color: #ececec71;
+  text-align: center;
+  position: fixed;
+  z-index: 1;
+  border-radius: 20px;
+  width: calc(100% - 40px); 
+  height: 90%;
+  max-width: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  backdrop-filter: blur(9px);
+  height: 96%;
+  max-height: 95%; 
+  overflow-x: hidden; 
+}
+
+.imagen-container{
+  background: #ffcfa035;
+  border-radius: 20px;
+}
+
+.main-image, .main-image2{
+  filter: drop-shadow(var(--shadow-img));
+}
+
+.main-image2{
+  display: none;
+}
+
+:root {
+  --shadow-img: 0px 0px 20px rgba(253, 192, 93, 0.726);
+}
+
+.circle-red:before {
+  content: "";
+  position: absolute;
+  height: 2000px;
+  width: 2000px;
+  top: -10%;
+  right: 48%;
+  transform: translateY(-50%);
+  background-image: radial-gradient(circle at center, #eed79c, #E5DDC8);
+  transition: 1.8s ease-in-out;
+  border-radius: 50%;
+}
+
+/* Animation */
+.circle-red.sign-up-mode:before {
+  transform: translate(100%, -50%);
+  right: 52%;
+}
+
+.title{
+  font-family: 'Patua One', sans-serif;
+}
+
+.piel-color{
+  color: #b37238;
+}
+
+.text{
+  font-family: 'Truculenta', sans-serif; 
+}
+
+.toggle-container {
+  position: relative;
+  display: inline-block;
+  width: 70px; 
+  height: 34px;
+}
+.toggle-checkbox {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+.toggle-slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(90deg, #ff6a00, #f4c416);
+  transition: background 0.4s;
+  border-radius: 34px;
+}
+.toggle-slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  transition: transform 0.4s;
+  border-radius: 50%;
+}
+.toggle-checkbox:checked + .toggle-slider {
+  background: linear-gradient(90deg, #09165c, #5297e6);
+}
+.toggle-checkbox:checked + .toggle-slider:before {
+  transform: translateX(35px);
+}
+.toggle-icon {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  color: white;
+}
+.toggle-icon.light {
+  right: 5px; 
+}
+.toggle-icon.dark {
+  left: 5px; 
+}
+
+.btn {
+  border-radius: 10px;
+  background-color: transparent; 
+  border: 3px solid #ececec71;
+  cursor: pointer; 
+}
+
+.mi-boton {
+  border-radius: 17px;
+  background-color: #c19b6fa5;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.mi-boton:hover {
+  background-color: #c19b6fd7;
+  transform: translateY(2px);
+}
+
+/* MODO OSCURO */
+.bg-dark-toggle {
+  backdrop-filter: blur(9px);
+  background-color: #17171771 !important;
+  color: #fff !important;
+}
+
+.bg-dark-toggle .piel-color {
+  color: #ffd5b0; 
+}
+
+.bg-dark-toggle .btn {
+  border: 3px solid #17171771;
+  color: white;
+}
+
+.imagen-oscuro, .imagen-claro {
+  animation: slideIn 0.9s ease-out forwards;
+  width: 20%;
+  height: auto;
+  filter: drop-shadow(var(--shadow-img));
+}
+
+:root {
+  --shadow-img: 0px 0px 40px rgba(253, 192, 93, 0.917);
+}
+
+.imagen-oscuro {
+  display: none;
+}
+
+.bg-dark-toggle .imagen-claro {
+  display: none;
+}
+
+.bg-dark-toggle .imagen-oscuro {
+  display: inline-block; 
+}
+
+.ocultar{
+  display: none;
+}
+
+/* Responsive */
+@media (min-width: 800px) {
+  .main-container {
+    overflow-y: hidden;
+  }
+}
+@media (max-width: 767px) {
+  .main-container {
+    overflow-y: auto;
+    padding-bottom: 8%;
+    padding-left: 1% !important;
+    margin-bottom: 5%;
+    margin-top: 1%;
+  }
+  
+  .toggle-container {
+    width: 100%; 
+  }
+
+  .toggle-checkbox:checked + .toggle-slider:before {
+    transform: translateX(23px);
+  }
+
+  .main-title{
+    font-size: 28px;
+  }
+
+  .imagen2-oscuro, .imagen2-claro {
+    display: block !important;
+    width: 80%; 
+    height: auto !important;
+    position: absolute;
+    top: 0; 
+    left: 0; 
+    animation: slideIn 0.9s ease-out forwards !important;
+}
+
+.main-image2{
+  width: 80%;
+  height: auto;
+  display: block;
+}
+
+  .imagen2-container {
+    position: relative;
+  }
+
+  .imagen2-oscuro {
+    display: none !important;
+    top: 0;
+    left: 0;
+  }
+  
+  .bg-dark-toggle .imagen2-claro {
+    display: none !important;
+    top: 0;
+    left: 0;
+  }
+  
+  .bg-dark-toggle .imagen2-oscuro {
+    display: inline-block !important; 
+  }
+
+  .contenedor-toggle {
+    background: #ffcfa035;
+    border-radius: 20px;
+  }
+  .circle-red {
+    min-height: 800px;
+    height: 100vh;
+  }
+
+  .panels-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 2fr 1fr;
+  }
+
+  .panel {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2.5rem 8%;
+    grid-column: 1 / 2;
+  }
+
+  .right-panel {
+    grid-row: 3 / 4;
+  }
+
+  .left-panel {
+    grid-row: 1 / 2;
+  }
+
+  .circle-red:before {
+    width: 1500px;
+    height: 1500px;
+    transform: translateX(-50%);
+    left: 30%;
+    bottom: 68%;
+    right: initial;
+    top: initial;
+    transition: 2s ease-in-out;
+  }
+
+  .circle-red.sign-up-mode:before {
+    transform: translate(-50%, 100%);
+    bottom: 32%;
+    right: initial;
+  }
+
+  .circle-red.sign-up-mode .left-panel .image,
+  .circle-red.sign-up-mode .left-panel .content {
+    transform: translateY(-300px);
+  }
+
+  .circle-red.sign-up-mode .right-panel .image,
+  .circle-red.sign-up-mode .right-panel .content {
+    transform: translateY(0px);
+  }
+
+  .right-panel .image,
+  .right-panel .content {
+    transform: translateY(300px);
+  }
+}
