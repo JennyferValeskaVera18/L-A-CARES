@@ -115,6 +115,44 @@
     },
 
     {
+        "rango" : "económico",
+        "tiempo" :"mañana",
+        "piel" :"mixta",
+        "Limpieza Facial Suave": {
+                "nombre": "CeraVe Foaming Facial Cleanser",
+                "img": "imagen_limpieza_facial_mixta_economico.jpg",
+                "descripción": "Limpiador facial espumoso que elimina el exceso de grasa y las impurezas sin alterar la barrera natural de la piel.",
+                "información": "Fórmula no comedogénica y sin fragancia.",
+                "precio": "45.99",
+                "tienda": "https://ejemplo.com/cerave-foaming-facial-cleanser"
+            },
+            "Hidratación Intensa": {
+                "nombre": "Neutrogena Hydro Boost Water Gel",
+                "img": "imagen_hidratacion_mixta_economico.jpg",
+                "descripción": "Gel hidratante ligero que proporciona una hidratación intensa y duradera.",
+                "información": "Fórmula no grasa que se absorbe rápidamente en la piel.",
+                "precio": "62.34",
+                "tienda": "https://ejemplo.com/neutrogena-hydro-boost-water-gel"
+            },
+            "Tratamiento Reparador": {
+                "nombre": "The Ordinary Niacinamide 10% + Zinc 1%",
+                "img": "imagen_tratamiento_reparador_mixta_economico.jpg",
+                "descripción": "Serum concentrado que ayuda a reducir la apariencia de imperfecciones y equilibra la producción de sebo.",
+                "información": "Formulado con niacinamida y zinc para mejorar la textura de la piel.",
+                "precio": "29.53",
+                "tienda": "https://ejemplo.com/the-ordinary-niacinamide-zinc-serum"
+            },
+            "Protección Solar Diaria": {
+                "nombre": "Neutrogena Ultra Sheer Dry-Touch Sunscreen SPF 30",
+                "img": "imagen_proteccion_solar_mixta_economico.jpg",
+                "descripción": "Protector solar ligero con SPF 30 que proporciona protección de amplio espectro.",
+                "información": "Fórmula no grasa que se absorbe rápidamente y deja la piel suave y con un acabado mate.",
+                "precio": "42.46",
+                "tienda": "https://ejemplo.com/neutrogena-ultra-sheer-sunscreen-spf30"
+            }
+    },
+    
+    {
         "rango": "medio",
         "tiempo" : "mañana",
         "piel" : "normal",
@@ -229,6 +267,44 @@
         
 
     },
+    {
+        "rango":"medio",
+        "tiempo":"mañana",
+        "piel":"mixta",
+        "Limpieza Facial Suave": {
+            "nombre": "Caudalie Vinopure Purifying Gel Cleanser",
+            "img": "imagen_limpieza_facial_mixta_media.jpg",
+            "descripción": "Gel limpiador purificante que elimina las impurezas y el exceso de grasa sin resecar la piel.",
+            "información": "Fórmula suave con ácido salicílico natural para limpiar los poros y prevenir las imperfecciones.",
+            "precio": "128.99",
+            "tienda": "https://ejemplo.com/caudalie-vinopure-gel-cleanser"
+        },
+        "Hidratación Intensa": {
+            "nombre": "La Roche-Posay Effaclar Mat Moisturizer",
+            "img": "imagen_hidratacion_mixta_media.jpg",
+            "descripción": "Hidratante facial matificante que controla el brillo y los poros.",
+            "información": "Textura ligera que hidrata sin obstruir los poros.",
+            "precio": "98.50",
+            "tienda": "https://ejemplo.com/la-roche-posay-effaclar-mat-moisturizer"
+        },
+        "Tratamiento Reparador": {
+            "nombre": "The Ordinary Niacinamide 10% + Zinc 1%",
+            "img": "imagen_tratamiento_reparador_mixta_media.jpg",
+            "descripción": "Serum concentrado que ayuda a reducir la apariencia de imperfecciones y equilibra la producción de sebo.",
+            "información": "Formulado con niacinamida y zinc para mejorar la textura de la piel.",
+            "precio": "29.53",
+            "tienda": "https://ejemplo.com/the-ordinary-niacinamide-zinc-serum"
+        },
+        "Protección Solar Diaria": {
+            "nombre": "La Roche-Posay Anthelios Ultra-Light Fluid SPF 50+",
+            "img": "imagen_proteccion_solar_mixta_media.jpg",
+            "descripción": "Protector solar facial con SPF 50+ que ofrece una alta protección contra los rayos UVA y UVB.",
+            "información": "Textura ultraligera que se absorbe rápidamente sin dejar residuos grasos.",
+            "precio": "114.50",
+            "tienda": "https://ejemplo.com/la-roche-posay-anthelios-ultra-light-fluid"
+        }
+    },
+
     {
         "rango": "alta",
         "tiempo" : "mañana",
@@ -382,7 +458,452 @@
             "tienda": "https://ejemplo.com/sisley-super-soin-solaire-youth-protector"
         }
         
+    },
 
+    {
+        "rango": "económico",
+        "tiempo" : "noche",
+        "piel" : "normal",
+        "Limpieza Facial Suave": {
+            "nombre": "CeraVe Hydrating Facial Cleanser",
+            "img": "imagen_limpieza_facial_normal_economico.jpg",
+            "descripción": "Limpiador facial no espumoso que elimina suavemente las impurezas y la suciedad mientras mantiene la barrera natural de la piel.",
+            "información": "Fórmula sin fragancia que contiene ceramidas y ácido hialurónico para una hidratación duradera.",
+            "precio": "45.99",
+            "tienda": "https://ejemplo.com/cerave-hydrating-facial-cleanser"
+        },
+        "Hidratación Intensa": {
+            "nombre": "Neutrogena Hydro Boost Gel-Cream",
+            "img": "imagen_hidratacion_normal_economico.jpg",
+            "descripción": "Crema hidratante en gel que proporciona una hidratación intensa y duradera sin obstruir los poros.",
+            "información": "Textura ligera y no grasa que se absorbe rápidamente en la piel.",
+            "precio": "62.34",
+            "tienda": "https://ejemplo.com/neutrogena-hydro-boost-gel-cream"
+        },
+        "Tratamiento Reparador": {
+            "nombre": "The Ordinary Retinol 0.5% in Squalane",
+            "img": "imagen_tratamiento_reparador_normal_economico.jpg",
+            "descripción": "Tratamiento con retinol que ayuda a mejorar la textura de la piel, reducir las líneas finas y promover la renovación celular durante la noche.",
+            "información": "Formulado con retinol puro para una máxima eficacia.",
+            "precio": "39.99",
+            "tienda": "https://ejemplo.com/the-ordinary-retinol-squalane"
+        },
+        "Hidratación Adicional (Opcional)": {
+            "nombre": "CeraVe PM Facial Moisturizing Lotion",
+            "img": "imagen_hidratacion_adicional_normal_economico.jpg",
+            "descripción": "Loción facial ligera que hidrata profundamente la piel durante la noche, dejándola suave y revitalizada al despertar.",
+            "información": "Contiene niacinamida y ceramidas para restaurar la barrera cutánea.",
+            "precio": "54.99",
+            "tienda": "https://ejemplo.com/cerave-pm-facial-moisturizing-lotion"
+        }
+
+    },
+    {
+        "rango": "económico",
+        "tiempo" : "noche",
+        "piel" : "seca",
+        "Limpieza Facial Suave": {
+            "nombre": "CeraVe Hydrating Facial Cleanser",
+            "img": "imagen_limpieza_facial_seca_economico.jpg",
+            "descripción": "Limpiador facial no espumoso que elimina suavemente las impurezas y la suciedad mientras mantiene la barrera natural de la piel.",
+            "información": "Fórmula sin fragancia que contiene ceramidas y ácido hialurónico para una hidratación duradera.",
+            "precio": "45.99",
+            "tienda": "https://ejemplo.com/cerave-hydrating-facial-cleanser"
+        },
+        "Hidratación Intensa": {
+            "nombre": "Neutrogena Hydro Boost Gel-Cream",
+            "img": "imagen_hidratacion_seca_economico.jpg",
+            "descripción": "Crema hidratante en gel que proporciona una hidratación intensa y duradera sin obstruir los poros.",
+            "información": "Textura ligera y no grasa que se absorbe rápidamente en la piel.",
+            "precio": "62.34",
+            "tienda": "https://ejemplo.com/neutrogena-hydro-boost-gel-cream"
+        },
+        "Tratamiento Reparador": {
+            "nombre": "The Ordinary Hyaluronic Acid 2% + B5",
+            "img": "imagen_tratamiento_reparador_seca_economico.jpg",
+            "descripción": "Suero hidratante con ácido hialurónico que rellena la piel seca y minimiza las líneas finas.",
+            "información": "Fórmula ligera que retiene la humedad para una piel más suave y tersa.",
+            "precio": "19.99",
+            "tienda": "https://ejemplo.com/the-ordinary-hyaluronic-acid-b5"
+        },
+        "Hidratación Adicional": {
+            "nombre": "CeraVe PM Facial Moisturizing Lotion",
+            "img": "imagen_hidratacion_adicional_seca_economico.jpg",
+            "descripción": "Loción facial ligera que hidrata profundamente la piel durante la noche, dejándola suave y revitalizada al despertar.",
+            "información": "Contiene niacinamida y ceramidas para restaurar la barrera cutánea.",
+            "precio": "54.99",
+            "tienda": "https://ejemplo.com/cerave-pm-facial-moisturizing-lotion"
+        }
+    },
+    {
+        "rango": "económico",
+        "tiempo" : "noche",
+        "piel" : "mixta",
+        "Limpieza Facial Suave": {
+            "nombre": "CeraVe Foaming Facial Cleanser",
+            "img": "imagen_limpieza_facial_mixta_economico.jpg",
+            "descripción": "Limpiador facial espumoso que elimina el exceso de grasa y las impurezas sin alterar la barrera natural de la piel.",
+            "información": "Fórmula no comedogénica y sin fragancia.",
+            "precio": "45.99",
+            "tienda": "https://ejemplo.com/cerave-foaming-facial-cleanser"
+        },
+        "Hidratación Intensa": {
+            "nombre": "Neutrogena Hydro Boost Water Gel",
+            "img": "imagen_hidratacion_mixta_economico.jpg",
+            "descripción": "Gel hidratante ligero que proporciona una hidratación intensa y duradera.",
+            "información": "Fórmula no grasa que se absorbe rápidamente en la piel.",
+            "precio": "62.34",
+            "tienda": "https://ejemplo.com/neutrogena-hydro-boost-water-gel"
+        },
+        "Tratamiento Reparador": {
+            "nombre": "The Ordinary Niacinamide 10% + Zinc 1%",
+            "img": "imagen_tratamiento_reparador_mixta_economico.jpg",
+            "descripción": "Serum concentrado que ayuda a reducir la apariencia de imperfecciones y equilibra la producción de sebo.",
+            "información": "Formulado con niacinamida y zinc para mejorar la textura de la piel.",
+            "precio": "29.53",
+            "tienda": "https://ejemplo.com/the-ordinary-niacinamide-zinc-serum"
+        },
+        "Hidratación Adicional (Opcional)": {
+            "nombre": "CeraVe PM Facial Moisturizing Lotion",
+            "img": "imagen_hidratacion_adicional_mixta_economico.jpg",
+            "descripción": "Loción facial ligera que hidrata profundamente la piel durante la noche, dejándola suave y revitalizada al despertar.",
+            "información": "Contiene niacinamida y ceramidas para restaurar la barrera cutánea.",
+            "precio": "54.99",
+            "tienda": "https://ejemplo.com/cerave-pm-facial-moisturizing-lotion"
+        }
+    },
+    {
+        "rango": "económico",
+        "tiempo" : "noche",
+        "piel" : "grasa",
+        "Limpieza Facial Suave": {
+            "nombre": "CeraVe Foaming Facial Cleanser",
+            "img": "imagen_limpieza_facial_grasa_economico.jpg",
+            "descripción": "Limpiador facial espumoso que elimina el exceso de grasa y las impurezas sin alterar la barrera natural de la piel.",
+            "información": "Fórmula no comedogénica y sin fragancia.",
+            "precio": "45.99",
+            "tienda": "https://ejemplo.com/cerave-foaming-facial-cleanser"
+        },
+        "Hidratación Intensa": {
+            "nombre": "Neutrogena Oil-Free Moisture",
+            "img": "imagen_hidratacion_grasa_economico.jpg",
+            "descripción": "Hidratante facial libre de aceites que proporciona una hidratación equilibrada sin obstruir los poros.",
+            "información": "Fórmula ligera y no comedogénica que deja la piel suave y mate.",
+            "precio": "39.99",
+            "tienda": "https://ejemplo.com/neutrogena-oil-free-moisture"
+        },
+        "Tratamiento Reparador": {
+            "nombre": "The Ordinary Salicylic Acid 2% Solution",
+            "img": "imagen_tratamiento_reparador_grasa_economico.jpg",
+            "descripción": "Solución con ácido salicílico que ayuda a reducir la producción de sebo y prevenir los brotes de acné.",
+            "información": "Exfolia suavemente la piel para desobstruir los poros y combatir las imperfecciones.",
+            "precio": "29.53",
+            "tienda": "https://ejemplo.com/the-ordinary-salicylic-acid-solution"
+        },
+        "Hidratación Adicional (Opcional)": {
+            "nombre": "CeraVe PM Facial Moisturizing Lotion",
+            "img": "imagen_hidratacion_adicional_grasa_economico.jpg",
+            "descripción": "Loción facial ligera que hidrata profundamente la piel durante la noche, dejándola suave y revitalizada al despertar.",
+            "información": "Contiene niacinamida y ceramidas para restaurar la barrera cutánea.",
+            "precio": "54.99",
+            "tienda": "https://ejemplo.com/cerave-pm-facial-moisturizing-lotion"
+        }
+    },
+    {
+        "rango": "medio",
+        "tiempo" : "noche",
+        "piel" : "normal",
+        "Limpieza Facial Suave": {
+            "nombre": "La Roche-Posay Toleriane Hydrating Gentle Cleanser",
+            "img": "imagen_limpieza_facial_normal_medio.jpg",
+            "descripción": "Limpiador facial suave que elimina las impurezas sin alterar el equilibrio natural de la piel.",
+            "información": "Formulado con agua termal de La Roche-Posay para calmar y suavizar la piel.",
+            "precio": "139.99",
+            "tienda": "https://ejemplo.com/la-roche-posay-toleriane-hydrating-cleanser"
+        },
+        "Hidratación Intensa": {
+            "nombre": "Paula's Choice Skin Balancing Invisible Finish Moisture Gel",
+            "img": "imagen_hidratacion_normal_medio.jpg",
+            "descripción": "Gel hidratante ligero que equilibra la piel y reduce los brillos sin obstruir los poros.",
+            "información": "Fórmula no grasa que proporciona una hidratación duradera.",
+            "precio": "189.50",
+            "tienda": "https://ejemplo.com/paulas-choice-skin-balancing-moisture-gel"
+        },
+        "Tratamiento Reparador": {
+            "nombre": "The Ordinary Granactive Retinoid 2% Emulsion",
+            "img": "imagen_tratamiento_reparador_normal_medio.jpg",
+            "descripción": "Emulsión con retinoide que ayuda a reducir los signos del envejecimiento y mejorar la textura de la piel.",
+            "información": "Formulado con tecnología avanzada para minimizar la irritación.",
+            "precio": "239.99",
+            "tienda": "https://ejemplo.com/the-ordinary-granactive-retinoid-emulsion"
+        },
+        "Hidratación Adicional (Opcional)": {
+            "nombre": "La Roche-Posay Toleriane Double Repair Face Moisturizer",
+            "img": "imagen_hidratacion_adicional_normal_medio.jpg",
+            "descripción": "Crema hidratante que restaura la barrera cutánea y protege la piel de las agresiones externas.",
+            "información": "Textura no grasa y de rápida absorción.",
+            "precio": "159.99",
+            "tienda": "https://ejemplo.com/la-roche-posay-toleriane-double-repair-moisturizer"
+        }
+    },
+    {
+        "rango": "medio",
+        "tiempo" : "noche",
+        "piel" : "seca",
+        "Limpieza Facial Suave": {
+            "nombre": "Caudalie Gentle Cleansing Milk",
+            "img": "imagen_limpieza_facial_seca_medio.jpg",
+            "descripción": "Leche limpiadora suave que elimina las impurezas y el maquillaje sin resecar la piel.",
+            "información": "Enriquecida con extractos botánicos para calmar y nutrir la piel seca.",
+            "precio": "179.99",
+            "tienda": "https://ejemplo.com/caudalie-gentle-cleansing-milk"
+        },
+        "Hidratación Intensa": {
+            "nombre": "Kiehl's Ultra Facial Cream",
+            "img": "imagen_hidratacion_seca_medio.jpg",
+            "descripción": "Crema facial ultrahidratante que proporciona una hidratación intensa y duradera.",
+            "información": "Formulada con ingredientes emolientes para suavizar y nutrir la piel seca.",
+            "precio": "279.50",
+            "tienda": "https://ejemplo.com/kiehls-ultra-facial-cream"
+        },
+        "Tratamiento Reparador": {
+            "nombre": "Drunk Elephant T.L.C. Framboos Glycolic Night Serum",
+            "img": "imagen_tratamiento_reparador_seca_medio.jpg",
+            "descripción": "Serum de noche con ácidos AHA/BHA que exfolia suavemente la piel y mejora su textura.",
+            "información": "Ayuda a reducir la sequedad y aporta luminosidad.",
+            "precio": "349.99",
+            "tienda": "https://ejemplo.com/drunk-elephant-tlc-framboos-night-serum"
+        },
+        "Hidratación Adicional (Opcional)": {
+            "nombre": "First Aid Beauty Ultra Repair Cream",
+            "img": "imagen_hidratacion_adicional_seca_medio.jpg",
+            "descripción": "Crema reparadora que calma, hidrata y protege la piel seca y agrietada.",
+            "información": "Fórmula segura para pieles sensibles y con tendencia a la sequedad.",
+            "precio": "199.99",
+            "tienda": "https://ejemplo.com/first-aid-beauty-ultra-repair-cream"
+        }
+    },
+    {
+        "rango": "medio",
+        "tiempo": "noche",
+        "piel" : "mixta",
+        "Limpieza Facial Suave": {
+            "nombre": "Paula's Choice Skin Balancing Oil-Reducing Cleanser",
+            "img": "imagen_limpieza_facial_mixta_medio.jpg",
+            "descripción": "Limpiador facial que elimina el exceso de grasa y las impurezas sin resecar la piel.",
+            "información": "Formulado con ingredientes suavizantes para equilibrar la piel mixta.",
+            "precio": "169.99",
+            "tienda": "https://ejemplo.com/paulas-choice-skin-balancing-cleanser"
+        },
+        "Hidratación Intensa": {
+            "nombre": "Clinique Dramatically Different Moisturizing Gel",
+            "img": "imagen_hidratacion_mixta_medio.jpg",
+            "descripción": "Gel hidratante ligero que proporciona una hidratación equilibrada sin obstruir los poros.",
+            "información": "Ayuda a mantener el equilibrio de la piel mixta.",
+            "precio": "229.50",
+            "tienda": "https://ejemplo.com/clinique-dramatically-different-moisturizing-gel"
+        },
+        "Tratamiento Reparador": {
+            "nombre": "The Inkey List Retinol Serum",
+            "img": "imagen_tratamiento_reparador_mixta_medio.jpg",
+            "descripción": "Serum con retinol que ayuda a mejorar la textura de la piel y reducir los poros.",
+            "información": "Formulado para minimizar la irritación.",
+            "precio": "189.99",
+            "tienda": "https://ejemplo.com/the-inkey-list-retinol-serum"
+        },
+        "Hidratación Adicional (Opcional)": {
+            "nombre": "Bioderma Hydrabio Gel-Crème",
+            "img": "imagen_hidratacion_adicional_mixta_medio.jpg",
+            "descripción": "Crema hidratante en gel que rehidrata la piel mixta y la deja suave y fresca.",
+            "información": "Textura ligera y no comedogénica.",
+            "precio": "199.99",
+            "tienda": "https://ejemplo.com/bioderma-hydrabio-gel-creme"
+        }
+    },
+    {
+        "rango": "medio",
+        "tiempo" : "noche",
+        "piel" : "grasa",
+        "Limpieza Facial Suave": {
+            "nombre": "La Roche-Posay Effaclar Purifying Foaming Gel",
+            "img": "imagen_limpieza_facial_grasa_medio.jpg",
+            "descripción": "Gel limpiador que elimina el exceso de grasa y las impurezas sin resecar la piel.",
+            "información": "Ayuda a purificar los poros y reducir el exceso de sebo.",
+            "precio": "159.99",
+            "tienda": "https://ejemplo.com/la-roche-posay-effaclar-purifying-gel"
+        },
+        "Hidratación Intensa": {
+            "nombre": "Neutrogena Oil-Free Acne Facial Moisturizer",
+            "img": "imagen_hidratacion_grasa_medio.jpg",
+            "descripción": "Hidratante facial libre de aceites que controla el brillo y ayuda a prevenir los brotes de acné.",
+            "información": "Fórmula no comedogénica que se absorbe rápidamente.",
+            "precio": "179.50",
+            "tienda": "https://ejemplo.com/neutrogena-oil-free-acne-moisturizer"
+        },
+        "Tratamiento Reparador": {
+            "nombre": "The Inkey List Salicylic Acid Cleanser",
+            "img": "imagen_tratamiento_reparador_grasa_medio.jpg",
+            "descripción": "Limpiador con ácido salicílico que ayuda a eliminar las células muertas y desobstruir los poros.",
+            "información": "Ayuda a prevenir los brotes de acné y a mejorar la textura de la piel.",
+            "precio": "169.99",
+            "tienda": "https://ejemplo.com/the-inkey-list-salicylic-acid-cleanser"
+        },
+        "Hidratación Adicional (Opcional)": {
+            "nombre": "La Roche-Posay Effaclar Duo+",
+            "img": "imagen_hidratacion_adicional_grasa_medio.jpg",
+            "descripción": "Tratamiento corrector que ayuda a reducir las imperfecciones y a controlar el exceso de sebo.",
+            "información": "Fórmula con ingredientes activos que purifican y calman la piel grasa.",
+            "precio": "189.99",
+            "tienda": "https://ejemplo.com/la-roche-posay-effaclar-duo"
+        }
+    },
+    {
+        "rango": "alta",
+        "tiempo" : "noche",
+        "piel" : "normal",
+        "Limpieza Facial Suave": {
+            "nombre": "SK-II Facial Treatment Cleanser",
+            "img": "imagen_limpieza_facial_normal_alto.jpg",
+            "descripción": "Limpiador facial de lujo que elimina suavemente las impurezas y el maquillaje sin resecar la piel.",
+            "información": "Contiene Pitera™, un ingrediente exclusivo que revitaliza y renueva la piel.",
+            "precio": "399.99",
+            "tienda": "https://ejemplo.com/sk-ii-facial-treatment-cleanser"
+        },
+        "Hidratación Intensa": {
+            "nombre": "La Mer Crème de la Mer",
+            "img": "imagen_hidratacion_normal_alto.jpg",
+            "descripción": "Crema hidratante de lujo que ayuda a rejuvenecer y renovar la piel durante la noche.",
+            "información": "Formulada con Miracle Broth™, una mezcla única de ingredientes marinos.",
+            "precio": "1499.99",
+            "tienda": "https://ejemplo.com/la-mer-creme-de-la-mer"
+        },
+        "Tratamiento Reparador": {
+            "nombre": "Estée Lauder Advanced Night Repair",
+            "img": "imagen_tratamiento_reparador_normal_alto.jpg",
+            "descripción": "Serum reparador nocturno que reduce los signos del envejecimiento y mejora la textura de la piel.",
+            "información": "Contiene tecnología exclusiva ChronoluxCB™ para una piel más suave y luminosa.",
+            "precio": "999.99",
+            "tienda": "https://ejemplo.com/estee-lauder-advanced-night-repair"
+        },
+        "Protección Adicional (Opcional)": {
+            "nombre": "Sisley Ecological Compound",
+            "img": "imagen_proteccion_adicional_normal_alto.jpg",
+            "descripción": "Tratamiento hidratante que protege la piel de los daños ambientales y promueve su equilibrio.",
+            "información": "Fórmula enriquecida con extractos botánicos y aceites esenciales.",
+            "precio": "1299.99",
+            "tienda": "https://ejemplo.com/sisley-ecological-compound"
+        }
+    },
+    {
+        "rango": "alta",
+        "tiempo" : "noche",
+        "piel" : "seca",
+        "Limpieza Facial Suave": {
+            "nombre": "La Prairie Foam Cleanser",
+            "img": "imagen_limpieza_facial_seca_alto.jpg",
+            "descripción": "Limpiador facial de lujo que elimina suavemente las impurezas y el maquillaje sin resecar la piel.",
+            "información": "Contiene extracto de caviar para una limpieza profunda y nutritiva.",
+            "precio": "799.99",
+            "tienda": "https://ejemplo.com/la-prairie-foam-cleanser"
+        },
+        "Hidratación Intensa": {
+            "nombre": "La Mer Crème de la Mer",
+            "img": "imagen_hidratacion_seca_alto.jpg",
+            "descripción": "Crema hidratante de lujo que ayuda a rejuvenecer y renovar la piel durante la noche.",
+            "información": "Formulada con Miracle Broth™, una mezcla única de ingredientes marinos.",
+            "precio": "1499.99",
+            "tienda": "https://ejemplo.com/la-mer-creme-de-la-mer"
+        },
+        "Tratamiento Reparador": {
+            "nombre": "Sisley Black Rose Precious Face Oil",
+            "img": "imagen_tratamiento_reparador_seca_alto.jpg",
+            "descripción": "Aceite facial de lujo que nutre y revitaliza la piel seca durante la noche.",
+            "información": "Enriquecido con extracto de rosa negra para una acción regeneradora.",
+            "precio": "1199.99",
+            "tienda": "https://ejemplo.com/sisley-black-rose-face-oil"
+        },
+        "Protección Adicional (Opcional)": {
+            "nombre": "La Prairie Cellular Swiss Ice Crystal Cream",
+            "img": "imagen_proteccion_adicional_seca_alto.jpg",
+            "descripción": "Crema hidratante de lujo que protege la piel de los factores ambientales y promueve su vitalidad.",
+            "información": "Contiene extracto de células madre de plantas alpinas para una protección avanzada.",
+            "precio": "1699.99",
+            "tienda": "https://ejemplo.com/la-prairie-swiss-ice-crystal-cream"
+        }
+    },
+    {
+        "rango": "alta",
+        "tiempo" : "noche",
+        "piel" : "mixta",
+        "Limpieza Facial Suave": {
+            "nombre": "Guerlain Cleansing Milk",
+            "img": "imagen_limpieza_facial_mixta_alto.jpg",
+            "descripción": "Leche limpiadora de lujo que elimina las impurezas y el maquillaje sin resecar la piel.",
+            "información": "Formulada con extractos botánicos para equilibrar la piel mixta.",
+            "precio": "899.99",
+            "tienda": "https://ejemplo.com/guerlain-cleansing-milk"
+        },
+        "Hidratación Intensa": {
+            "nombre": "Chanel Hydra Beauty Micro Gel Yeux",
+            "img": "imagen_hidratacion_mixta_alto.jpg",
+            "descripción": "Gel hidratante para contorno de ojos de lujo que proporciona una hidratación equilibrada y refrescante.",
+            "información": "Ayuda a reducir la apariencia de ojeras e hinchazón.",
+            "precio": "1399.99",
+            "tienda": "https://ejemplo.com/chanel-hydra-beauty-micro-gel-yeux"
+        },
+        "Tratamiento Reparador": {
+            "nombre": "SK-II Facial Treatment Essence",
+            "img": "imagen_tratamiento_reparador_mixta_alto.jpg",
+            "descripción": "Esencia facial de lujo que hidrata, suaviza y equilibra la piel mixta.",
+            "información": "Contiene Pitera™, un ingrediente exclusivo que revitaliza y renueva la piel.",
+            "precio": "1799.99",
+            "tienda": "https://ejemplo.com/sk-ii-facial-treatment-essence"
+        },
+        "Protección Adicional (Opcional)": {
+            "nombre": "Estée Lauder DayWear Matte Oil-Control Antioxidant Moisture Gel Crème",
+            "img": "imagen_proteccion_adicional_mixta_alto.jpg",
+            "descripción": "Crema hidratante de lujo que controla el brillo y protege la piel mixta de los daños ambientales.",
+            "información": "Fórmula antioxidante que ayuda a prevenir los signos de envejecimiento.",
+            "precio": "1599.99",
+            "tienda": "https://ejemplo.com/estee-lauder-daywear-matte-cream"
+        }
+    },
+    {
+        "rango": "alta",
+        "tiempo" : "noche",
+        "piel" : "grasa",
+        "Limpieza Facial Suave": {
+            "nombre": "Dior Hydra Life Lotion to Foam Fresh Cleanser",
+            "img": "imagen_limpieza_facial_grasa_alto.jpg",
+            "descripción": "Limpiador facial de lujo que elimina suavemente el exceso de grasa y las impurezas.",
+            "información": "Transforma la textura del gel en una espuma ligera al contacto con el agua.",
+            "precio": "999.99",
+            "tienda": "https://ejemplo.com/dior-hydra-life-cleanser"
+        },
+        "Hidratación Intensa": {
+            "nombre": "La Prairie Cellular Hydrating Serum",
+            "img": "imagen_hidratacion_grasa_alto.jpg",
+            "descripción": "Serum hidratante de lujo que proporciona una hidratación intensa y equilibrada.",
+            "información": "Formulado con complejo de células madre para revitalizar la piel grasa.",
+            "precio": "2499.99",
+            "tienda": "https://ejemplo.com/la-prairie-hydrating-serum"
+        },
+        "Tratamiento Reparador": {
+            "nombre": "GlamGlow Supermud Clearing Treatment",
+            "img": "imagen_tratamiento_reparador_grasa_alto.jpg",
+            "descripción": "Tratamiento de lujo que desintoxica y purifica la piel, eliminando el exceso de grasa y los poros obstruidos.",
+            "información": "Contiene ácido salicílico, ácido glicólico y carbón activado para una acción profunda.",
+            "precio": "1799.99",
+            "tienda": "https://ejemplo.com/glamglow-supermud-treatment"
+        },
+        "Protección Adicional (Opcional)": {
+            "nombre": "Shiseido Urban Environment Oil-Free UV Protector",
+            "img": "imagen_proteccion_adicional_grasa_alto.jpg",
+            "descripción": "Protector solar de lujo que protege la piel grasa de los daños ambientales y los rayos UV.",
+            "información": "Fórmula ligera y oil-free que se absorbe rápidamente.",
+            "precio": "1899.99",
+            "tienda": "https://ejemplo.com/shiseido-urban-environment-uv-protector"
+        }
     }
-    
+
 ]

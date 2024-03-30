@@ -2,17 +2,17 @@
 <html lang="es">
 
 <head>
-     <title>LÚA CARES</title>
-     <meta charset="UTF-8">
-     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <link rel="stylesheet" href="assets/css/project.css">
-     <meta property="og:site_name" content="Juego de preguntas">
-     <meta property="og:title" content="Juego de preguntas">
-     <meta property="og:description" content="versión 2">
-     <meta property="og:image" content="https://i.ibb.co/3vg4KNb/softyo-001.png">
-     <link rel="icon" type="image/png" href="https://cdn-icons-png.flaticon.com/512/5403/5403989.png">
-     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <title>LÚA CARES</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/project.css">
+    <meta property="og:site_name" content="Juego de preguntas">
+    <meta property="og:title" content="Juego de preguntas">
+    <meta property="og:description" content="versión 2">
+    <meta property="og:image" content="https://i.ibb.co/3vg4KNb/softyo-001.png">
+    <link rel="icon" type="image/png" href="https://cdn-icons-png.flaticon.com/512/5403/5403989.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
 </head>
 
 <body>
@@ -22,37 +22,38 @@
                 <span class="navbar-text">
                     <img id="logo-nav" src="https://cdn-icons-png.flaticon.com/512/5403/5403989.png" alt="logo">
                     <span class="navbar-text">
-                        LÚA CARES 
+                        LÚA CARES
                     </span>
                 </span>
         </nav>
     </header>
 
     <h3>ELIGE TU TIPO DE PIEL</h3>
-    <p>Te recomendaremos una rutina según tu tupo piel, porfavor se honesto/a al elegir para garantizar buenos resultados, en caso aún tengas dudas presiona la opción de <a href="test.html">Hacer Lúa Cares - Test</a></p>
+    <p>Te recomendaremos una rutina según tu tipo de piel. Por favor, sé honesto/a al elegir para garantizar buenos resultados. En caso aún tengas dudas, presiona la opción de <a href="test.html">Hacer Lúa Cares - Test</a></p>
 
     <section>
         <div>
-            <a href=""> PIEL NORMAL</a>
+            <input type="radio" name="tipoPiel" id="pielNormal" value="normal" onclick="window.location.href='rutina.html?type=normal'">
+            <label for="pielNormal">PIEL NORMAL</label>
             <img src="">
-            
         </div>
     </section>
     <section>
         <div>
-            <a href=""> PIEL SECA</a>
+            <input type="radio" name="tipoPiel" id="pielSeca" value="seca" onclick="window.location.href='rutina.html?type=seca'">
+            <label for="pielSeca">PIEL SECA</label>
             <img src="">
-            
         </div>
     </section>
     <section>
         <div>
-            <a href="">PIEL GRASA</a>
+            <input type="radio" name="tipoPiel" id="pielGrasa" value="grasa" onclick="window.location.href='rutina.html?type=grasa'">
+            <label for="pielGrasa">PIEL GRASA</label>
             <img src="">
-            
         </div>
     </section>
 
     <script src="assets/js/test.js"></script>
 </body>
+
 </html>
