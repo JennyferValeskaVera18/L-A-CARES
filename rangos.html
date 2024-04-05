@@ -33,27 +33,27 @@
 
     <section>
         <div>
-            <input type="radio" name="rango" id="rangoEconomico" value="económico" onclick="window.location.href='rutina.html?type=normal'">
+            <input type="radio" name="rango" id="rangoEconomico" value="económico" onclick="guardarSeleccion('rango', this.value); window.location.href='rutina.html?type=económico'">
             <label for="pielNormal">PRODUCTOS DE RANGO ECONÓMICO</label>
             <img src="">
         </div>
     </section>
     <section>
         <div>
-            <input type="radio" name="rango" id="rangoMedio" value="medio" onclick="window.location.href='rutina.html?type=seca'">
+            <input type="radio" name="rango" id="rangoMedio" value="medio" onclick="guardarSeleccion('rango', this.value); window.location.href='rutina.html?type=medio'">
             <label for="pielSeca">PRODUCTOS DE RANGO MEDIO</label>
             <img src="">
         </div>
     </section>
     <section>
         <div>
-            <input type="radio" name="rango" id="rangoAlto" value="alto" onclick="window.location.href='rutina.html?type=grasa'">
+            <input type="radio" name="rango" id="rangoAlto" value="alto" onclick="guardarSeleccion('rango', this.value); window.location.href='rutina.html?type=alto'">
             <label for="pielGrasa">PRODUCTOS DE RANGO ALTO</label>
             <img src="">
         </div>
     </section>
 
-    <script src="assets/js/test.js"></script>
+    <script src="assets/js/rutinas.js"></script>
 </body>
 
 </html>

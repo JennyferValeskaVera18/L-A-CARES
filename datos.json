@@ -173,7 +173,7 @@
             "tienda": "https://ejemplo.com/kiehls-ultra-facial-cream"
         },
         "Tratamiento Reparador": {
-            "nombre": "Estée Lauder Advanced Night Repair Synchronized Recovery Complex II",
+            "nombre": "Estée Lauder Advanced  Night Repair Synchronized Recovery Complex II",
             "img": "imagen_tratamiento_normal_gama_media.jpg",
             "descripción": "Suero reparador facial que ayuda a combatir los signos del envejecimiento.",
             "información": "Reduce la apariencia de líneas finas y arrugas mientras mejora la luminosidad de la piel.",
@@ -306,7 +306,7 @@
     },
 
     {
-        "rango": "alta",
+        "rango": "alto",
         "tiempo" : "mañana",
         "piel" : "normal",
         "Limpieza Facial Suave": {
@@ -344,7 +344,7 @@
 
     },
     {
-        "rango": "alta",
+        "rango": "alto",
         "tiempo" : "mañana",
         "piel" : "seca",
         "Limpieza Facial Suave": {
@@ -383,7 +383,7 @@
 
     },
     {
-        "rango": "alta",
+        "rango": "alto",
         "tiempo" : "mañana",
         "piel" : "grasa",
         "Limpieza Facial Suave": {
@@ -422,7 +422,7 @@
 
     },
     {
-        "rango": "alta",
+        "rango": "alto",
         "tiempo" : "mañana",
         "piel" : "mixta",
         "Limpieza Facial Suave": {
@@ -526,7 +526,7 @@
             "precio": "19.99",
             "tienda": "https://ejemplo.com/the-ordinary-hyaluronic-acid-b5"
         },
-        "Hidratación Adicional": {
+        "Hidratación Adicional (Opcional)": {
             "nombre": "CeraVe PM Facial Moisturizing Lotion",
             "img": "imagen_hidratacion_adicional_seca_economico.jpg",
             "descripción": "Loción facial ligera que hidrata profundamente la piel durante la noche, dejándola suave y revitalizada al despertar.",
@@ -758,7 +758,7 @@
         }
     },
     {
-        "rango": "alta",
+        "rango": "alto",
         "tiempo" : "noche",
         "piel" : "normal",
         "Limpieza Facial Suave": {
@@ -785,7 +785,7 @@
             "precio": "999.99",
             "tienda": "https://ejemplo.com/estee-lauder-advanced-night-repair"
         },
-        "Protección Adicional (Opcional)": {
+        "Hidratación Adicional (Opcional)": {
             "nombre": "Sisley Ecological Compound",
             "img": "imagen_proteccion_adicional_normal_alto.jpg",
             "descripción": "Tratamiento hidratante que protege la piel de los daños ambientales y promueve su equilibrio.",
@@ -795,7 +795,7 @@
         }
     },
     {
-        "rango": "alta",
+        "rango": "alto",
         "tiempo" : "noche",
         "piel" : "seca",
         "Limpieza Facial Suave": {
@@ -822,7 +822,7 @@
             "precio": "1199.99",
             "tienda": "https://ejemplo.com/sisley-black-rose-face-oil"
         },
-        "Protección Adicional (Opcional)": {
+        "Hidratación Adicional (Opcional)": {
             "nombre": "La Prairie Cellular Swiss Ice Crystal Cream",
             "img": "imagen_proteccion_adicional_seca_alto.jpg",
             "descripción": "Crema hidratante de lujo que protege la piel de los factores ambientales y promueve su vitalidad.",
@@ -832,7 +832,7 @@
         }
     },
     {
-        "rango": "alta",
+        "rango": "alto",
         "tiempo" : "noche",
         "piel" : "mixta",
         "Limpieza Facial Suave": {
@@ -859,7 +859,7 @@
             "precio": "1799.99",
             "tienda": "https://ejemplo.com/sk-ii-facial-treatment-essence"
         },
-        "Protección Adicional (Opcional)": {
+        "Hidratación Adicional (Opcional)": {
             "nombre": "Estée Lauder DayWear Matte Oil-Control Antioxidant Moisture Gel Crème",
             "img": "imagen_proteccion_adicional_mixta_alto.jpg",
             "descripción": "Crema hidratante de lujo que controla el brillo y protege la piel mixta de los daños ambientales.",
@@ -869,7 +869,7 @@
         }
     },
     {
-        "rango": "alta",
+        "rango": "alto",
         "tiempo" : "noche",
         "piel" : "grasa",
         "Limpieza Facial Suave": {
@@ -896,7 +896,7 @@
             "precio": "1799.99",
             "tienda": "https://ejemplo.com/glamglow-supermud-treatment"
         },
-        "Protección Adicional (Opcional)": {
+        "Hidratación Adicional (Opcional)": {
             "nombre": "Shiseido Urban Environment Oil-Free UV Protector",
             "img": "imagen_proteccion_adicional_grasa_alto.jpg",
             "descripción": "Protector solar de lujo que protege la piel grasa de los daños ambientales y los rayos UV.",
