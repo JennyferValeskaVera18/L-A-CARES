@@ -1,6 +1,6 @@
-// Función para guardar los valores seleccionados en localStorage
+// Función para guardar los valores seleccionados en localStorage, esta función está en el onclick y obtiene los argumentos
 function guardarSeleccion(nombreGrupo, valorSeleccionado) {
-    // Guardar los valores en localStorage
+    // Guardar los valores en localStorage, setItem es un método del objeto localStorage en JavaScript que se utiliza para almacenar datos
     localStorage.setItem(nombreGrupo, valorSeleccionado);
     console.log(`Valor ${valorSeleccionado} de ${nombreGrupo} guardado en localStorage.`);
 }
@@ -9,12 +9,12 @@ function guardarSeleccion(nombreGrupo, valorSeleccionado) {
 const radioTiempo = document.querySelectorAll('input[name="tiempo"]');
 const radioPiel = document.querySelectorAll('input[name="piel"]');
 const radioRango = document.querySelectorAll('input[name="rango"]');
-
+//Verificamos si se obtuvieron
 console.log("Elementos de radio para tiempo:", radioTiempo);
 console.log("Elementos de radio para piel:", radioPiel);
 console.log("Elementos de radio para rango:", radioRango);
 
-// Escuchar el evento change en los radio buttons y llamar a la función guardarSeleccion
+// Escuchar el evento change en cad radio button de piel, tiempo y rangp y llamar a la función guardarSeleccion en localstorage
 radioTiempo.forEach(radio => radio.addEventListener('change', () => guardarSeleccion('tiempo', radio.value)));
 radioPiel.forEach(radio => radio.addEventListener('change', () => guardarSeleccion('piel', radio.value)));
 radioRango.forEach(radio => radio.addEventListener('change', () => guardarSeleccion('rango', radio.value)));
@@ -24,8 +24,9 @@ radioRango.forEach(radio => radio.addEventListener('change', () => guardarSelecc
 const listaRutinas = document.querySelector("#listaRutinas");
 let rutinasData = [];
 
+//Esto realiza una solicitud para obtener el archivo 
 fetch('datos.json')
-    .then((res) => res.json())
+    .then((res) => res.json()) //Despues de la solicitud, convertimos la respuesta a json(objeto)
     .then((data) => {
         rutinasData = data;
         console.log("Datos cargados del JSON:", rutinasData);
@@ -36,6 +37,7 @@ fetch('datos.json')
     });
 
 function mostrarRutina() {
+    //Guardamos en variables los valores obtenidos por cada input
     const tiempoSeleccionado = localStorage.getItem('tiempo');
     const pielSeleccionada = localStorage.getItem('piel');
     const rangoSeleccionado = localStorage.getItem('rango');

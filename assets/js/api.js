@@ -1,4 +1,4 @@
-//1ero selecciono el elemnto DOM con el id "listaVideojuegos" y lo almaceno
+/*//1ero selecciono el elemnto DOM con el id "listaVideojuegos" y lo almaceno
 const listaVideojuegos = document.querySelector("#todos-productos");
 let listaVideojuegosData = []; //Inicializo variable para almacernar lso datos de los juegos
 
@@ -76,3 +76,4 @@ btnBuscar.addEventListener("click", () => {
         alert("¡Que triste! No se encontró ese videojuego:( ");
     }
 });
+*/
