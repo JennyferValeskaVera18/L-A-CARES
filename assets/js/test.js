@@ -1,24 +1,24 @@
 var imagenes = [
-    ["https://www.paulaschoice.com/on/demandware.static/-/Library-Sites-paulachoice/default/dw0fae9daf/images/quiz/1_Dry.jpg", 
-    "https://www.paulaschoice.com/on/demandware.static/-/Library-Sites-paulachoice/default/dw7ee69eb0/images/quiz/1_Oily.jpg", 
-    "https://www.paulaschoice.com/on/demandware.static/-/Library-Sites-paulachoice/default/dw8925484f/images/quiz/1_Combo.jpg", 
-    "https://www.paulaschoice.com/on/demandware.static/-/Library-Sites-paulachoice/default/dw5f514fbe/images/quiz/1_Normal.jpg"
+    ["https://i.ibb.co/1Xf3wCq/1.png", 
+    "https://i.ibb.co/f8dtyBZ/2.png", 
+    "https://i.ibb.co/5Td1Bt2/3.png", 
+    "https://i.ibb.co/86Dgf5P/4.png"
     ],
-    ["https://www.paulaschoice.com/on/demandware.static/-/Library-Sites-paulachoice/default/dwc7c0dd51/images/quiz/acne.jpg", 
-    "https://www.paulaschoice.com/on/demandware.static/-/Library-Sites-paulachoice/default/dw4066c95e/images/quiz/aging.jpg", 
-    "https://www.paulaschoice.com/on/demandware.static/-/Library-Sites-paulachoice/default/dwd249b290/images/quiz/uneven.jpg", 
-    "https://www.paulaschoice.com/on/demandware.static/-/Library-Sites-paulachoice/default/dwa22c01d7/images/quiz/sensitive.jpg"],
-    ["assets/img/porc1.jpg", 
-    "assets/img/porc2.jpg",
-    "assets/img/porc3.jpg",
-    "assets/img/porc4.jpg"],
-
-    ["assets/img/porc1.jpg", 
-    "assets/img/porc2.jpg",
-    "assets/img/porc3.jpg",
-    "assets/img/porc4.jpg"]
+    ["https://i.ibb.co/9yFjWbf/5.png", 
+    "https://i.ibb.co/dt6wY7t/6.png", 
+    "https://i.ibb.co/b5LfQZd/7.png", 
+    "https://i.ibb.co/SB3f4jB/8.png"],
+    ["https://i.ibb.co/kD2s9cR/porc1.png", 
+    "https://i.ibb.co/GPv98zV/porc2.png",
+    "https://i.ibb.co/gMf7ntP/porc3.png",
+    "https://i.ibb.co/9GLCTfN/porc-4.png"],
+    ["https://i.ibb.co/kD2s9cR/porc1.png", 
+    "https://i.ibb.co/GPv98zV/porc2.png",
+    "https://i.ibb.co/gMf7ntP/porc3.png",
+    "https://i.ibb.co/9GLCTfN/porc-4.png"],
     
 ];
+
 var pasos = [
     "PASO 1",
     "PASO 2",
@@ -28,7 +28,7 @@ var pasos = [
 
 var preguntas = [
     "Lávese la cara con un limpiador suave y espere de 15 a 30 minutos. Haga clic en el icono que coincida con lo que ve.",
-    "¿Cuál es tu principal preocupación? o ¿Con cuál te sientes más identificada? ",
+    "¿Cuál es tu principal preocupación? ó </br> ¿Con cuál te sientes más identificada? ",
     "¿Qué tan a menudo sientes la necesidad de aplicar crema hidratante durante el día?",
     "¿Cómo reacciona tu piel ante los productos nuevos o diferentes?"
 ]
@@ -74,25 +74,64 @@ function mostrarResultado() {
     var div = document.getElementById("tablero");
     div.innerHTML = "";
 
-
-
     // Agregamos los elementos
-    div.innerHTML += "<h3 class='resultado_titulo'>RESULTADOS</h3>";
-
+    div.innerHTML += `
+            <div class="row">
+                <div class="col-md-1 justify-content-start">
+                    <h4 class='text text-3 mt-3'>RESULTADOS:</h4>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-12">
+                    <h4 class='resultado_titulo text-6 title'>¡FELICIDADES!</h4>
+                </div>
+            </div>
+    `;
     // Evaluamos el estilo de vida según el puntaje
-
     if (puntaje >= 20) {
         resultado = "<span id='grasa'>PIEL GRASA</span>";
     } else if (puntaje >= 15) {
         resultado = "<span id='mixta'>PIEL MIXTA</span>";
     }else if( puntaje >= 10) {
         resultado = "<span id='normal'>PIEL NORMAL</span>";
-
     }else {
         resultado = "<span id='seca'>PIEL SECA</span>";
     }
 
-    div.innerHTML += `<p class='resultado_obtenido'>¡FELICIDADES! Ahora conoces que tu tipo de piel es: ${resultado}.</p> </br> <p>¡Gracias por completar el LÚA CARES - TEST! Recuerda, cada tipo de piel es hermoso y único. No importa cuál sea tu resultado, estamos aquí para ayudarte a cuidar tu piel y hacerla brillar. Juntos, podemos lograr una piel radiante y saludable que te haga sentir seguro/a y feliz. ¡Estamos aquí para ti!</p> </br> <a href="test.html">QUIERO VOLVER A HACER EL TEST</a> <a href="rutinas.html">AHORA QUIERO UNA RUTINA</a>`;
+    div.innerHTML += `
+    <div class="container-resultado text-3">
+        <div class="row">
+            <div class="col-md-12 title">
+                <p class='resultado_obtenido p-2 px-4 mr-4 text' id="resultado1">Ahora conoces que tu tipo de piel es:</p>
+                <p class='resultado_obtenido piel-color text-4' id="resultado2"><span id="resultado">${resultado}</span>.</p>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-12 text m-3">
+                <p>¡Gracias por completar el LÚA CARES - TEST! Recuerda, cada tipo de piel es hermoso y único. No importa cuál sea tu resultado, estamos aquí para ayudarte a cuidar tu piel y hacerla brillar. Juntos, podemos lograr una piel radiante y saludable que te haga sentir seguro/a y feliz. ¡Estamos aquí para ti!</p>
+            </div>
+        </div>
+        <div class="row justify-content-center mt-4">
+            <div class="col-md-4 mi-boton p-2 mx-3">
+                <a href="test.html" class="btn primer-boton btn-animate text p-2 pt-2 text-3">QUIERO VOLVER A HACER EL TEST</a>
+            </div>
+            <div class="col-md-4 mi-boton p-2 mx-3">
+                <a href="rutinas.html" class="btn segundo-boton btn-animate text p-2 pt-2 text-3">AHORA QUIERO UNA RUTINA</a>
+            </div>
+        </div>
+    </div>
+  `;
+
+  // Código para la animación del segundo resultado obtenido
+  const resultado2Element = document.getElementById('resultado2');
+
+  const resultado2Animation = resultado2Element.animate(
+    [
+      { transform: 'translateX(-50%) scale(1)', opacity: 0 },
+      { transform: 'translateX(0%) scale(1)', opacity: 1 }
+    ],
+    { duration: 990, fill: 'forwards' }
+  );
 }
 
 function actualizarPuntaje(opcion) {
@@ -121,27 +160,3 @@ document.getElementById("op3").addEventListener("click", function () {
 document.getElementById("op4").addEventListener("click", function () {
     actualizarPuntaje(3);
 });
-
-//Modo oscuro
-const toggleSwitch = document.getElementById('darkModeToggle'); 
-// Función que cambia el tema entre oscuro y claro.
-function switchTheme(e) {
-  // Si el interruptor está marcado.
-  if (e.target.checked) {
-    document.body.classList.add('bg-dark-toggle'); 
-    localStorage.setItem('theme', 'dark');
-  // Si el interruptor no está marcado.
-  } else {
-    document.body.classList.remove('bg-dark-toggle'); 
-    localStorage.setItem('theme', 'light'); 
-  }    
-}
-
-toggleSwitch.addEventListener('change', switchTheme, false);
-
-const currentTheme = localStorage.getItem('theme') ? localStorage.getItem('theme') : null; 
-
-if (currentTheme === 'dark') { 
-  toggleSwitch.checked = true; 
-  document.body.classList.add('bg-dark-toggle'); 
-}

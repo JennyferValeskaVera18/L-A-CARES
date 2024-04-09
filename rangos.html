@@ -39,39 +39,32 @@
                     </nav>
                     
                 </div>
-                <div class="container-fluid d-flex vh-100 px-5 col-md-12 d-flex flex-column">
+                <div class="container-fluid d-flex px-5 vh-100 col-md-12 d-flex flex-column"  id="tablero">
                     <div class="row">
-                        <h3>ELIGE TU TIPO DE PIEL</h3>
-                            <p>Te recomendaremos una rutina según tu tipo de piel. Por favor, sé honesto/a al elegir para garantizar buenos resultados. En caso aún tengas dudas, realiza el <a href="test.html">Lúa Cares - Test</a></p>
+                        <h3>ELIGE EL RANGO DE PRECIOS</h3>
+                        <p>Es importante que elijas un rango de precios acomodado a ti. El rango "Económico" oscila hasta los 70 soles, el rango "Medio" hasta las 300 soles y el "alto"  de 300 soles a más.</p>
 
-                            <section>
-                                <div>
-                                    <input type="radio" name="piel" id="pielNormal" value="normal" onclick="guardarSeleccion('piel', this.value); window.location.href='rangos.html?type=normal'">
-                                    <label for="pielNormal">PIEL NORMAL</label>
-                                    <img src="">
-                                </div>
-                            </section>
-                            <section>
-                                <div>
-                                    <input type="radio" name="piel" id="pielSeca" value="seca" onclick="guardarSeleccion('piel', this.value); window.location.href='rangos.html?type=seca'">
-                                    <label for="pielSeca">PIEL SECA</label>
-                                    <img src="">
-                                </div>
-                            </section>
-                            <section>
-                                <div>
-                                    <input type="radio" name="piel" id="pielMixta" value="mixta" onclick="guardarSeleccion('piel', this.value); window.location.href='rangos.html?type=mixta'">
-                                    <label for="pielMixta">PIEL MIXTA</label>
-                                    <img src="">
-                                </div>
-                            </section>
-                            <section>
-                                <div>
-                                    <input type="radio" name="piel" id="pielGrasa" value="grasa" onclick="guardarSeleccion('piel', this.value); window.location.href='rangos.html?type=grasa'">
-                                    <label for="pielGrasa">PIEL GRASA</label>
-                                    <img src="">
-                                </div>
-                            </section>
+                        <section>
+                            <div>
+                                <input type="radio" name="rango" id="rangoEconomico" value="económico" onclick="guardarSeleccion('rango', this.value); window.location.href='rutina.html?type=económico'">
+                                <label for="pielNormal">PRODUCTOS DE RANGO ECONÓMICO</label>
+                                <img src="">
+                            </div>
+                        </section>
+                        <section>
+                            <div>
+                                <input type="radio" name="rango" id="rangoMedio" value="medio" onclick="guardarSeleccion('rango', this.value); window.location.href='rutina.html?type=medio'">
+                                <label for="pielSeca">PRODUCTOS DE RANGO MEDIO</label>
+                                <img src="">
+                            </div>
+                        </section>
+                        <section>
+                            <div>
+                                <input type="radio" name="rango" id="rangoAlto" value="alto" onclick="guardarSeleccion('rango', this.value); window.location.href='rutina.html?type=alto'">
+                                <label for="pielGrasa">PRODUCTOS DE RANGO ALTO</label>
+                                <img src="">
+                            </div>
+                        </section>
                     </div>
                 </div>
             </div>

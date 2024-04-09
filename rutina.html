@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/styles.css">
     <link rel="stylesheet" href="assets/css/test.css">
+    <link rel="stylesheet" href="assets/css/rutina.css">
     <link rel="icon" href="https://i.ibb.co/CWPVLcJ/flor-de-loto.png" type="image/png">
 </head>
 <body>
@@ -39,39 +40,13 @@
                     </nav>
                     
                 </div>
-                <div class="container-fluid d-flex vh-100 px-5 col-md-12 d-flex flex-column">
+                <div class="container-fluid px-5 d-flex vh-100 col-md-12 d-flex flex-column">
                     <div class="row">
-                        <h3>ELIGE TU TIPO DE PIEL</h3>
-                            <p>Te recomendaremos una rutina según tu tipo de piel. Por favor, sé honesto/a al elegir para garantizar buenos resultados. En caso aún tengas dudas, realiza el <a href="test.html">Lúa Cares - Test</a></p>
+                        <h1>Rutina de Cuidado de la Piel</h1>
 
-                            <section>
-                                <div>
-                                    <input type="radio" name="piel" id="pielNormal" value="normal" onclick="guardarSeleccion('piel', this.value); window.location.href='rangos.html?type=normal'">
-                                    <label for="pielNormal">PIEL NORMAL</label>
-                                    <img src="">
-                                </div>
-                            </section>
-                            <section>
-                                <div>
-                                    <input type="radio" name="piel" id="pielSeca" value="seca" onclick="guardarSeleccion('piel', this.value); window.location.href='rangos.html?type=seca'">
-                                    <label for="pielSeca">PIEL SECA</label>
-                                    <img src="">
-                                </div>
-                            </section>
-                            <section>
-                                <div>
-                                    <input type="radio" name="piel" id="pielMixta" value="mixta" onclick="guardarSeleccion('piel', this.value); window.location.href='rangos.html?type=mixta'">
-                                    <label for="pielMixta">PIEL MIXTA</label>
-                                    <img src="">
-                                </div>
-                            </section>
-                            <section>
-                                <div>
-                                    <input type="radio" name="piel" id="pielGrasa" value="grasa" onclick="guardarSeleccion('piel', this.value); window.location.href='rangos.html?type=grasa'">
-                                    <label for="pielGrasa">PIEL GRASA</label>
-                                    <img src="">
-                                </div>
-                            </section>
+                        <div id="listaRutinas">
+                            <!-- Aquí se mostrará la rutina -->
+                        </div>
                     </div>
                 </div>
             </div>
@@ -81,4 +56,5 @@
     <script src="assets/js/script.js"></script>
     <script src="assets/js/rutinas.js"></script>
 </body>
+
 </html>

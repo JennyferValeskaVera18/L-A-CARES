@@ -6,66 +6,114 @@
     <title>LÚA CARES</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
     <link rel="stylesheet" href="assets/css/test.css">
     <link rel="icon" href="https://i.ibb.co/CWPVLcJ/flor-de-loto.png" type="image/png">
 </head>
 <body>
-    <header>
-        <nav class="navbar bg-body-tertiary">
-            <div class="container-fluid">
-                <span class="navbar-text">
-                    <img id="logo-nav" src="https://cdn-icons-png.flaticon.com/512/5403/5403989.png" alt="logo">
-                    <span class="navbar-text">
-                        LÚA CARES - TEST
-                    </span>
-                </span>
-                <label class="toggle-container m-2">
-                    <input type="checkbox" class="toggle-checkbox" id="darkModeToggle">
-                    <span class="toggle-slider"></span>
-                    <i class="bi bi-brightness-high toggle-icon light ml-4"></i>
-                    <i class="bi bi-moon toggle-icon dark ml-1"></i>
-                  </label>
+    <div class="container-fluid d-flex vh-100">
+        <div class="main-container p-0 mt-2 bg-dark-toggle"> 
+            <div class="row">
+                <div class="col-md-12 p-0">
+                    <nav class="navbar navbar-expand-lg bg-body-tertiary p-0">
+                        <div class="container-fluid p-1">
+                            <img src="https://i.ibb.co/CWPVLcJ/flor-de-loto.png" alt="Imagen Claro" id="logo-nav" class="imagen-claro img-fluid ml-4">
+                            <img src="https://i.ibb.co/CWPVLcJ/flor-de-loto.png" alt="Imagen Oscuro" id="logo-nav" class="imagen-oscuro img-fluid ml-4">                            
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                                <div class="navbar-nav mr-auto mt-2">
+                                    <h5 class="nav-link text">LÚA CARES - TEST</h5>
+                                </div>
+                                <div class="navbar-nav">
+                                    <label class="toggle-container m-2 mr-4">
+                                        <input type="checkbox" class="toggle-checkbox" id="darkModeToggle">
+                                        <span class="toggle-slider"></span>
+                                        <i class="bi bi-brightness-high toggle-icon light ml-4"></i>
+                                        <i class="bi bi-moon toggle-icon dark ml-1"></i>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+                <div class="container-fluid d-flex vh-100 px-5 col-md-12 d-flex flex-column"  id="tablero">
+                    <div class="row">
+                        <div class="col-12 p-2">
+                            <div class="row">
+                                <!-- Primera sección: 3 columnas -->
+                                <section class="col-md-3 p-3">
+                                    <div>
+                                        <h3 class="title text-4 text-justify" id="pasos">PASO 1</h3>
+                                    </div>
+                                    <div class="text text-2 text-justify" id="pregunta">
+                                        <p>Lávese la cara con un limpiador suave y espere de 15 a 30 minutos. Haga clic en el icono que coincida con lo que ve.</p>
+                                    </div>
+                                </section>
+                                <!-- Segunda sección: 9 columnas -->
+                                <section class="col-md-9">
+                                    <div class="row" id="opciones">
+                                        <!-- Primer div dentro de la segunda sección: 3 columnas -->
+                                        <div class="col-md-3 p-3">
+                                            <div class="opcion mi-boton p-2 mt-2" id="opcion1">
+                                                <div class="btn btn-block btn-animate subopcion text p-0 pt-2">
+                                                    <div onclick="actualizarPuntaje(0)">
+                                                        <img style="width: 150px; height: 150px" id="img1" src="ruta/a/imagen1.jpg" alt="Imagen 1">
+                                                        <p id="op1">Opción 1: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- Segundo div dentro de la segunda sección: 3 columnas -->
+                                        <div class="col-md-3 p-3">
+                                            <div class="opcion mi-boton p-2 mt-2" id="opcion2">
+                                                <div class="btn btn-block btn-animate subopcion text p-0 pt-2">
+                                                    <div onclick="actualizarPuntaje(1)">
+                                                        <img style="width: 150px; height: 150px" id="img2" src="ruta/a/imagen2.jpg" alt="Imagen 2">
+                                                        <p id="op2">Opción 2: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- Tercer div dentro de la segunda sección: 3 columnas -->
+                                        <div class="col-md-3 p-3">
+                                            <div class="opcion mi-boton p-2 mt-2" id="opcion3">
+                                                <div class="btn btn-block btn-animate subopcion text p-0 pt-2">
+                                                    <div onclick="actualizarPuntaje(2)">
+                                                        <img style="width: 150px; height: 150px" id="img3" src="ruta/a/imagen1.jpg" alt="Imagen 1">
+                                                        <p id="op3">Opción 1: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- Cuarto div dentro de la segunda sección: 3 columnas -->
+                                        <div class="col-md-3 p-3">
+                                            <div class="opcion mi-boton p-2 mt-2" id="opcion4">
+                                                <div class="btn btn-block btn-animate subopcion text p-0 pt-2">
+                                                    <div onclick="actualizarPuntaje(4)">
+                                                        <img style="width: 150px; height: 150px" id="img4" src="ruta/a/imagen1.jpg" alt="Imagen 1">
+                                                        <p id="op4">Opción 1: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="avance">
+                                <progress id="barra-progreso" max="100" value="0">0%</progress>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </nav>
-    </header>
-
-    <div class="container-fluid" id="tablero">
-        <div class="row">
-            <section class="col-md-3">
-                <div>
-                    <h3 id="pasos" >PASO 1</h3>
-                </div>
-                <div id="pregunta">
-                    <p>Lávese la cara con un limpiador suave y espere de 15 a 30 minutos. Haga clic en el icono que coincida con lo que ve.</p>
-                </div>
-                <div class="avance">
-                    <progress id="barra-progreso" max="100" value="70">70%</progress>
-                </div>
-            </section>
-
-            <section class="col-md-9">
-                <div id="opciones" class="row justify-content-between align-items-center">
-
-                    <div class="opcion col-md-3">
-                        <img style="width: 150px; height: 150px" id="img1" src="ruta/a/imagen1.jpg" alt="Imagen 1">
-                        <p id="op1">Opción 1: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    </div>
-                    <div class="opcion col-md-3">
-                        <img style="width: 150px; height: 150px" id="img2" src="ruta/a/imagen2.jpg" alt="Imagen 2">
-                        <p id="op2">Opción 2: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    </div>
-                    <div class="opcion col-md-3">
-                        <img style="width: 150px; height: 150px" id="img3" src="ruta/a/imagen3.jpg" alt="Imagen 3">
-                        <p id="op3">Opción 3: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    </div>
-                    <div class="opcion col-md-3">
-                        <img style="width: 150px; height: 150px" id="img4" src="ruta/a/imagen4.jpg" alt="Imagen 4">
-                        <p id="op4">Opción 4: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    </div>
-                
-            </section>
-        </div>
+        </div> 
     </div>
+    <div class="circle-red sign-up-mode"></div>
+    <script src="assets/js/script.js"></script>
     <script src="assets/js/test.js"></script>
 </body>
 </html>
