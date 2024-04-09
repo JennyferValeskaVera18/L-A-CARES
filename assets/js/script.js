@@ -1,5 +1,5 @@
 // MODO OSCURO/CLARO
-function switchTheme() {
+function modoOscuro() {
   const toggleSwitch = document.getElementById('darkModeToggle');
   const container = document.querySelector(".circle-red");
   
@@ -15,9 +15,9 @@ function switchTheme() {
 }
 
 const toggleSwitch = document.getElementById('darkModeToggle');
-toggleSwitch.addEventListener('change', switchTheme);
+toggleSwitch.addEventListener('change', modoOscuro);
 const currentTheme = localStorage.getItem('theme');
 if (currentTheme === 'dark') {
   toggleSwitch.checked = true; 
 }
-switchTheme();
+modoOscuro();
