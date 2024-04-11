@@ -1,14 +1,15 @@
-/*//1ero selecciono el elemnto DOM con el id "listaVideojuegos" y lo almaceno
-const listaVideojuegos = document.querySelector("#todos-productos");
-let listaVideojuegosData = []; //Inicializo variable para almacernar lso datos de los juegos
+//1ero selecciono el elemnto DOM con el id "listaVideojuegos" y lo almaceno
+const listaProductos = document.querySelector("#todos-productos");
+let listaProductosData = []; //Inicializo variable para almacernar lso datos de los juegos
 
-fetch('datos.json') //funvión fetch para obtener datos
+fetch('productos.json') //función fetch para obtener datos
     .then((res) => res.json())
     .then((data) => {
-        listaVideojuegosData = data;
-        listaVideojuegosData.sort((a, b) => a.title.localeCompare(b.title));
+        listaProductosData = data;
+        listaProductosData.sort((a, b) => a.nombre.localeCompare(b.nombre));
+
         // Mostrar videojuegos después de cargar los datos
-        listaVideojuegosData.forEach(videojuego => mostrarVideojuego(videojuego));
+        listaProductosData.forEach(producto => mostrarProducto(producto));
     })
     .catch((error) => {
         console.error('Error al cargar los datos:', error);
@@ -19,61 +20,60 @@ function mostrarProducto(producto) {
     div.classList.add("producto");  //Abajo con inner.HTMl se estabalece que irá dentro del div
     div.innerHTML = `   
             <div class="nombre-contenedor">
-                <h2 class="nombre">${nombre}</h2>
+                <h2 class="nombre">${producto.nombre}</h2>
             </div> 
             <div class="videojuego-thumbnail">
-                <img src="${videojuego.thumbnail}" alt="${videojuego.title}">
+                <img src="${producto.img}" alt="${producto.nombre}">
             </div>
             <div class="videojuego-info">
                 <div class="videojuego-genre">
-                    <p class="genre">Género: ${videojuego.genre}</p>
+                    <p class="genre">Descripción: ${producto.descripción}</p>
                 </div>
                 <div class="videojuego-platform">
-                    <p class="platform">Plataforma: ${videojuego.platform}</p>
+                    <p class="platform">Tipo de piel: ${producto.piel}</p>
                 </div>
                 <div class="videojuego-release_date">
-                    <p class="release_date">Lanzamiento: ${videojuego.release_date}</p>
+                    <p class="release_date">Precio: ${producto.precio}</p>
                 </div>
                 <div class="game_url">
-                <a class="game_url" href="${videojuego.game_url}" target="_blank">Jugar aquí</a>
+                <a class="game_url" href="${producto.tienda}" target="_blank">Jugar aquí</a>
                 </div>
             </div>
     `;
-    listaVideojuegos.append(div);
+    listaProductos.append(div);
 }
 
 const btnGeneros = document.querySelectorAll(".btn-genre"); //selecciono todos los elementos con esa clase y los pongo en una variable
 
 btnGeneros.forEach(btn => {       //MÉTODO por each para iterar sobre los elementos
     btn.addEventListener("click", () => {
-        const generoSeleccionado = btn.id.replace("-", " "); //obtengo el id de cada boton
-        if (generoSeleccionado === "ver todos") {
-            mostrarTodosLosVideojuegos();
+        const generoSeleccionado = btn.id; //obtengo el id de cada boton
+        if (generoSeleccionado === "ver-todos") {
+            mostrarTodosLosProductos();
         } else {
-            const juegosFiltrados = listaVideojuegosData.filter(videojuego => videojuego.genre.toLowerCase() == generoSeleccionado.toLowerCase());
+            const productosFiltrados = listaProductosData.filter(producto => producto.tipo.toLowerCase() == generoSeleccionado.toLowerCase());
             //filter para crear un nuevo array llamado juegosFiltrados.Nos aseguramos que lso juegos consiideren lo seleccionado
-            listaVideojuegos.innerHTML = ""; //para vaciar el contenido actual del contenedor donde se muestran los videojuegos.
-            juegosFiltrados.forEach(videojuego => mostrarVideojuego(videojuego));
+            listaProductos.innerHTML = ""; //para vaciar el contenido actual del contenedor donde se muestran los videojuegos.
+            productosFiltrados.forEach(producto => mostrarProducto(producto));
         }
     });
 });
 
-function mostrarTodosLosVideojuegos() {
-    listaVideojuegos.innerHTML = "";
-    listaVideojuegosData.forEach(videojuego => mostrarVideojuego(videojuego));
+function mostrarTodosLosProductos() {
+    listaProductos.innerHTML = "";
+    listaProductosData.forEach(producto => mostrarProducto(producto));
 }
 
 // Manejo del botón "Buscar"
 const btnBuscar = document.getElementById("btnBuscar");
 btnBuscar.addEventListener("click", () => {
     const searchTerm = document.getElementById("searchInput").value.toLowerCase();
-    const juegosEncontrados = listaVideojuegosData.filter(videojuego => videojuego.title.toLowerCase().includes(searchTerm));
+    const productosEncontrados = listaProductosData.filter(producto => producto.nombre.toLowerCase().includes(searchTerm));
     //Lo filtramos para 
-    if (juegosEncontrados.length > 0) {
-        listaVideojuegos.innerHTML = "";
-        juegosEncontrados.forEach(videojuego => mostrarVideojuego(videojuego));
+    if (productosEncontrados.length > 0) {
+        listaProductos.innerHTML = "";
+        productosEncontrados.forEach(producto => mostrarProducto(producto));
     } else {
         alert("¡Que triste! No se encontró ese videojuego:( ");
     }
 });
-*/

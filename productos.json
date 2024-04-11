@@ -1,20 +1,20 @@
 [
     {
       "nombre": "CeraVe Hydrating Facial Cleanser",
-      "img": "imagen_limpieza_facial_normal_economico.jpg",
+      "img": "https://m.media-amazon.com/images/I/51DbQev1thL._SL1000_.jpg",
       "descripción": "Limpiador facial no espumoso que elimina suavemente las impurezas mientras mantiene la barrera natural de la piel.",
       "piel": "normal",
       "precio": "45.99",
-      "tienda": "https://ejemplo.com/comprar/cerave_hydrating_facial_cleanser",
+      "tienda": "https://www.cerave.com/skincare/cleansers/hydrating-facial-cleanser",
       "tipo": "limpieza"
     },
     {
       "nombre": "Neutrogena Hydro Boost Gel-Cream",
-      "img": "imagen_hidratacion_normal_economico.jpg",
+      "img": "https://m.media-amazon.com/images/I/71ICfUvvEyL._SL1500_.jpg",
       "descripción": "Crema hidratante en gel que proporciona una hidratación intensa y duradera sin obstruir los poros.",
       "piel": "normal",
       "precio": "62.34",
-      "tienda": "https://ejemplo.com/comprar/neutrogena_hydro_boost_gel_cream",
+      "tienda": "https://www.aruma.pe/neutrogena-hidratante-hydro-boost-water-gel-hidratacion-50-gr-2/p",
       "tipo": "hidratacion"
     },
     {
@@ -32,7 +32,7 @@
       "descripción": "Loción facial ligera que hidrata profundamente la piel durante la noche, dejándola suave y revitalizada al despertar.",
       "piel": "normal",
       "precio": "54.99",
-      "tienda": "https://ejemplo.com/comprar/cerave_pm_facial_moisturizing_lotion",
+      "tienda": "https://uperfect.pe/products/retinol-0-5-in-squalane",
       "tipo": "hidratacion"
     },
     {

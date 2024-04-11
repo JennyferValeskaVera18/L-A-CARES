@@ -25,22 +25,25 @@
               <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Limpiadores</a>
+                      <button id="ver-todos" class="nav-link active btn btn-genre ver-todos" aria-current="page">Todos</button>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Hidratadores</a>
+                      <button id="limpieza" class="nav-link btn btn-genre limpieza">Limpieza</button>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link disabled" aria-disabled="true">Reparadores</a>
+                      <button id="hidratacion" class="nav-link btn btn-genre hidratacion">Hidratación</button>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link disabled" aria-disabled="true">Bloqueadores</a>
+                      <button id="reparador" class="nav-link btn btn-genre reparador">Reparación</button>
                   </li>
-                  
-                </ul>
+                  <li class="nav-item">
+                      <button id="protector" class="nav-link btn btn-genre protector">Protección Solar</button>
+                  </li>
+              </ul>
+              
                 <form class="d-flex" role="search">
-                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                  <button class="btn btn-outline-success" type="submit">Search</button>
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" id="searchInput">
+                  <button class="btn btn-outline-success" type="submit" id="btnBuscar">Search</button>
                 </form>
               </div>
             </div>
@@ -90,6 +93,6 @@
 
     
 
-    <script src="assets/js/rutinas.js"></script>
+    <script src="assets/js/api.js"></script>
 </body>
 </html>
