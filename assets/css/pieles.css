@@ -1,0 +1,26 @@
+
+.button-label {
+  padding: 10px 20px;
+  margin: 5px;
+  background-color: #007bff; /* Color de fondo del botón */
+  color: #fff; /* Color del texto */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+width: 50%;  
+  transition: background-color 0.3s ease;
+}
+
+.button-label:hover {
+  background-color: #0056b3; /* Color de fondo al pasar el ratón */
+}
+
+/* Estilos para ocultar los radios */
+input[type="radio"] {
+  display: none;
+}
+
+.ancla:hover{
+  color: #e1a604;
+}

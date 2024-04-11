@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/styles.css">
     <link rel="stylesheet" href="assets/css/test.css">
+    <link rel="stylesheet" href="assets/css/rangos.css">
     <link rel="icon" href="https://i.ibb.co/CWPVLcJ/flor-de-loto.png" type="image/png">
 </head>
 <body>
@@ -47,24 +48,25 @@
                         <section>
                             <div>
                                 <input type="radio" name="rango" id="rangoEconomico" value="económico" onclick="guardarSeleccion('rango', this.value); window.location.href='rutina.html?type=económico'">
-                                <label for="pielNormal">PRODUCTOS DE RANGO ECONÓMICO</label>
+                                <label class="button-label" for="rangoEconomico">PRODUCTOS DE RANGO ECONÓMICO</label>
                                 <img src="">
                             </div>
                         </section>
                         <section>
                             <div>
                                 <input type="radio" name="rango" id="rangoMedio" value="medio" onclick="guardarSeleccion('rango', this.value); window.location.href='rutina.html?type=medio'">
-                                <label for="pielSeca">PRODUCTOS DE RANGO MEDIO</label>
+                                <label class="button-label" for="rangoMedio">PRODUCTOS DE RANGO MEDIO</label>
                                 <img src="">
                             </div>
                         </section>
                         <section>
                             <div>
                                 <input type="radio" name="rango" id="rangoAlto" value="alto" onclick="guardarSeleccion('rango', this.value); window.location.href='rutina.html?type=alto'">
-                                <label for="pielGrasa">PRODUCTOS DE RANGO ALTO</label>
+                                <label class="button-label" for="rangoAlto">PRODUCTOS DE RANGO ALTO</label>
                                 <img src="">
                             </div>
                         </section>
+                        
                     </div>
                 </div>
             </div>

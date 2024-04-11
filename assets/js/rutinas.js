@@ -59,76 +59,94 @@ function mostrarRutina() {
             if (tiempoSeleccionado === 'mañana') {
                 // Estructura HTML para rutina de mañana
                 divRutina.innerHTML = `
-                <div class="nombre-contenedor">
+                <div class="container-fluid">
                     <div class="row">
-                        <div clas="col-md-12">
-                        <div class="card-body">
-                        <h2 class="card-title">Rutina para ${tiempoSeleccionado} - Piel ${pielSeleccionada} - Rango ${rangoSeleccionado}</h2>
-                        <p class="card-text">Según las características seleccionadas, la rutina ideal para ti es:</p>
+                        <div class="col-12">
+                            <h2>Rutina para ${tiempoSeleccionado} - Piel ${pielSeleccionada} - Rango ${rangoSeleccionado}</h2>
+                            <p>Según las características seleccionadas, la rutina ideal para ti es:</p>
                         </div>
-                    <div>
-                    <div class="row text-dark">
-                        <div class="col-md-3">
-                        <div class="card">
-                            <ul class="list-group list-group-flush">
-                            <li class="list-group-item">
-                                <h3 class="card-subtitle mb-2 text-muted">1.- Limpieza Facial Suave: ${rutinaEncontrada['Limpieza Facial Suave'].nombre}</h3>
-                                <img src="${rutinaEncontrada['Limpieza Facial Suave'].img}" class="card-img-top" alt="Limpieza Facial Suave">
-                                <p class="card-text">Descripción: ${rutinaEncontrada['Limpieza Facial Suave'].descripción}</p>
-                                <p class="card-text">Información: ${rutinaEncontrada['Limpieza Facial Suave'].información}</p>
-                                <p class="card-text">Precio: ${rutinaEncontrada['Limpieza Facial Suave'].precio}</p>
-                                <a href="${rutinaEncontrada['Limpieza Facial Suave'].tienda}" class="btn btn-primary" target="_blank">Cómpralo aquí</a>
-                            </li>
-                            </ul>
+                        <div class="col-6 mb-3">
+                            <div class="card h-100">
+                                <div class="row g-0">
+                                    <div class="col-4">
+                                        <img src="${rutinaEncontrada['Limpieza Facial Suave'].img}" alt="Limpieza Facial Suave">            
+                                    </div>
+                                    <div class="col-8">
+                                        <div class="card-body border-left">
+                                            <h5 class="card-title">Limpieza Facial Suave: ${rutinaEncontrada['Limpieza Facial Suave'].nombre}</h5>
+                                            <div class="card-text">
+                                                <p>Descripción: ${rutinaEncontrada['Limpieza Facial Suave'].descripción}</p>
+                                                <p>Información: ${rutinaEncontrada['Limpieza Facial Suave'].información}</p>
+                                                <p>Precio: ${rutinaEncontrada['Limpieza Facial Suave'].precio}</p>
+                                                <a class="text-decoration-none boton-comprar" href="${rutinaEncontrada['Limpieza Facial Suave'].tienda}" target="_blank">Cómpralo aquí</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
+                        <div class="col-6 mb-3">
+                            <div class="card h-100">
+                                <div class="row g-0">
+                                    <div class="col-4">
+                                        <img src="${rutinaEncontrada['Hidratación Intensa'].img}" alt="Hidratación Intensa">
+                                    </div>
+                                    <div class="col-8">
+                                        <div class="card-body border-left">
+                                            <h5 class="card-title">Hidratación Intensa: ${rutinaEncontrada['Hidratación Intensa'].nombre}</h5>
+                                            <div class="card-text">
+                                                <p>Descripción: ${rutinaEncontrada['Hidratación Intensa'].descripción}</p>
+                                                <p>Información: ${rutinaEncontrada['Hidratación Intensa'].información}</p>
+                                                <p>Precio: ${rutinaEncontrada['Hidratación Intensa'].precio}</p>
+                                                <a class="text-decoration-none boton-comprar" href="${rutinaEncontrada['Hidratación Intensa'].tienda}" target="_blank">Cómpralo aquí</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-
-                        <div class="col-md-3">
-                        <div class="card">
-                            <ul class="list-group list-group-flush">
-                            <li class="list-group-item">
-                                <h3 class="card-subtitle mb-2 text-muted">2.- Hidratación Intensa: ${rutinaEncontrada['Hidratación Intensa'].nombre}</h3>
-                                <img src="${rutinaEncontrada['Hidratación Intensa'].img}" class="card-img-top" alt="Hidratación Intensa">
-                                <p class="card-text">Descripción: ${rutinaEncontrada['Hidratación Intensa'].descripción}</p>
-                                <p class="card-text">Información: ${rutinaEncontrada['Hidratación Intensa'].información}</p>
-                                <p class="card-text">Precio: ${rutinaEncontrada['Hidratación Intensa'].precio}</p>
-                                <a href="${rutinaEncontrada['Hidratación Intensa'].tienda}" class="btn btn-primary" target="_blank">Cómpralo aquí</a>
-                            </li>
-                            </ul>
+                        <div class="col-6 mb-3">
+                            <div class="card h-100">
+                                <div class="row g-0">
+                                    <div class="col-4">
+                                        <img src="${rutinaEncontrada['Tratamiento Reparador'].img}" alt="Tratamiento Reparador">
+                                    </div>
+                                    <div class="col-8">
+                                        <div class="card-body border-left">
+                                            <h5 class="card-title">Tratamiento Reparador: ${rutinaEncontrada['Tratamiento Reparador'].nombre}</h5>
+                                            <div class="card-text">
+                                                <p>Descripción: ${rutinaEncontrada['Tratamiento Reparador'].descripción}</p>
+                                                <p>Información: ${rutinaEncontrada['Tratamiento Reparador'].información}</p>
+                                                <p>Precio: ${rutinaEncontrada['Tratamiento Reparador'].precio}</p>
+                                                <a class="text-decoration-none boton-comprar" href="${rutinaEncontrada['Tratamiento Reparador'].tienda}" target="_blank">Cómpralo aquí</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        </div>
-
-                        <div class="col-md-3">
-                        <div class="card">
-                            <ul class="list-group list-group-flush">
-                            <li class="list-group-item">
-                                <h3 class="card-subtitle mb-2 text-muted">3.- Tratamiento Reparador: ${rutinaEncontrada['Tratamiento Reparador'].nombre}</h3>
-                                <img src="${rutinaEncontrada['Tratamiento Reparador'].img}" class="card-img-top" alt="Tratamiento Reparador">
-                                <p class="card-text">Descripción: ${rutinaEncontrada['Tratamiento Reparador'].descripción}</p>
-                                <p class="card-text">Información: ${rutinaEncontrada['Tratamiento Reparador'].información}</p>
-                                <p class="card-text">Precio: ${rutinaEncontrada['Tratamiento Reparador'].precio}</p>
-                                <a href="${rutinaEncontrada['Tratamiento Reparador'].tienda}" class="btn btn-primary" target="_blank">Cómpralo aquí</a>
-                            </li>
-                            </ul>
-                        </div>
-                        </div>
-
-                        <div class="col-md-3">
-                        <div class="card">
-                            <ul class="list-group list-group-flush">
-                            <li class="list-group-item">
-                                <h3 class="card-subtitle mb-2 text-muted">4.- Protección Solar Diaria: ${rutinaEncontrada['Protección Solar Diaria'].nombre}</h3>
-                                <img src="${rutinaEncontrada['Protección Solar Diaria'].img}" class="card-img-top" alt="Protección Solar Diaria">
-                                <p class="card-text">Descripción: ${rutinaEncontrada['Protección Solar Diaria'].descripción}</p>
-                                <p class="card-text">Información: ${rutinaEncontrada['Protección Solar Diaria'].información}</p>
-                                <p class="card-text">Precio: ${rutinaEncontrada['Protección Solar Diaria'].precio}</p>
-                                <a href="${rutinaEncontrada['Protección Solar Diaria'].tienda}" class="btn btn-primary" target="_blank">Cómpralo aquí</a>
-                            </li>
-                            </ul>
-                        </div>
+                        <div class="col-6 mb-3">
+                            <div class="card h-100">
+                                <div class="row g-0">
+                                    <div class="col-4">
+                                        <img src="${rutinaEncontrada['Protección Solar Diaria'].img}" alt="Protección Solar Diaria">
+                                    </div>
+                                    <div class="col-8">
+                                        <div class="card-body border-left">
+                                            <h5 class="card-title">Protección Solar Diaria: ${rutinaEncontrada['Protección Solar Diaria'].nombre}</h5>
+                                            <div class="card-text">
+                                                <p>Descripción: ${rutinaEncontrada['Protección Solar Diaria'].descripción}</p>
+                                                <p>Información: ${rutinaEncontrada['Protección Solar Diaria'].información}</p>
+                                                <p>Precio: ${rutinaEncontrada['Protección Solar Diaria'].precio}</p>
+                                                <a class="text-decoration-none boton-comprar" href="${rutinaEncontrada['Protección Solar Diaria'].tienda}" target="_blank">Cómpralo aquí</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    </div>
+                </div>
 
                 `;
             } else if (tiempoSeleccionado === 'noche') {
@@ -136,49 +154,94 @@ function mostrarRutina() {
                 if (rutinaEncontrada['Limpieza Facial Suave'] && rutinaEncontrada['Hidratación Intensa'] && rutinaEncontrada['Tratamiento Reparador'] && rutinaEncontrada['Hidratación Adicional (Opcional)']) {
                     divRutina.innerHTML = `
                     <div class="nombre-contenedor">
-                    <div>
-                        <div>
-                            <h2 class="videojuego-tittle">Rutina para ${tiempoSeleccionado} - Piel ${pielSeleccionada} - Rango ${rangoSeleccionado}</h2>
-                            <p>Según las características seleccionadas, la rutina ideal para ti es:</p>
-                        </div>
-                        <div class="producto">
-                            <h3>1.- Limpieza Facial Suave:</h3>
-                            <img src="${rutinaEncontrada['Limpieza Facial Suave'].img}" alt="Limpieza Facial Suave">
-                            <p>Nombre: ${rutinaEncontrada['Limpieza Facial Suave'].nombre}</p>
-                            <p>Descripción: ${rutinaEncontrada['Limpieza Facial Suave'].descripción}</p>
-                            <p>Información: ${rutinaEncontrada['Limpieza Facial Suave'].información}</p>
-                            <p>Precio: ${rutinaEncontrada['Limpieza Facial Suave'].precio}</p>
-                            <a class="game_url" href="${rutinaEncontrada['Limpieza Facial Suave'].tienda}" target="_blank">Cómpralo aquí</a>
-                        </div>
-                        <div class="producto">
-                            <h3>2.- Hidratación Intensa:</h3>
-                            <img src="${rutinaEncontrada['Hidratación Intensa'].img}" alt="Hidratación Intensa">
-                            <p>Nombre: ${rutinaEncontrada['Hidratación Intensa'].nombre}</p>
-                            <p>Descripción: ${rutinaEncontrada['Hidratación Intensa'].descripción}</p>
-                            <p>Información: ${rutinaEncontrada['Hidratación Intensa'].información}</p>
-                            <p>Precio: ${rutinaEncontrada['Hidratación Intensa'].precio}</p>
-                            <a class="game_url" href="${rutinaEncontrada['Hidratación Intensa'].tienda}" target="_blank">Cómpralo aquí</a>
-                        </div>
-                        <div class="producto">
-                            <h3>3.- Tratamiento Reparador:</h3>
-                            <img src="${rutinaEncontrada['Tratamiento Reparador'].img}" alt="Tratamiento Reparador">
-                            <p>Nombre: ${rutinaEncontrada['Tratamiento Reparador'].nombre}</p>
-                            <p>Descripción: ${rutinaEncontrada['Tratamiento Reparador'].descripción}</p>
-                            <p>Información: ${rutinaEncontrada['Tratamiento Reparador'].información}</p>
-                            <p>Precio: ${rutinaEncontrada['Tratamiento Reparador'].precio}</p>
-                            <a class="game_url" href="${rutinaEncontrada['Tratamiento Reparador'].tienda}" target="_blank">Cómpralo aquí</a>
-                        </div>
-                        <div class="producto">
-                            <h3>4.- Hidratación Adicional (Opcional):</h3>
-                            <img src="${rutinaEncontrada['Hidratación Adicional (Opcional)'].img}" alt="Protección Solar Diaria">
-                            <p>Nombre: ${rutinaEncontrada['Hidratación Adicional (Opcional)'].nombre}</p>
-                            <p>Descripción: ${rutinaEncontrada['Hidratación Adicional (Opcional)'].descripción}</p>
-                            <p>Información: ${rutinaEncontrada['Hidratación Adicional (Opcional)'].información}</p>
-                            <p>Precio: ${rutinaEncontrada['Hidratación Adicional (Opcional)'].precio}</p>
-                            <a class="game_url" href="${rutinaEncontrada['Hidratación Adicional (Opcional)'].tienda}" target="_blank">Cómpralo aquí</a>
+                        <div class="row">
+                            <div class="col-12">
+                                <h2 class="videojuego-tittle">Rutina para ${tiempoSeleccionado} - Piel ${pielSeleccionada} - Rango ${rangoSeleccionado}</h2>
+                                <p>Según las características seleccionadas, la rutina ideal para ti es:</p>
+                            </div>
+                            <div class="col-6 producto mb-3">
+                                <div class="card h-100">
+                                    <div class="row g-0">
+                                        <div class="col-4">
+                                            <img src="${rutinaEncontrada['Limpieza Facial Suave'].img}" alt="Limpieza Facial Suave">            
+                                        </div>
+                                        <div class="col-8">
+                                            <div class="card-body border-left">
+                                                <h5 class="card-title">Limpieza Facial Suave: ${rutinaEncontrada['Limpieza Facial Suave'].nombre}</h5>
+                                                <div class="card-text">
+                                                    <p>Descripción: ${rutinaEncontrada['Limpieza Facial Suave'].descripción}</p>
+                                                    <p>Información: ${rutinaEncontrada['Limpieza Facial Suave'].información}</p>
+                                                    <p>Precio: ${rutinaEncontrada['Limpieza Facial Suave'].precio}</p>
+                                                    <a class="text-decoration-none boton-comprar" href="${rutinaEncontrada['Limpieza Facial Suave'].tienda}" target="_blank">Cómpralo aquí</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6 producto mb-3">
+                                <div class="card h-100">
+                                    <div class="row g-0">
+                                        <div class="col-4">
+                                            <img src="${rutinaEncontrada['Hidratación Intensa'].img}" alt="Hidratación Intensa">
+                                        </div>
+                                        <div class="col-8">
+                                            <div class="card-body border-left">
+                                                <h5 class="card-title">Hidratación Intensa: ${rutinaEncontrada['Hidratación Intensa'].nombre}</h5>
+                                                <div class="card-text">
+                                                    <p>Descripción: ${rutinaEncontrada['Hidratación Intensa'].descripción}</p>
+                                                    <p>Información: ${rutinaEncontrada['Hidratación Intensa'].información}</p>
+                                                    <p>Precio: ${rutinaEncontrada['Hidratación Intensa'].precio}</p>
+                                                    <a class="text-decoration-none boton-comprar" href="${rutinaEncontrada['Hidratación Intensa'].tienda}" target="_blank">Cómpralo aquí</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6 producto mb-3">
+                                <div class="card h-100">
+                                    <div class="row g-0">
+                                        <div class="col-4">
+                                            <img src="${rutinaEncontrada['Tratamiento Reparador'].img}" alt="Tratamiento Reparador">
+                                        </div>
+                                        <div class="col-8">
+                                            <div class="card-body border-left">
+                                                <h5 class="card-title">Tratamiento Reparador: ${rutinaEncontrada['Tratamiento Reparador'].nombre}</h5>
+                                                <div class="card-text">
+                                                    <p>Descripción: ${rutinaEncontrada['Tratamiento Reparador'].descripción}</p>
+                                                    <p>Información: ${rutinaEncontrada['Tratamiento Reparador'].información}</p>
+                                                    <p>Precio: ${rutinaEncontrada['Tratamiento Reparador'].precio}</p>
+                                                    <a class="text-decoration-none boton-comprar" href="${rutinaEncontrada['Tratamiento Reparador'].tienda}" target="_blank">Cómpralo aquí</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6 producto mb-3">
+                                <div class="card h-100">
+                                    <div class="row g-0">
+                                        <div class="col-4">
+                                            <img src="${rutinaEncontrada['Hidratación Adicional (Opcional)'].img}" alt="Protección Solar Diaria">
+                                        </div>
+                                        <div class="col-8">
+                                            <div class="card-body border-left">
+                                                <h5 class="card-title">Hidratación Adicional (Opcional):</h5>
+                                                <div class="card-text">
+                                                    <p>Nombre: ${rutinaEncontrada['Hidratación Adicional (Opcional)'].nombre}</p>
+                                                    <p>Descripción: ${rutinaEncontrada['Hidratación Adicional (Opcional)'].descripción}</p>
+                                                    <p>Información: ${rutinaEncontrada['Hidratación Adicional (Opcional)'].información}</p>
+                                                    <p>Precio: ${rutinaEncontrada['Hidratación Adicional (Opcional)'].precio}</p>
+                                                    <a class="text-decoration-none boton-comprar" href="${rutinaEncontrada['Hidratación Adicional (Opcional)'].tienda}" target="_blank">Cómpralo aquí</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
                     `;
                 } else {
                     listaRutinas.innerHTML = "<p>No se encontró una rutina para los criterios seleccionados.</p>";
