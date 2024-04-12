@@ -19,11 +19,11 @@
     },
     {
       "nombre": "The Ordinary Retinol 0.5% in Squalane",
-      "img": "imagen_tratamiento_reparador_normal_economico.jpg",
+      "img": "https://alexandrahidalgo.pe/cdn/shop/files/7_b6817542-3bdf-40af-929b-298577073e90.png?v=1689287365",
       "descripción": "Tratamiento con retinol que ayuda a mejorar la textura de la piel y promover la renovación celular durante la noche.",
       "piel": "normal",
       "precio": "39.99",
-      "tienda": "https://ejemplo.com/comprar/the_ordinary_retinol",
+      "tienda": "https://simple.ripley.com.pe/the-ordinary-retinol-05-in-squalane-30-ml-pmp00003109528?sein=belle_derm_suer&s=mdco",
       "tipo": "reparador"
     },
     {
@@ -35,76 +35,218 @@
       "tienda": "https://uperfect.pe/products/retinol-0-5-in-squalane",
       "tipo": "hidratacion"
     },
-    {
-        "nombre": "CeraVe Hydrating Facial Cleanser",
-        "img": "imagen_limpieza_facial_normal_economico.jpg",
-        "descripción": "Limpiador facial no espumoso que elimina suavemente las impurezas mientras mantiene la barrera natural de la piel.",
-        "piel": "normal",
-        "precio": "45.99",
-        "tienda": "https://ejemplo.com/comprar/cerave_hydrating_facial_cleanser",
-        "tipo": "limpieza"
-      },
-      {
-        "nombre": "Neutrogena Hydro Boost Gel-Cream",
-        "img": "imagen_hidratacion_normal_economico.jpg",
-        "descripción": "Crema hidratante en gel que proporciona una hidratación intensa y duradera sin obstruir los poros.",
-        "piel": "normal",
-        "precio": "62.34",
-        "tienda": "https://ejemplo.com/comprar/neutrogena_hydro_boost_gel_cream",
-        "tipo": "hidratacion"
-      },
-      {
-        "nombre": "The Ordinary Retinol 0.5% in Squalane",
-        "img": "imagen_tratamiento_reparador_normal_economico.jpg",
-        "descripción": "Tratamiento con retinol que ayuda a mejorar la textura de la piel y promover la renovación celular durante la noche.",
-        "piel": "normal",
-        "precio": "39.99",
-        "tienda": "https://ejemplo.com/comprar/the_ordinary_retinol",
-        "tipo": "reparador"
-      },
-      {
-        "nombre": "CeraVe PM Facial Moisturizing Lotion",
-        "img": "imagen_hidratacion_adicional_normal_economico.jpg",
-        "descripción": "Loción facial ligera que hidrata profundamente la piel durante la noche, dejándola suave y revitalizada al despertar.",
-        "piel": "normal",
-        "precio": "54.99",
-        "tienda": "https://ejemplo.com/comprar/cerave_pm_facial_moisturizing_lotion",
-        "tipo": "hidratacion"
-      },
+
+
       {
         "nombre": "Garnier SkinActive Micellar Cleansing Water",
-        "img": "imagen_limpieza_facial_normal_alto.jpg",
+        "img": "https://i5.walmartimages.com/seo/Garnier-SkinActive-Micellar-Cleansing-Water-All-in-1-Makeup-Remover-Cleanses-13-5-fl-oz_529959bb-d6c8-46ed-bbde-1014cf5f77ee.6608115d4e8c129bc7e24f360f8c3f0f.png",
         "descripción": "Agua micelar que limpia, remueve maquillaje y tonifica la piel sin necesidad de enjuagar.",
         "piel": "normal",
         "precio": "32.50",
-        "tienda": "https://ejemplo.com/comprar/garnier_micellar_cleansing_water",
+        "tienda": "https://inkafarma.pe/producto/agua-micelar-garnier-todo-en1-piel-normal-400ml/024430",
         "tipo": "limpieza"
       },
-      {
-        "nombre": "Olay Regenerist Micro-Sculpting Cream",
-        "img": "imagen_hidratacion_normal_alto.jpg",
-        "descripción": "Crema hidratante anti-envejecimiento que mejora la elasticidad y firmeza de la piel.",
-        "piel": "normal",
-        "precio": "78.99",
-        "tienda": "https://ejemplo.com/comprar/olay_regenerist_micro_sculpting_cream",
-        "tipo": "hidratacion"
-      },
+
       {
         "nombre": "The Body Shop Vitamin E Nourishing Night Cream",
-        "img": "imagen_tratamiento_reparador_normal_alto.jpg",
+        "img": "https://shop.shajgoj.com/wp-content/uploads/2018/05/the-body-shop-vitamin-e-night-cream-1.jpg",
         "descripción": "Crema nocturna que nutre e hidrata la piel mientras duermes, ayudando a mejorar su apariencia y textura.",
         "piel": "normal",
         "precio": "55.00",
-        "tienda": "https://ejemplo.com/comprar/body_shop_vitamin_e_night_cream",
+        "tienda": "https://www.thebodyshop.com/en-gb/face/moisturisers/vitamin-e-nourishing-night-cream/p/p146007",
         "tipo": "reparador"
       },
       {
         "nombre": "La Roche-Posay Anthelios Melt-in Milk Sunscreen SPF 100",
-        "img": "imagen_proteccion_solar_normal_alto.jpg",
+        "img": "https://krizrealestudio.com/cdn/shop/products/883140500322-1__59847.jpg?v=1677958276",
         "descripción": "Protector solar de amplio espectro que proporciona una alta protección contra los rayos UVA y UVB.",
         "piel": "normal",
         "precio": "42.75",
-        "tienda": "https://ejemplo.com/comprar/la_roche_posay_anthelios_sunscreem",
+        "tienda": "https://es.cosmostore.org/catalog/product/la_roche_posay_anthelios_melt-in_milk_sunscreen_spf_100__258315/",
         "tipo": "protector"
+      },
+
+    
+      {
+        "nombre": "CeraVe Hydrating Mineral Sunscreen SPF 30",
+        "img": "https://uperfect.pe/cdn/shop/files/ProtectorSolarConColor-SheerTintdeRostroSPF30-50mL.png?v=1700062433",
+        "descripción": "Protector solar mineral que hidrata y protege la piel de los daños causados por los rayos UVA/UVB.",
+        "piel": "normal",
+        "precio": "19.99",
+        "tienda": "https://www.amazon.com/CeraVe-Sunscreen-Hydrating-Mineral-Titanium/dp/B07YLKXV11/ref=sr_1_2?adgrpid=145663853479&dib=eyJ2IjoiMSJ9.OfS8qEf2yPOZKWre_o-TaFB6imI_ZV-ueK3ZuBu0ejCkEvwVwkSGAbwn1FbKL9zROBt39sYV21H4fTTxwVLkIOdfr80kVo4yHp5a_CCUh1pp-aNaUOy1e6GFlltup_2ywGpdjvD_DqE26osHdps8zYDqms_C6hJpMbpLQDbStifEjRYFpjDbUpkTj0TUjXJeMg3EWi_5JZV50hanpxUia2Ao7jpTJHT-3gz26zqHktqWkLsqJNn0bB1jUzopPsIhwKZLzYWVZNRGTTNEfdK7EO0b4HRASTqOV-30dXIzk6k.m1q3-jJ5p2IOEq8MpPXHSPIJgz_c8UiN9Z9VhWaf3Sk&dib_tag=se&hvadid=649253531661&hvdev=c&hvlocphy=9186195&hvnetw=g&hvqmt=b&hvrand=3975051003570273176&hvtargid=kwd-779680397641&hydadcr=24133_13659651&keywords=cerave+hydrating+mineral+sunscreen&qid=1712960590&sr=8-2",
+        "tipo": "protector"
+      },
+      {
+        "nombre": "Neutrogena Ultra Sheer Dry-Touch Sunscreen SPF 55",
+        "img": "https://spabodycenter.com.mx/wp-content/uploads/2022/06/Neutrogena-Ultra-Sheer-Dry-Touch-SPF-70.jpg",
+        "descripción": "Protector solar ligero con una fórmula no grasa que se absorbe al instante, ofreciendo una protección de amplio espectro.",
+        "piel": "normal",
+        "precio": "15.49",
+        "tienda": "https://inkafarma.pe/categoria/15-en-todo-dermocosmetica-y-belleza/15-en-productos-de-belleza?utm_source=google&utm_medium=cpc&utm_campaign=20230310_think_cindi_inkafarma_search_trafico_abierto_web_aon_dermocosmetica_eucerin_landing_generics&gad_source=1&gclid=CjwKCAjwt-OwBhBnEiwAgwzrUnb2nHWtGE1J84jJBFT2HblKVRYrz6my26aE9bM80S6RRZ3Iph3O0hoCvm4QAvD_BwE",
+        "tipo": "protector"
+      },
+      {
+        "nombre": "Aveeno Protect + Hydrate Sunscreen SPF 70",
+        "img": "https://www.kroger.com/product/images/large/front/0038137115180?banner=harristeeter",
+        "descripción": "Protector solar que hidrata la piel durante todo el día, ofreciendo una protección efectiva contra los rayos solares.",
+        "piel": "normal",
+        "precio": "24.99",
+        "tienda": "https://www.amazon.com/-/es/Protector-humectante-Aveeno-Protect-Hydrate/dp/B00ABIF5SS",
+        "tipo": "protector"
+      },
+      {
+        "nombre": "La Roche-Posay Anthelios Melt-in Milk Sunscreen SPF 50",
+        "img": "https://www.laroche-posay.us/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-acd-laroche-posay-master-catalog/default/dw6a5a552e/img/antheliosmeltinmilk/ANTHMIM_1500x1500.jpg",
+        "descripción": "Protector solar de amplio espectro que proporciona una alta protección contra los rayos UVA y UVB.",
+        "piel": "normal",
+        "precio": "36.75",
+        "tienda": "https://www.amazon.com/-/es/Roche-Posay-Anthelios-Melt-Milk-protecci%C3%B3n/dp/B07HFHWNPH",
+        "tipo": "protector"
+      },
+      {
+        "nombre": "Cetaphil Daily Hydrating Lotion",
+        "img": "https://m.media-amazon.com/images/I/61-RlJ0iNfL._SL1500_.jpg",
+        "descripción": "Loción hidratante ligera que proporciona una hidratación duradera sin obstruir los poros, ideal para uso diario.",
+        "piel": "normal",
+        "precio": "29.99",
+        "tienda": "https://www.cetaphil.com/us/moisturizers/daily-oil-free-hydrating-lotion/302993889038.html",
+        "tipo": "hidratacion"
+      },
+      {
+        "nombre": "Eucerin Advanced Repair Cream",
+        "img": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/euc/euc63482/l/53.jpg",
+        "descripción": "Crema hidratante intensa que repara y suaviza la piel seca, proporcionando una hidratación profunda y duradera.",
+        "piel": "normal",
+        "precio": "19.95",
+        "tienda": "https://www.eucerin.pe/productos/piel-sensible/advanced-repair-crema-corporal",
+        "tipo": "hidratacion"
+      },
+      {
+        "nombre": "Aveeno Daily Moisturizing Lotion",
+        "img": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/avo/avo03600/y/39.jpg",
+        "descripción": "Loción hidratante diaria que nutre y protege la piel, dejándola suave y flexible durante todo el día.",
+        "piel": "normal",
+        "precio": "12.99",
+        "tienda": "https://es.aveeno.com/products/daily-moisturizing-lotion-with-soothing-oat",
+        "tipo": "hidratacion"
+      },
+      {
+        "nombre": "CeraVe Moisturizing Cream",
+        "img": "https://m.media-amazon.com/images/I/51Z1lC9UKeL._SL1000_.jpg",
+        "descripción": "Crema hidratante rica que ayuda a restaurar la barrera protectora de la piel, manteniéndola suave e hidratada.",
+        "piel": "normal",
+        "precio": "17.99",
+        "tienda": "https://inkafarma.pe/categoria/15-en-todo-dermocosmetica-y-belleza/15-en-productos-de-belleza?utm_source=google&utm_medium=cpc&utm_campaign=20230310_think_cindi_inkafarma_search_trafico_abierto_web_aon_dermocosmetica_eucerin_landing_generics&gad_source=1&gclid=CjwKCAjwt-OwBhBnEiwAgwzrUjBn03GjwFLQkaoxvJuDIMtiYZ8sYlIrGbNXAzZ4Nm7l49psN14a4BoCRGoQAvD_BwE",
+        "tipo": "hidratacion"
+      },
+      {
+        "nombre": "Clinique Moisture Surge 72-Hour Auto-Replenishing Hydrator",
+        "img": "https://falabella.scene7.com/is/image/FalabellaPE/17705063_1?wid=800&hei=800&qlt=70",
+        "descripción": "Gel-crema hidratante que proporciona una hidratación intensa y duradera, ayudando a reponer los niveles de humedad de la piel.",
+        "piel": "normal",
+        "precio": "79.00",
+        "tienda": "https://www.clinique.com.pe/product/1687/50933/skin-care/moisturizers/moisture-surge-72-hour-auto-replenishing-hydrator",
+        "tipo": "hidratacion"
+      },
+      {
+        "nombre": "Kiehl's Ultra Facial Cream",
+        "img": "https://www.kiehls.cl/dw/image/v2/AATL_PRD/on/demandware.static/-/Sites-kiehls-master-catalog/default/dw8101f09e/nextgen/skin-care/face-moisturizers/ultra-facial/ultra-facial-moisturizer/kiehls-face-moisturizer-ultra-facial-moisturizer-125ml-000-3700194700522-front.jpg?sw=465&sh=465&sm=cut&sfrm=png&q=70",
+        "descripción": "Crema facial ligera que hidrata profundamente la piel durante 24 horas, dejándola suave, tersa y visiblemente equilibrada.",
+        "piel": "normal",
+        "precio": "58.00",
+        "tienda": "https://simple.ripley.com.pe/crema-kiehls-ultra-facial-con-escualano-pmp20000099948?sein=rostro&s=mdco",
+        "tipo": "hidratacion"
+      },
+      {
+        "nombre": "Hada Labo Goku-Jyun Hyaluronic Acid Lotion",
+        "img": "https://asianshop.b-cdn.net/wp-content/uploads/2023/12/a1265.jpg",
+        "descripción": "Loción con ácido hialurónico que proporciona una hidratación profunda y duradera, dejando la piel suave y flexible.",
+        "piel": "normal",
+        "precio": "24.99",
+        "tienda": "https://minajistore.com/product/hada-labo-gokujyun-hyaluronic-acid-lotion/",
+        "tipo": "hidratacion"
+      },
+      {
+        "nombre": "Bioderma Hydrabio Gel-Cream",
+        "img": "https://ibella.pe/cdn/shop/products/BIOD-HIDR-HYDRABIOGELCREME-40ML.png?v=1675212352",
+        "descripción": "Gel-crema hidratante que restablece el equilibrio de hidratación de la piel, dejándola suave, flexible y luminosa.",
+        "piel": "normal",
+        "precio": "35.50",
+        "tienda": "https://www.bioderma.pe/nuestros-productos/hydrabio/gel-creme",
+        "tipo": "hidratacion"
+      },
+      {
+        "nombre": "Caudalie Vinoperfect Radiance Serum",
+        "img": "https://static.sweetcare.pt/img/prd/488/v-638453402314858726/caudalie-000155cd_01.jpg",
+        "descripción": "Serum iluminador que corrige las manchas, unifica el tono de la piel y devuelve su luminosidad natural.",
+        "piel": "normal",
+        "precio": "79.00",
+        "tienda": "https://www.amazon.com/-/es/Caudalie-s%C3%A9rum-radiaci%C3%B3n-Vinoperfect-Fl/dp/B001P7AWXC",
+        "tipo": "reparador"
+      },
+      {
+        "nombre": "Drunk Elephant T.L.C. Framboos Glycolic Night Serum",
+        "img": "https://falabella.scene7.com/is/image/FalabellaPE/gsc_124983584_4150410_1?wid=800&hei=800&qlt=70",
+        "descripción": "Serum exfoliante que renueva la piel durante la noche, reduciendo la apariencia de poros, arrugas y manchas oscuras.",
+        "piel": "normal",
+        "precio": "90.00",
+        "tienda": "https://www.amazon.com/-/es/S%C3%A9rum-noche-Elephant-Framboos-Glycolic/dp/B00L3LDDD6",
+        "tipo": "reparador"
+      },
+      {
+        "nombre": "Estée Lauder Advanced Night Repair Synchronized Recovery Complex II",
+        "img": "https://falabella.scene7.com/is/image/FalabellaPE/17518709_1?wid=1500&hei=1500&qlt=70",
+        "descripción": "Serum reparador nocturno que ayuda a reducir los signos de envejecimiento, incluyendo líneas finas, arrugas y falta de luminosidad.",
+        "piel": "normal",
+        "precio": "105.00",
+        "tienda": "https://www.falabella.com.pe/falabella-pe/product/17518707/Advanced-Night-Repair-Synchronized-Multi-Recovery-Complex-20-ml/17518707",
+        "tipo": "reparador"
+      },
+      {
+        "nombre": "Paula's Choice 10% Niacinamide Booster",
+        "img": "https://www.sephora.com/productimages/sku/s2549343-main-zoom.jpg",
+        "descripción": "Booster concentrado con niacinamida que ayuda a mejorar la textura de la piel, reducir los poros y equilibrar la producción de sebo.",
+        "piel": "normal",
+        "precio": "42.00",
+        "tienda": "https://www.paulaschoice.es/es/niacinamide-booster/m7980.html",
+        "tipo": "reparador"
+      },
+      
+      {
+        "nombre": "La Roche-Posay Effaclar Purifying Foaming Gel",
+        "img": "https://static.beautytocare.com/media/catalog/product/l/a/la-roche-posay-effaclar-purifying-foaming-gel-400ml.jpg",
+        "descripción": "Gel limpiador que elimina el exceso de grasa y las impurezas, dejando la piel limpia, fresca y libre de imperfecciones.",
+        "piel": "normal",
+        "precio": "24.99",
+        "tienda": "https://www.aruma.pe/effaclar-gel-limpiador-facial-200-ml-la-roche-posay/p",
+        "tipo": "limpieza"
+      },
+      {
+        "nombre": "Garnier SkinActive Deep Pore Facial Cleanser",
+        "img": "https://cdn.nicehair.dk/products/69954/garnier-skinactive-cleansing-balancing-botanical-gel-wash-200-ml-1574064443.jpg",
+        "descripción": "Limpiador facial que desobstruye los poros, elimina las impurezas y reduce la apariencia de los poros dilatados.",
+        "piel": "normal",
+        "precio": "11.99",
+        "tienda": "https://www.amazon.com/-/es/Garnier-SkinActive-Jab%C3%B3n-facial-l%C3%ADquidas/dp/B073QPB8HY",
+        "tipo": "limpieza"
+      },
+      {
+        "nombre": "Bioderma Sensibio H2O Micellar Water",
+        "img": "https://cdn.farmalink.pe/wp-content/uploads/2022/11/07131933/Imagen-Bioderma-Sensibio-H2O-PP-INVERSE-500ml.jpg",
+        "descripción": "Agua micelar que limpia y desmaquilla la piel de manera suave y efectiva, respetando su equilibrio natural.",
+        "piel": "normal",
+        "precio": "19.90",
+        "tienda": "https://www.bioderma.pe/nuestros-productos/sensibio/h2o",
+        "tipo": "limpieza"
+      },
+      {
+        "nombre": "Cetaphil Gentle Skin Cleanser",
+        "img": "https://www.kroger.com/product/images/large/front/0030299011025",
+        "descripción": "Limpiador suave que elimina las impurezas y el maquillaje sin alterar la barrera protectora de la piel, ideal para pieles sensibles.",
+        "piel": "normal",
+        "precio": "15.99",
+        "tienda": "https://www.cetaphil.com/us/cleansers/gentle-skin-cleanser/302990110227.html",
+        "tipo": "limpieza"
       }
+
 ]
