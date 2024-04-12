@@ -113,10 +113,10 @@ function mostrarResultado() {
         </div>
         <div class="row justify-content-center mt-4">
             <div class="col-md-4 mi-boton p-2 mx-3">
-                <a href="test.html" class="btn primer-boton btn-animate text p-2 pt-2 text-3">QUIERO VOLVER A HACER EL TEST</a>
+                <a href="test.html" class="btn btn-border primer-boton btn-animate text p-2 pt-2 text-3">QUIERO VOLVER A HACER EL TEST</a>
             </div>
             <div class="col-md-4 mi-boton p-2 mx-3">
-                <a href="rutinas.html" class="btn segundo-boton btn-animate text p-2 pt-2 text-3">AHORA QUIERO UNA RUTINA</a>
+                <a href="rutinas.html" class="btn btn-border segundo-boton btn-animate text p-2 pt-2 text-3">AHORA QUIERO UNA RUTINA</a>
             </div>
         </div>
     </div>

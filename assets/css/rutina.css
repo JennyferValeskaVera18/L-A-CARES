@@ -1,24 +1,39 @@
-.scroll-container {
-  overflow-y: scroll;
+#formularioModal {
+  background-color: rgba(100, 100, 100, 0.769);
+  backdrop-filter: blur(9px);
+
 }
 
-.boton-comprar {
-  display: inline-block;
-  padding: 10px 20px;
-  margin: 5px;
-  background-color: #007bff;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
+/* Estilos para el fondo oscuro del modal */
+.modal-backdrop {
+    --bs-backdrop-zindex: -100;
+    --bs-backdrop-bg: #00000000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: var(--bs-backdrop-zindex);
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--bs-backdrop-bg);
+}
+
+.img-rutina{
+  width: 250px;
+  height: auto;
+}
+
+.boton-rutina {
+  color: rgb(36, 36, 36); /* Color del texto */
+  padding: 10px 20px; /* Espaciado interno (arriba y abajo, izquierda y derecha) */
+  border: none; 
+  border-radius: 5px; 
+  cursor: pointer; 
   text-align: center;
-  text-decoration: none;
-  font-size: 16px;
-  transition: background-color 0.3s ease;
+  display: inline-block; 
+  transition: background-color 0.3s; 
 }
 
-.boton-comprar:hover {
-  background-color: #0056b3;
-  color: #fff;
-
-}
+.a { background-color: #ffe1c2; }
+.a:hover { background-color: #ffe1c2a0; color: black; }
+.b { background-color: #f6cda5; }
+.b:hover { background-color: #f6cda5a0; color: black;}

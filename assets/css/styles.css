@@ -152,7 +152,7 @@ body {
   left: 5px; 
 }
 
-.btn {
+.btn-border {
   border-radius: 7px;
   background-color: transparent; 
   border: 3px solid #ececec71;

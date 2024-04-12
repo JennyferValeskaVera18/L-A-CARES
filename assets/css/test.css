@@ -5,6 +5,10 @@
   background: #ffcfa035;
 }
 
+.scroll-container {
+  overflow-y: scroll;
+}
+
 #barra-progreso::-webkit-progress-value {
   border-radius: 10px;
   background: linear-gradient(90deg, #dfbe93, #d8a040);

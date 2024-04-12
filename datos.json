@@ -6,35 +6,35 @@
 
         "Limpieza Facial Suave": {
             "nombre": "Neutrogena Hydro Boost Gel Cleanser",
-            "img": "imagen_limpieza_facial_normal_economico.jpg",
+            "img": "https://m.media-amazon.com/images/I/61vkG+UP7PL._SL1500_.jpg",
             "descripción": "Limpiador facial suave que elimina impurezas sin resecar la piel.",
             "información": "Formulado con ácido hialurónico para una hidratación adicional.",
             "precio": "35.94",
-            "tienda": "https://ejemplo.com/neutrogena-hydro-boost-gel-cleanser"
+            "tienda": "https://www.ubuy.pe/sp/product/NOBZHS-neutrogena-hydro-boost-lightweight-hydrating-facial-cleansing-gel-for-sensitive-skin-gentle-face-wash-makeup-remover-with-hyaluronic-acid-hypoallergen"
         },
         "Hidratación Intensa": {
             "nombre": "Cetaphil Daily Hydrating Lotion with Hyaluronic Acid",
-            "img": "imagen_hidratacion_normal_economica.jpg",
+            "img": "https://m.media-amazon.com/images/I/61-RlJ0iNfL._SL1500_.jpg",
             "descripción": "Crema hidratante ligera que proporciona hidratación durante todo el día.",
             "información": "Contiene ácido hialurónico para una hidratación intensa y duradera.",
             "precio": "47.92",
-            "tienda": "https://ejemplo.com/cetaphil-daily-hydrating-lotion"
+            "tienda": "https://www.ubuy.pe/sp/product/5GY1PU-cetaphil-face-moisturizer-daily-oil-free-hydrating-face-lotion-with-hyaluronic-acid-3-oz-package-may-vary"
         },
         "Tratamiento Reparador": {
             "nombre": "Neutrogena Hydro Boost Hydrating Serum",
-            "img": "imagen_tratamiento_normal_economico.jpg",
+            "img": "https://e39a9f00db6c5bc097f9-75bc5dce1d64f93372e7c97ed35869cb.ssl.cf1.rackcdn.com/42828737-lRxNTigt.jpg",
             "descripción": "Suero hidratante que ayuda a restaurar la piel seca y deshidratada.",
             "información": "Fórmula no grasa que absorbe rápidamente en la piel.",
             "precio": "62.34",
-            "tienda": "https://ejemplo.com/neutrogena-hydro-boost-hydrating-serum"
+            "tienda": "https://www.aruma.pe/serum-hydro-boost-30ml-neutrogena/p"
         },
         "Protección Solar Diaria": {
             "nombre": "Neutrogena Ultra Sheer Dry-Touch Sunscreen SPF 30",
-            "img": "imagen_proteccion_solar_normal_economica.jpg",
+            "img": "https://m.media-amazon.com/images/I/71FO0w19KEL.jpg",
             "descripción": "Protector solar ligero con SPF 30 que calma y protege la piel sensible propensa al acné, enrojecimiento y decoloración.",
             "información": "Fórmula sin aceite que se adapta a todo tipo de piel.",
             "precio": "42.46",
-            "tienda": "https://ejemplo.com/neutrogena-ultra-sheer-sunscreen-spf30"
+            "tienda": "https://tiendamia.com/pe/producto?amz=B00008IHO3&pName=Ultra%20Sheer%20Dry-Touch%20Sunblock,%20SPF%2030,%203%20fl%20oz%20%2888%20ml%29"
         }
     },
     {
@@ -44,35 +44,35 @@
 
         "Limpieza Facial Suave": {
             "nombre": "CeraVe Hydrating Facial Cleanser",
-            "img": "imagen_limpieza_facial_seca_economico.jpg",
+            "img": "https://m.media-amazon.com/images/I/51DbQev1thL._SL1000_.jpg",
             "descripción": "Limpiador facial no espumoso que elimina suavemente la suciedad y el maquillaje sin alterar la barrera natural de la piel.",
             "información": "Contiene ceramidas y ácido hialurónico para una hidratación adicional.",
             "precio": "35.94",
-            "tienda": "https://ejemplo.com/cerave-hydrating-facial-cleanser"
+            "tienda": "https://www.ubuy.pe/en/product/3EBOEO-cerave-hydrating-facial-cleanser-moisturizing-non-foaming-face-wash-with-hyaluronic-acid-ceramides-g"
         },
         "Hidratación Intensa": {
             "nombre": "Cetaphil Daily Hydrating Lotion with Hyaluronic Acid",
-            "img": "imagen_hidratacion_seca_economica.jpg",
+            "img": "https://m.media-amazon.com/images/I/61-RlJ0iNfL._SL1500_.jpg",
             "descripción": "Crema hidratante ligera que proporciona hidratación durante todo el día.",
             "información": "Contiene ácido hialurónico para una hidratación intensa y duradera.",
             "precio": "47.92",
-            "tienda": "https://ejemplo.com/cetaphil-daily-hydrating-lotion"
+            "tienda": "https://www.ubuy.pe/sp/product/5GY1PU-cetaphil-face-moisturizer-daily-oil-free-hydrating-face-lotion-with-hyaluronic-acid-3-oz-package-may-vary"
         },
         "Tratamiento Reparador": {
             "nombre": "Neutrogena Hydro Boost Hydrating Serum",
-            "img": "imagen_tratamiento_reparador_seco_economico.jpg",
+            "img": "https://e39a9f00db6c5bc097f9-75bc5dce1d64f93372e7c97ed35869cb.ssl.cf1.rackcdn.com/42828737-lRxNTigt.jpg",
             "descripción": "Suero hidratante que ayuda a restaurar la piel seca y deshidratada.",
             "información": "Fórmula no grasa que absorbe rápidamente en la piel.",
             "precio": "62.34",
-            "tienda": "https://ejemplo.com/neutrogena-hydro-boost-hydrating-serum"
+            "tienda": "https://www.aruma.pe/serum-hydro-boost-30ml-neutrogena/p"
         },
         "Protección Solar Diaria": {
             "nombre": "Neutrogena Ultra Sheer Dry-Touch Sunscreen SPF 30",
-            "img": "imagen_proteccion_solar_seca_economico.jpg",
+            "img": "https://m.media-amazon.com/images/I/71FO0w19KEL.jpg",
             "descripción": "Protector solar ligero con SPF 30 que proporciona protección de amplio espectro.",
             "información": "Fórmula no grasa que se absorbe rápidamente y deja la piel suave y con un acabado mate.",
             "precio": "42.46",
-            "tienda": "https://ejemplo.com/neutrogena-ultra-sheer-sunscreen-spf30"
+            "tienda": "https://tiendamia.com/pe/producto?amz=B00008IHO3&pName=Ultra%20Sheer%20Dry-Touch%20Sunblock,%20SPF%2030,%203%20fl%20oz%20%2888%20ml%29"
         }
     },
     {
@@ -82,35 +82,35 @@
 
         "Limpieza Facial Suave": {
             "nombre": "La Roche-Posay Effaclar Purifying Foaming Gel",
-            "img": "imagen_limpieza_facial_grasa_economico.jpg",
+            "img": "https://falabella.scene7.com/is/image/FalabellaPE/16434625_10?wid=800&hei=800&qlt=70",
             "descripción": "Limpiador facial espumoso que elimina el exceso de grasa y purifica los poros sin resecar la piel.",
             "información": "Fórmula adecuada para pieles sensibles y propensas al acné.",
             "precio": "71.94",
-            "tienda": "https://ejemplo.com/la-roche-posay-effaclar-purifying-gel"
+            "tienda": "https://www.ubuy.pe/sp/product/2BNFGFXS-la-roche-posay-effaclar-purifying-foaming-gel-cleanser-for-oily-skin"
         },
         "Hidratación Intensa": {
             "nombre": "Neutrogena Hydro Boost Water Gel",
-            "img": "imagen_hidratacion_grasa_economico.jpg",
+            "img": "https://m.media-amazon.com/images/I/71Wec9b3eXL._SL1500_.jpg",
             "descripción": "Gel hidratante ligero que proporciona una hidratación intensa y duradera.",
             "información": "Fórmula no grasa que se absorbe rápidamente en la piel.",
             "precio": "62.34",
-            "tienda": "https://ejemplo.com/neutrogena-hydro-boost-water-gel"
+            "tienda": "https://www.ubuy.pe/sp/product/47AIME3L4-neutrogena-hydro-boost-hyaluronic-acid-hydrating-water-face-gel-moisturizer-for-dry-skin-1-7-fl-oz"
         },
         "Tratamiento Reparador": {
             "nombre": "The Ordinary Niacinamide 10% + Zinc 1%",
-            "img": "imagen_tratamiento_reparador_graso_economico.jpg",
+            "img": "https://dcuk1cxrnzjkh.cloudfront.net/seller/1625069301709L.jpg",
             "descripción": "Serum concentrado que reduce la apariencia de imperfecciones y equilibra la producción de sebo.",
             "información": "Ayuda a mejorar la textura de la piel y reduce la producción de sebo.",
             "precio": "29.53",
-            "tienda": "https://ejemplo.com/the-ordinary-niacinamide-zinc-serum"
+            "tienda": "https://inkafarma.pe/producto/the-ordinary-niacinamide-10-zinc-1/1625069301709"
         },
         "Protección Solar Diaria": {
             "nombre": "Neutrogena Ultra Sheer Dry-Touch Sunscreen SPF 30",
-            "img": "imagen_proteccion_solar_grasa_economico.jpg",
+            "img": "https://m.media-amazon.com/images/I/71FO0w19KEL.jpg",
             "descripción": "Protector solar ligero con SPF 30 que proporciona protección de amplio espectro.",
             "información": "Fórmula no grasa que se absorbe rápidamente y deja la piel suave y con un acabado mate.",
             "precio": "42.46",
-            "tienda": "https://ejemplo.com/neutrogena-ultra-sheer-sunscreen-spf30"
+            "tienda": "https://tiendamia.com/pe/producto?amz=B00008IHO3&pName=Ultra%20Sheer%20Dry-Touch%20Sunblock,%20SPF%2030,%203%20fl%20oz%20%2888%20ml%29"
         }
     },
 
@@ -120,35 +120,35 @@
         "piel" :"mixta",
         "Limpieza Facial Suave": {
                 "nombre": "CeraVe Foaming Facial Cleanser",
-                "img": "imagen_limpieza_facial_mixta_economico.jpg",
+                "img": "https://m.media-amazon.com/images/I/516r6ghtxaL._SL1000_.jpg",
                 "descripción": "Limpiador facial espumoso que elimina el exceso de grasa y las impurezas sin alterar la barrera natural de la piel.",
                 "información": "Fórmula no comedogénica y sin fragancia.",
                 "precio": "45.99",
-                "tienda": "https://ejemplo.com/cerave-foaming-facial-cleanser"
+                "tienda": "https://inkafarma.pe/producto/gel-limpiador-espumoso-236ml-cerave/023736"
             },
             "Hidratación Intensa": {
                 "nombre": "Neutrogena Hydro Boost Water Gel",
-                "img": "imagen_hidratacion_mixta_economico.jpg",
+                "img": "https://static.beautytocare.com/cdn-cgi/image/width=1600,height=1600,f=auto/media/catalog/product//n/e/neutrogena-hydro-boost-water-gel-50ml_2.jpg",
                 "descripción": "Gel hidratante ligero que proporciona una hidratación intensa y duradera.",
                 "información": "Fórmula no grasa que se absorbe rápidamente en la piel.",
                 "precio": "62.34",
-                "tienda": "https://ejemplo.com/neutrogena-hydro-boost-water-gel"
+                "tienda": "https://inkafarma.pe/producto/gel-hidratante-facial-hydro-boost-neutrogena/011592"
             },
             "Tratamiento Reparador": {
                 "nombre": "The Ordinary Niacinamide 10% + Zinc 1%",
-                "img": "imagen_tratamiento_reparador_mixta_economico.jpg",
+                "img": "https://dcuk1cxrnzjkh.cloudfront.net/seller/1625069301709L.jpg",
                 "descripción": "Serum concentrado que ayuda a reducir la apariencia de imperfecciones y equilibra la producción de sebo.",
                 "información": "Formulado con niacinamida y zinc para mejorar la textura de la piel.",
                 "precio": "29.53",
-                "tienda": "https://ejemplo.com/the-ordinary-niacinamide-zinc-serum"
+                "tienda": "https://www.falabella.com.pe/falabella-pe/product/116102229/The-Ordinary-Niacinamide-10-zinc-1-30ml/116102231"
             },
             "Protección Solar Diaria": {
                 "nombre": "Neutrogena Ultra Sheer Dry-Touch Sunscreen SPF 30",
-                "img": "imagen_proteccion_solar_mixta_economico.jpg",
+                "img": "https://m.media-amazon.com/images/I/71FO0w19KEL.jpg",
                 "descripción": "Protector solar ligero con SPF 30 que proporciona protección de amplio espectro.",
                 "información": "Fórmula no grasa que se absorbe rápidamente y deja la piel suave y con un acabado mate.",
                 "precio": "42.46",
-                "tienda": "https://ejemplo.com/neutrogena-ultra-sheer-sunscreen-spf30"
+                "tienda": "https://tiendamia.com/pe/producto?amz=B00008IHO3&pName=Ultra%20Sheer%20Dry-Touch%20Sunblock,%20SPF%2030,%203%20fl%20oz%20%2888%20ml%29"
             }
     },
     
@@ -158,35 +158,35 @@
         "piel" : "normal",
         "Limpieza Facial Suave": {
             "nombre": "Clinique Liquid Facial Soap Mild",
-            "img": "imagen_limpieza_facial_normal_gama_media.jpg",
+            "img": "https://m.media-amazon.com/images/I/41pYvV7DKlL._SL1000_.jpg",
             "descripción": "Jabón facial líquido suave que limpia la piel sin resecarla.",
             "información": "Fórmula no comedogénica que mantiene la piel fresca y cómoda.",
             "precio": "97.80",
-            "tienda": "https://ejemplo.com/clinique-liquid-facial-soap-mild"
+            "tienda": "https://www.clinique.com.pe/product/1572/8279/3-step/step-1-cleanse/liquid-facial-soap/our-dermatologists-liquid-soap"
         },
         "Hidratación Intensa": {
             "nombre": "Kiehl's Ultra Facial Cream",
-            "img": "imagen_hidratacion_normal_gama_media.jpg",
+            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGU60x1c18NcPNQb8P4af1jJdp6FFnjJceiiVexeO5SNFEq8_Pu0c7H8BRnGUGhxOXENI&usqp=CAU",
             "descripción": "Crema hidratante facial que proporciona hidratación durante 24 horas.",
             "información": "Ayuda a fortalecer la barrera cutánea para retener la humedad.",
             "precio": "149.90",
-            "tienda": "https://ejemplo.com/kiehls-ultra-facial-cream"
+            "tienda": "https://simple.ripley.com.pe/crema-kiehls-ultra-facial-con-escualano-pmp20000099948?sein=rostro&s=mdco"
         },
         "Tratamiento Reparador": {
             "nombre": "Estée Lauder Advanced  Night Repair Synchronized Recovery Complex II",
-            "img": "imagen_tratamiento_normal_gama_media.jpg",
+            "img": "https://falabella.scene7.com/is/image/FalabellaPE/17518707_1?wid=1500&hei=1500&qlt=70",
             "descripción": "Suero reparador facial que ayuda a combatir los signos del envejecimiento.",
             "información": "Reduce la apariencia de líneas finas y arrugas mientras mejora la luminosidad de la piel.",
             "precio": "289.99",
-            "tienda": "https://ejemplo.com/estee-lauder-advanced-night-repair"
+            "tienda": "https://www.falabella.com.pe/falabella-pe/product/17518707/Advanced-Night-Repair-Synchronized-Multi-Recovery-Complex-20-ml/17518707"
         },
         "Protección Solar Diaria": {
             "nombre": "La Roche-Posay Anthelios XL Ultra-Light Fluid SPF 50+",
-            "img": "imagen_proteccion_solar_normal_gama_media.jpg",
+            "img": "https://cdn.cosmostore.org/cache/front/shop/products/116/278533/350x350.jpg",
             "descripción": "Protector solar facial con SPF 50+ que ofrece una alta protección contra los rayos UVA y UVB.",
             "información": "Textura ultraligera que se absorbe rápidamente sin dejar residuos grasos.",
             "precio": "114.50",
-            "tienda": "https://ejemplo.com/la-roche-posay-anthelios-ultra-light-fluid"
+            "tienda": "https://pe.cosmostore.org/catalog/product/anthelios_xl_50_ultra-light_fluid_spf_50__-_for_sensitive__sun_intolerant_skin_186670/"
         }
 
     },
@@ -196,35 +196,35 @@
         "piel" : "seca",
         "Limpieza Facial Suave": {
             "nombre": "CeraVe Hydrating Facial Cleanser",
-            "img": "imagen_limpieza_facial_seca_gama_media.jpg",
+            "img": "https://m.media-amazon.com/images/I/51DbQev1thL._SL1000_.jpg",
             "descripción": "Limpiador facial no espumoso que elimina suavemente la suciedad y el maquillaje sin alterar la barrera natural de la piel.",
             "información": "Contiene ceramidas y ácido hialurónico para una hidratación adicional.",
             "precio": "69.99",
-            "tienda": "https://ejemplo.com/cerave-hydrating-facial-cleanser"
+            "tienda": "https://www.ubuy.pe/en/product/3EBOEO-cerave-hydrating-facial-cleanser-moisturizing-non-foaming-face-wash-with-hyaluronic-acid-ceramides-g"
         },
         "Hidratación Intensa": {
             "nombre": "Embryolisse Lait-Crème Concentré",
-            "img": "imagen_hidratacion_seca_gama_media.jpg",
+            "img": "https://static.beautytocare.com/media/catalog/product/e/m/embryolisse-lait-creme-concentre-30ml_1.png",
             "descripción": "Crema hidratante multiusos que nutre y suaviza la piel seca.",
             "información": "Fórmula rica en ingredientes hidratantes y emolientes.",
             "precio": "94.99",
-            "tienda": "https://ejemplo.com/embryolisse-lait-creme-concentre"
+            "tienda": "https://articulo.mercadolibre.com.pe/MPE-612512267-embryolisse-lait-creme-concentre-crema-facial-30gr-_JM#position=51&search_layout=stack&type=item&tracking_id=2d766e9f-4fa4-4e88-8eeb-b41b4e1bee02"
         },
         "Tratamiento Reparador": {
             "nombre": "Drunk Elephant B-Hydra Intensive Hydration Serum",
-            "img": "imagen_tratamiento_reparador_seco_gama_media.jpg",
+            "img": "https://cdn.awsli.com.br/300x300/364/364776/produto/40279706/25da6392-8a32-407c-8b8b-b02dd10f4c22-sft1z0ponf.jpg",
             "descripción": "Suero hidratante que aumenta la hidratación y mejora la textura de la piel.",
             "información": "Contiene vitamina B5 y ceramidas para una hidratación profunda.",
             "precio": "189.99",
-            "tienda": "https://ejemplo.com/drunk-elephant-b-hydra-serum"
+            "tienda": "https://www.amazon.com/-/es/Drunk-Elephant-B-Hydra-hidrataci%C3%B3n-intensiva/dp/B01B9OEDKS"
         },
         "Protección Solar Diaria": {
             "nombre": "Bioderma Photoderm Max Aquafluide SPF 50+",
-            "img": "imagen_proteccion_solar_seca_gama_media.jpg",
+            "img": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/bio-photoderm-m-1561011562.jpg",
             "descripción": "Protector solar facial con SPF 50+ que proporciona una alta protección contra los rayos UVA/UVB.",
             "información": "Textura ultraligera y no grasa que se absorbe rápidamente.",
             "precio": "87.50",
-            "tienda": "https://ejemplo.com/bioderma-photoderm-max-aquafluide"
+            "tienda": "https://www.bioderma.pe/nuestros-productos/photoderm/aquafluide-spf-50"
         }
 
     },
@@ -234,35 +234,35 @@
         "piel" : "grasa",
         "Limpieza Facial Suave": {
             "nombre": "Bioderma Sébium Gel Moussant",
-            "img": "imagen_limpieza_facial_grasa_gama_media.jpg",
+            "img": "https://static.beautytocare.com/media/catalog/product/b/i/bioderma-sebium-gel-moussant-actif-cleansing-active-foaming-gel-200ml.jpg",
             "descripción": "Gel limpiador facial que purifica la piel y reduce la producción de sebo.",
             "información": "Fórmula no comedogénica que elimina suavemente las impurezas.",
             "precio": "81.50",
-            "tienda": "https://ejemplo.com/bioderma-sebium-gel-moussant"
+            "tienda": "https://www.bioderma.pe/nuestros-productos/sebium/gel-moussant"
         },
         "Hidratación Intensa": {
             "nombre": "La Roche-Posay Effaclar Mat Moisturizer",
-            "img": "imagen_hidratacion_grasa_gama_media.jpg",
+            "img": "https://www.farmacity.es/images/stories/virtuemart/product/resized/330654_1200x1200.jpg",
             "descripción": "Hidratante facial matificante que controla el brillo y los poros.",
             "información": "Textura ligera que hidrata sin obstruir los poros.",
             "precio": "98.50",
-            "tienda": "https://ejemplo.com/la-roche-posay-effaclar-mat-moisturizer"
+            "tienda": "https://www.aruma.pe/la-roche-posay-hidratante-matificante-para-piel-grasa-40-ml-2/p"
         },
         "Tratamiento Reparador": {
             "nombre": "Paula's Choice Skin Perfecting 2% BHA Liquid Exfoliant",
-            "img": "imagen_tratamiento_reparador_grasa_gama_media.jpg",
+            "img": "https://i5.walmartimages.com/asr/3192941c-cbee-4285-81bb-239557e8a24e.c455efc8e4abb083ee3af55f291ecc7c.jpeg",
             "descripción": "Exfoliante líquido que elimina las células muertas de la piel y descongestiona los poros.",
             "información": "Formulado con ácido salicílico para tratar los brotes de acné y prevenir futuras obstrucciones de los poros.",
             "precio": "112.75",
-            "tienda": "https://ejemplo.com/paulas-choice-bha-liquid-exfoliant"
+            "tienda": "https://uperfect.pe/products/2-bha-exfoliant-liquid-30-ml"
         },
         "Protección Solar Diaria": {
             "nombre": "Bioderma Photoderm AKN Mat SPF 30",
-            "img": "imagen_proteccion_solar_grasa_gama_media.jpg",
+            "img": "https://sch.sachane.com/images/detailed/61/bioderma-photoderm-akn-mat-spf30-gunes-kremi-150-ml.jpg",
             "descripción": "Protector solar facial con SPF 30 que controla el brillo y ayuda a prevenir las imperfecciones.",
             "información": "Textura ligera y no comedogénica que se absorbe rápidamente.",
             "precio": "94.99",
-            "tienda": "https://ejemplo.com/bioderma-photoderm-akn-mat"
+            "tienda": "https://ibella.pe/products/bioderma-photoderm-akn-mat-spf-30"
         }
         
 
@@ -273,35 +273,35 @@
         "piel":"mixta",
         "Limpieza Facial Suave": {
             "nombre": "Caudalie Vinopure Purifying Gel Cleanser",
-            "img": "imagen_limpieza_facial_mixta_media.jpg",
+            "img": "https://static.beautytocare.com/media/catalog/product/c/a/caudalie-vinopure-purifying-gel-cleanser-150ml_2.jpg",
             "descripción": "Gel limpiador purificante que elimina las impurezas y el exceso de grasa sin resecar la piel.",
             "información": "Fórmula suave con ácido salicílico natural para limpiar los poros y prevenir las imperfecciones.",
             "precio": "128.99",
-            "tienda": "https://ejemplo.com/caudalie-vinopure-gel-cleanser"
+            "tienda": "https://es.caudalie.com/p/346/gelatina-limpiadora-purificante-vinopure-346.html"
         },
         "Hidratación Intensa": {
             "nombre": "La Roche-Posay Effaclar Mat Moisturizer",
-            "img": "imagen_hidratacion_mixta_media.jpg",
+            "img": "https://www.farmacity.es/images/stories/virtuemart/product/resized/330654_1200x1200.jpg",
             "descripción": "Hidratante facial matificante que controla el brillo y los poros.",
             "información": "Textura ligera que hidrata sin obstruir los poros.",
             "precio": "98.50",
-            "tienda": "https://ejemplo.com/la-roche-posay-effaclar-mat-moisturizer"
+            "tienda": "https://www.aruma.pe/la-roche-posay-hidratante-matificante-para-piel-grasa-40-ml-2/p"
         },
         "Tratamiento Reparador": {
             "nombre": "The Ordinary Niacinamide 10% + Zinc 1%",
-            "img": "imagen_tratamiento_reparador_mixta_media.jpg",
+            "img": "https://dcuk1cxrnzjkh.cloudfront.net/seller/1625069301709L.jpg",
             "descripción": "Serum concentrado que ayuda a reducir la apariencia de imperfecciones y equilibra la producción de sebo.",
             "información": "Formulado con niacinamida y zinc para mejorar la textura de la piel.",
             "precio": "29.53",
-            "tienda": "https://ejemplo.com/the-ordinary-niacinamide-zinc-serum"
+            "tienda": "https://inkafarma.pe/producto/the-ordinary-niacinamide-10-zinc-1/1625069301709"
         },
         "Protección Solar Diaria": {
             "nombre": "La Roche-Posay Anthelios Ultra-Light Fluid SPF 50+",
-            "img": "imagen_proteccion_solar_mixta_media.jpg",
+            "img": "https://static.thcdn.com/images/large/original/productimg/1600/1600/11091806-3884588249307214.jpg",
             "descripción": "Protector solar facial con SPF 50+ que ofrece una alta protección contra los rayos UVA y UVB.",
             "información": "Textura ultraligera que se absorbe rápidamente sin dejar residuos grasos.",
             "precio": "114.50",
-            "tienda": "https://ejemplo.com/la-roche-posay-anthelios-ultra-light-fluid"
+            "tienda": "https://www.mifarma.com.pe/producto/protectorsolar-anthelios-uvmune-400-spf50-frasco/037124"
         }
     },
 
@@ -311,35 +311,35 @@
         "piel" : "normal",
         "Limpieza Facial Suave": {
             "nombre": "La Mer The Cleansing Gel",
-            "img": "imagen_limpieza_facial_normal_gama_alta.jpg",
+            "img": "https://cdn.grupoelcorteingles.es/SGFM/dctm/MEDIA03/201704/07/00113514107229____1__967x1200.jpg",
             "descripción": "Gel limpiador facial que elimina suavemente las impurezas sin resecar la piel.",
             "información": "Fórmula suave que proporciona una limpieza profunda.",
             "precio": "1059.99",
-            "tienda": "https://ejemplo.com/la-mer-the-cleansing-gel"
+            "tienda": "https://www.falabella.com.pe/falabella-pe/product/13735808/The-Cleansing-Gel/13735808"
         },
         "Hidratación Intensa": {
             "nombre": "Sisley Ecological Compound",
-            "img": "imagen_hidratacion_normal_gama_alta.jpg",
+            "img": "https://s.cdnsbn.com/images/products/l/28685583101.jpg",
             "descripción": "Emulsión hidratante que ayuda a mantener la piel equilibrada y radiante.",
             "información": "Enriquecido con extractos de plantas para una hidratación duradera.",
             "precio": "1799.99",
-            "tienda": "https://ejemplo.com/sisley-ecological-compound"
+            "tienda": "https://www.falabella.com.pe/falabella-pe/product/20087055/Ecological-Compound-Advanced-Formula/20087055"
         },
         "Tratamiento Reparador": {
             "nombre": "La Prairie Cellular Power Infusion",
-            "img": "imagen_tratamiento_reparador_normal_gama_alta.jpg",
+            "img": "https://i.blogs.es/76dd83/la-prairie-swiss-skin-specialists-7611773009188.jpg.650x650_q100/450_1000.jpg",
             "descripción": "Tratamiento revitalizante que mejora la luminosidad y la firmeza de la piel.",
             "información": "Ayuda a revitalizar las células de la piel para una apariencia más joven.",
             "precio": "3299.99",
-            "tienda": "https://ejemplo.com/la-prairie-cellular-power-infusion"
+            "tienda": "https://www.amazon.com.mx/Prairie-Cellular-Power-Infusion-Unisex/dp/B00EXW3AK8"
         },
         "Protección Solar Diaria": {
             "nombre": "Chantecaille Ultra Sun Protection Sunscreen SPF 45",
-            "img": "imagen_proteccion_solar_normal_gama_alta.jpg",
+            "img": "https://static.thcdn.com/productimg/960/960/11219108-1664897167613653.jpg",
             "descripción": "Protector solar facial con SPF 45 que protege contra los rayos UVA/UVB.",
             "información": "Fórmula ligera que se absorbe rápidamente y no deja residuos grasos.",
             "precio": "1949.99",
-            "tienda": "https://ejemplo.com/chantecaille-ultra-sun-protection-sunscreen"
+            "tienda": "https://www.amazon.com/-/es/chantecaille-protecci%C3%B3n-protector-Espectro-45-1-3oz/dp/B006FMLNVW"
         }
 
     },
@@ -349,35 +349,36 @@
         "piel" : "seca",
         "Limpieza Facial Suave": {
             "nombre": "La Mer The Cleansing Foam",
-            "img": "imagen_limpieza_facial_seca_gama_alta.jpg",
+            "img": "https://cdn.cosmostore.org/cache/front/shop/products/514/1565693/350x350.jpg",
             "descripción": "Espuma limpiadora facial que elimina las impurezas sin resecar la piel.",
             "información": "Fórmula suave que aporta hidratación y deja la piel fresca y radiante.",
             "precio": "1899.99",
-            "tienda": "https://ejemplo.com/la-mer-the-cleansing-foam"
+            "tienda":"https://www.falabella.com.pe/falabella-pe/product/20180518/Limpiador-Facial-The-Essence-Foaming-Cleanser-125ml-La-Mer/20180518"
+
         },
         "Hidratación Intensa": {
             "nombre": "La Prairie Cellular Swiss Ice Crystal Cream",
-            "img": "imagen_hidratacion_seca_gama_alta.jpg",
+            "img": "https://www.prieto.es/images/product/1/large/pl_1_1_7217.jpg",
             "descripción": "Crema hidratante que proporciona una hidratación profunda y duradera.",
             "información": "Enriquecida con extractos botánicos para calmar y revitalizar la piel seca.",
             "precio": "4999.99",
-            "tienda": "https://ejemplo.com/la-prairie-cellular-swiss-ice-crystal-cream"
+            "tienda": "https://www.amazon.com/-/es/Prairie-Cellular-Swiss-Crystal-Cream/dp/B00IF3VWU6"
         },
         "Tratamiento Reparador": {
             "nombre": "SK-II GenOptics Aura Essence",
-            "img": "imagen_tratamiento_reparador_seco_gama_alta.jpg",
+            "img": "https://www.tofusecret.com/wp-content/uploads/2019/07/SKII-Genoptics-Aura-Essence_1.jpg",
             "descripción": "Esencia reparadora que ilumina y unifica el tono de la piel.",
             "información": "Ayuda a reducir la apariencia de manchas oscuras y mejora la luminosidad.",
             "precio": "3599.99",
-            "tienda": "https://ejemplo.com/sk-ii-genoptics-aura-essence"
+            "tienda": "https://www.amazon.com/-/es/SK-II-Genoptics-Aura-Essence-onzas/dp/B01MECULV1"
         },
         "Protección Solar Diaria": {
             "nombre": "Clé de Peau Beauté UV Protective Cream SPF 50+",
-            "img": "imagen_proteccion_solar_seca_gama_alta.jpg",
+            "img": "https://s.cdnsbn.com/images/products/l/33365725701-2.jpg",
             "descripción": "Protector solar facial con SPF 50+ que protege y nutre la piel seca.",
             "información": "Textura rica y cremosa que proporciona una protección duradera.",
             "precio": "1949.99",
-            "tienda": "https://ejemplo.com/cle-de-peau-beaute-uv-protective-cream"
+            "tienda": "https://www.amazon.com/-/es/dp/B0BYB1FNL4?ie=UTF8&ASIN=B0BYB1FNL4&language=es&ref_=lx_bd"
         }
         
 
@@ -388,19 +389,19 @@
         "piel" : "grasa",
         "Limpieza Facial Suave": {
             "nombre": "Dermalogica Dermal Clay Cleanser",
-            "img": "imagen_limpieza_facial_grasa_gama_alta.jpg",
+            "img": "https://sassyhairmakeup.com/wp-content/uploads/2017/06/dermal-clay-cleanser-500ml.jpg",
             "descripción": "Limpiador facial a base de arcilla que purifica y refresca la piel.",
             "información": "Ayuda a controlar el exceso de grasa y minimiza los poros.",
             "precio": "269.99",
-            "tienda": "https://ejemplo.com/dermalogica-dermal-clay-cleanser"
+            "tienda": "https://www.institutodebenito.com/producto/dermal-clay-cleanser-250ml/"
         },
         "Hidratación Intensa": {
             "nombre": "SK-II Facial Treatment Essence",
-            "img": "imagen_hidratacion_grasa_gama_alta.jpg",
+            "img": "https://homebird.mx/cdn/shop/products/SK-IIFacialTreatmentEssence_800x.jpg?v=1649826053",
             "descripción": "Esencia facial que mejora la textura de la piel y la hidratación.",
             "información": "Contiene Pitera™ para una piel radiante y equilibrada.",
             "precio": "789.99",
-            "tienda": "https://ejemplo.com/sk-ii-facial-treatment-essence"
+            "tienda": "https://www.amazon.com/-/es/SK-II-Esencia-tratamiento-facial-onzas/dp/B01M599DYT"
         },
         "Tratamiento Reparador": {
             "nombre": "La Mer The Concentrate",
@@ -466,19 +467,19 @@
         "piel" : "normal",
         "Limpieza Facial Suave": {
             "nombre": "CeraVe Hydrating Facial Cleanser",
-            "img": "imagen_limpieza_facial_normal_economico.jpg",
+            "img": "https://m.media-amazon.com/images/I/51DbQev1thL._SL1000_.jpg",
             "descripción": "Limpiador facial no espumoso que elimina suavemente las impurezas y la suciedad mientras mantiene la barrera natural de la piel.",
             "información": "Fórmula sin fragancia que contiene ceramidas y ácido hialurónico para una hidratación duradera.",
             "precio": "45.99",
-            "tienda": "https://ejemplo.com/cerave-hydrating-facial-cleanser"
+            "tienda": "https://www.ubuy.pe/en/product/3EBOEO-cerave-hydrating-facial-cleanser-moisturizing-non-foaming-face-wash-with-hyaluronic-acid-ceramides-g"
         },
         "Hidratación Intensa": {
             "nombre": "Neutrogena Hydro Boost Gel-Cream",
-            "img": "imagen_hidratacion_normal_economico.jpg",
+            "img": "https://static.beautytocare.com/media/catalog/product/n/e/neutrogena-hydro-boost-gel-cream-50ml.png",
             "descripción": "Crema hidratante en gel que proporciona una hidratación intensa y duradera sin obstruir los poros.",
             "información": "Textura ligera y no grasa que se absorbe rápidamente en la piel.",
             "precio": "62.34",
-            "tienda": "https://ejemplo.com/neutrogena-hydro-boost-gel-cream"
+            "tienda": "https://www.neutrogena.es/productos-cuidado-facial/hidratantes-faciales/crema-en-gel"
         },
         "Tratamiento Reparador": {
             "nombre": "The Ordinary Retinol 0.5% in Squalane",
@@ -504,15 +505,15 @@
         "piel" : "seca",
         "Limpieza Facial Suave": {
             "nombre": "CeraVe Hydrating Facial Cleanser",
-            "img": "imagen_limpieza_facial_seca_economico.jpg",
+            "img": "https://m.media-amazon.com/images/I/51DbQev1thL._SL1000_.jpg",
             "descripción": "Limpiador facial no espumoso que elimina suavemente las impurezas y la suciedad mientras mantiene la barrera natural de la piel.",
             "información": "Fórmula sin fragancia que contiene ceramidas y ácido hialurónico para una hidratación duradera.",
             "precio": "45.99",
-            "tienda": "https://ejemplo.com/cerave-hydrating-facial-cleanser"
+            "tienda": "https://www.ubuy.pe/en/product/3EBOEO-cerave-hydrating-facial-cleanser-moisturizing-non-foaming-face-wash-with-hyaluronic-acid-ceramides-g"
         },
         "Hidratación Intensa": {
             "nombre": "Neutrogena Hydro Boost Gel-Cream",
-            "img": "imagen_hidratacion_seca_economico.jpg",
+            "img": "https://static.beautytocare.com/media/catalog/product/n/e/neutrogena-hydro-boost-gel-cream-50ml.png",
             "descripción": "Crema hidratante en gel que proporciona una hidratación intensa y duradera sin obstruir los poros.",
             "información": "Textura ligera y no grasa que se absorbe rápidamente en la piel.",
             "precio": "62.34",
@@ -557,11 +558,11 @@
         },
         "Tratamiento Reparador": {
             "nombre": "The Ordinary Niacinamide 10% + Zinc 1%",
-            "img": "imagen_tratamiento_reparador_mixta_economico.jpg",
+            "img": "https://dcuk1cxrnzjkh.cloudfront.net/seller/1625069301709L.jpg",
             "descripción": "Serum concentrado que ayuda a reducir la apariencia de imperfecciones y equilibra la producción de sebo.",
             "información": "Formulado con niacinamida y zinc para mejorar la textura de la piel.",
             "precio": "29.53",
-            "tienda": "https://ejemplo.com/the-ordinary-niacinamide-zinc-serum"
+            "tienda": "https://inkafarma.pe/producto/the-ordinary-niacinamide-10-zinc-1/1625069301709"
         },
         "Hidratación Adicional (Opcional)": {
             "nombre": "CeraVe PM Facial Moisturizing Lotion",
@@ -787,11 +788,11 @@
         },
         "Hidratación Adicional (Opcional)": {
             "nombre": "Sisley Ecological Compound",
-            "img": "imagen_proteccion_adicional_normal_alto.jpg",
+            "img": "https://s.cdnsbn.com/images/products/l/28685583101.jpg",
             "descripción": "Tratamiento hidratante que protege la piel de los daños ambientales y promueve su equilibrio.",
             "información": "Fórmula enriquecida con extractos botánicos y aceites esenciales.",
             "precio": "1299.99",
-            "tienda": "https://ejemplo.com/sisley-ecological-compound"
+            "tienda": "https://www.falabella.com.pe/falabella-pe/product/20087055/Ecological-Compound-Advanced-Formula/20087055"
         }
     },
     {
@@ -824,11 +825,11 @@
         },
         "Hidratación Adicional (Opcional)": {
             "nombre": "La Prairie Cellular Swiss Ice Crystal Cream",
-            "img": "imagen_proteccion_adicional_seca_alto.jpg",
+            "img": "https://www.prieto.es/images/product/1/large/pl_1_1_7217.jpg",
             "descripción": "Crema hidratante de lujo que protege la piel de los factores ambientales y promueve su vitalidad.",
             "información": "Contiene extracto de células madre de plantas alpinas para una protección avanzada.",
             "precio": "1699.99",
-            "tienda": "https://ejemplo.com/la-prairie-swiss-ice-crystal-cream"
+            "tienda": "https://www.amazon.com/-/es/Prairie-Cellular-Swiss-Crystal-Cream/dp/B00IF3VWU6"
         }
     },
     {
@@ -853,11 +854,11 @@
         },
         "Tratamiento Reparador": {
             "nombre": "SK-II Facial Treatment Essence",
-            "img": "imagen_tratamiento_reparador_mixta_alto.jpg",
+            "img": "https://homebird.mx/cdn/shop/products/SK-IIFacialTreatmentEssence_800x.jpg?v=1649826053",
             "descripción": "Esencia facial de lujo que hidrata, suaviza y equilibra la piel mixta.",
             "información": "Contiene Pitera™, un ingrediente exclusivo que revitaliza y renueva la piel.",
             "precio": "1799.99",
-            "tienda": "https://ejemplo.com/sk-ii-facial-treatment-essence"
+            "tienda": "https://www.amazon.com/-/es/SK-II-Esencia-tratamiento-facial-onzas/dp/B01M599DYT"
         },
         "Hidratación Adicional (Opcional)": {
             "nombre": "Estée Lauder DayWear Matte Oil-Control Antioxidant Moisture Gel Crème",

@@ -1,92 +1,99 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LÚA CARES</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/test.css">
-    <link rel="stylesheet" href="assets/css/api.css">
-    <link rel="icon" href="https://i.ibb.co/CWPVLcJ/flor-de-loto.png" type="image/png">
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>LÚA CARES</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <link rel="stylesheet" href="assets/css/test.css">
+        <link rel="stylesheet" href="assets/css/api.css">
+        <link rel="icon" href="https://i.ibb.co/CWPVLcJ/flor-de-loto.png" type="image/png">
+    </head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
-              <img id="logo-nav" src="https://cdn-icons-png.flaticon.com/512/5403/5403989.png" alt="logo">  
-              <a class="navbar-brand" href="#">LÚA CARES</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Limpiadores</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Hidratadores</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link disabled" aria-disabled="true">Reparadores</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link disabled" aria-disabled="true">Bloqueadores</a>
-                  </li>
-                  
-                </ul>
-                <form class="d-flex" role="search">
-                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                  <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
-              </div>
-            </div>
-          </nav>
-    </header>
-
-    <main>
-        <div id="todos">
-            <div class="todos-productos" id="todos-productos">
-            <!--   <div class="videojuego">
-                    <div class="nombre-contenedor">
-                        <p class="videojugo-id">#540</p>
-                        <h2 class="videojuego-tittle">Overwatch 2</h2>
-                    </div> 
-                    <div class="videojuego-thumbnail">
-                        <img src="https:\/\/www.freetogame.com\/g\/455\/thumbnail.jpg" alt="Pikachu">
+    <div class="container-fluid d-flex vh-100">
+        <div class="main-container scroll-container p-0 mt-2 bg-dark-toggle"> 
+            <div class="row">
+                <div class="col-md-12 p-0">
+                    <nav class="navbar navbar-expand-lg p-0">
+                        <div class="container-fluid p-1">
+                            <img src="https://i.ibb.co/CWPVLcJ/flor-de-loto.png" alt="Imagen Claro" id="logo-nav" class="imagen-claro img-fluid ml-4">
+                            <img src="https://i.ibb.co/CWPVLcJ/flor-de-loto.png" alt="Imagen Oscuro" id="logo-nav" class="imagen-oscuro img-fluid ml-4">                            
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="navbar-nav mr-auto mt-2">
+                                <h5 class="nav-link text">LÚA CARES</h5>
+                            </div>                          
+                            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                    <li class="nav-item">
+                                        <button id="ver-todos" class="nav-link ml-5 m-1 px-3 py-1 text a active btn-api btn-genre ver-todos" aria-current="page">Todos</button>
+                                    </li>
+                                    <li class="nav-item">
+                                        <button id="limpieza" class="nav-link m-1 px-3 py-1 text b btn-api btn-genre limpieza">Limpieza</button>
+                                    </li>
+                                    <li class="nav-item">
+                                        <button id="hidratacion" class="nav-link m-1 px-3 py-1 text c btn-api btn-genre hidratacion">Hidratación</button>
+                                    </li>
+                                    <li class="nav-item">
+                                        <button id="reparador" class="nav-link m-1 px-3 py-1 text d btn-api btn-genre reparador">Reparación</button>
+                                    </li>
+                                    <li class="nav-item">
+                                        <button id="protector" class="nav-link m-1 px-3 py-1 text e btn-api btn-genre protector">Protección Solar</button>
+                                    </li>
+                                    <li class="nav-item dropdown text-dark">
+                                        <div class="btn-api nav-link m-1 mr-5 px-3 py-1 text f dropdown-toggle" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                          Modo
+                                        </div>
+                                        <div class="dropdown-menu text-center" aria-labelledby="navbarDropdown">
+                                            <a class="dropdown-item text text-1" href="#">Claro / Oscuro</a>
+                                            <div class="dropdown-divider"></div>
+                                            <label class="toggle-container m-2 mr-4">
+                                                <input type="checkbox" class="toggle-checkbox" id="darkModeToggle">
+                                                <span class="toggle-slider"></span>
+                                                <i class="bi bi-brightness-high toggle-icon light ml-4"></i>
+                                                <i class="bi bi-moon toggle-icon dark ml-1"></i>
+                                            </label>                                          
+                                        </div>                                        
+                                      </li>
+                                </ul>
+                                <form class="d-flex search" role="search">
+                                    <div class="row p-0 m-0 ml-4">
+                                        <div class="col-md-8 m-0 p-0 mt-2">
+                                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" id="searchInput">
+                                        </div>
+                                        <div class="col-md-4 m-0 p-0 mt-1">
+                                            <button class="btn-api btn-block g m-1 py-1 text" type="submit" id="btnBuscar">Search</button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+                <div class="container-fluid d-flex vh-100 px-5 p-3 col-md-12 d-flex flex-column"  id="tablero">
+                    <div class="row">
+                        <div class="col-12 p-2">
+                            <main>
+                                <div id="todos">
+                                    <div class="todos-productos" id="todos-productos">
+                                        <!-- cards -->
+                                    </div>
+                                </div>
+                            </main>
+                        </div>
                     </div>
-    
-                    <div class="videojuego-info">
-                    
-                        <div class="videojuego-genre">
-                            <p class="genre">Género: Shooter</p>
-                        </div>
-                        <div class="videojuego-platform">
-                            <p class="platform">Plataforma: Web Browser</p>
-                        </div>
-                        <div class="videojuego-release_date">
-                            <p class="release_date">Lanzamiento: 2019-05-21</p>
-                        </div>
-                        <div class="game_url">
-                            <a class="game_url" href="https:\/\/www.freetogame.com\/open\/eternal-fury">Jugar</a>
-                        </div>
-                
-                
-                    </div>
-    
-                </div> --> 
-    
-                
-
+                </div>
             </div>
-        
-        
-            
-        </div>
-    </main>
-
-    
-
-    <script src="assets/js/rutinas.js"></script>
+        </div> 
+    </div>
+    <div class="circle-red sign-up-mode"></div>
+    <script src="assets/js/api.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="assets/js/script.js"></script>
 </body>
 </html>

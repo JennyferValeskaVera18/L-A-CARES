@@ -1,0 +1,53 @@
+#todos-productos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.producto {
+    flex: 0 0 calc(50% - 20px); 
+    max-width: calc(50% - 20px);
+}
+.img-api {
+    width: 230px;
+    height: auto;
+}
+
+.cards-contenedor{
+    height: 100%;
+}
+
+.btn-api {
+    display: inline-block;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: 2px solid #e8853421;
+    border-radius: 10px;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.a { background-color: #ffe1c2; }
+.a:hover { background-color: #ffe1c2a0; }
+.b { background-color: #f6cda5; }
+.b:hover { background-color: #f6cda5a0; }
+.c{ background-color: #ffcc9a; }
+.c:hover { background-color: #ffcc9aa0; }
+.d { background-color: #ffc286; }
+.d:hover { background-color: #ffc286a0; }
+.e { background-color: #ffc082; }
+.e:hover { background-color: #ffc082a0; }
+.f { background-color: #ffb76f; }
+.f:hover { background-color: #ffb76fa0; }
+.g { background-color: #f8cfa4;}
+.g:hover { background-color: #f8cfa4a0;}
+
+.cards-contenedor {
+    border: 2px solid rgba(158, 115, 85, 0.819); 
+    border-radius: 25px; 
+}
+.card{
+    border-radius: 25px;
+}

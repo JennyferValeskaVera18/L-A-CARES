@@ -1,5 +1,41 @@
 [
-    {
+  {
+    "nombre": "CeraVe Hydrating Facial Cleanser",
+    "img": "https://m.media-amazon.com/images/I/51DbQev1thL._SL1000_.jpg",
+    "descripción": "Limpiador facial no espumoso que elimina suavemente las impurezas mientras mantiene la barrera natural de la piel.",
+    "piel": "normal",
+    "precio": "45.99",
+    "tienda": "https://www.cerave.com/skincare/cleansers/hydrating-facial-cleanser",
+    "tipo": "limpieza"
+  },
+  {
+    "nombre": "Neutrogena Hydro Boost Gel-Cream",
+    "img": "https://m.media-amazon.com/images/I/71ICfUvvEyL._SL1500_.jpg",
+    "descripción": "Crema hidratante en gel que proporciona una hidratación intensa y duradera sin obstruir los poros.",
+    "piel": "normal",
+    "precio": "62.34",
+    "tienda": "https://www.aruma.pe/neutrogena-hidratante-hydro-boost-water-gel-hidratacion-50-gr-2/p",
+    "tipo": "hidratacion"
+  },
+  {
+    "nombre": "The Ordinary Retinol 0.5% in Squalane",
+    "img": "imagen_tratamiento_reparador_normal_economico.jpg",
+    "descripción": "Tratamiento con retinol que ayuda a mejorar la textura de la piel y promover la renovación celular durante la noche.",
+    "piel": "normal",
+    "precio": "39.99",
+    "tienda": "https://ejemplo.com/comprar/the_ordinary_retinol",
+    "tipo": "reparador"
+  },
+  {
+    "nombre": "CeraVe PM Facial Moisturizing Lotion",
+    "img": "imagen_hidratacion_adicional_normal_economico.jpg",
+    "descripción": "Loción facial ligera que hidrata profundamente la piel durante la noche, dejándola suave y revitalizada al despertar.",
+    "piel": "normal",
+    "precio": "54.99",
+    "tienda": "https://uperfect.pe/products/retinol-0-5-in-squalane",
+    "tipo": "hidratacion"
+  },
+  {
       "nombre": "CeraVe Hydrating Facial Cleanser",
       "img": "imagen_limpieza_facial_normal_economico.jpg",
       "descripción": "Limpiador facial no espumoso que elimina suavemente las impurezas mientras mantiene la barrera natural de la piel.",
@@ -36,75 +72,39 @@
       "tipo": "hidratacion"
     },
     {
-        "nombre": "CeraVe Hydrating Facial Cleanser",
-        "img": "imagen_limpieza_facial_normal_economico.jpg",
-        "descripción": "Limpiador facial no espumoso que elimina suavemente las impurezas mientras mantiene la barrera natural de la piel.",
-        "piel": "normal",
-        "precio": "45.99",
-        "tienda": "https://ejemplo.com/comprar/cerave_hydrating_facial_cleanser",
-        "tipo": "limpieza"
-      },
-      {
-        "nombre": "Neutrogena Hydro Boost Gel-Cream",
-        "img": "imagen_hidratacion_normal_economico.jpg",
-        "descripción": "Crema hidratante en gel que proporciona una hidratación intensa y duradera sin obstruir los poros.",
-        "piel": "normal",
-        "precio": "62.34",
-        "tienda": "https://ejemplo.com/comprar/neutrogena_hydro_boost_gel_cream",
-        "tipo": "hidratacion"
-      },
-      {
-        "nombre": "The Ordinary Retinol 0.5% in Squalane",
-        "img": "imagen_tratamiento_reparador_normal_economico.jpg",
-        "descripción": "Tratamiento con retinol que ayuda a mejorar la textura de la piel y promover la renovación celular durante la noche.",
-        "piel": "normal",
-        "precio": "39.99",
-        "tienda": "https://ejemplo.com/comprar/the_ordinary_retinol",
-        "tipo": "reparador"
-      },
-      {
-        "nombre": "CeraVe PM Facial Moisturizing Lotion",
-        "img": "imagen_hidratacion_adicional_normal_economico.jpg",
-        "descripción": "Loción facial ligera que hidrata profundamente la piel durante la noche, dejándola suave y revitalizada al despertar.",
-        "piel": "normal",
-        "precio": "54.99",
-        "tienda": "https://ejemplo.com/comprar/cerave_pm_facial_moisturizing_lotion",
-        "tipo": "hidratacion"
-      },
-      {
-        "nombre": "Garnier SkinActive Micellar Cleansing Water",
-        "img": "imagen_limpieza_facial_normal_alto.jpg",
-        "descripción": "Agua micelar que limpia, remueve maquillaje y tonifica la piel sin necesidad de enjuagar.",
-        "piel": "normal",
-        "precio": "32.50",
-        "tienda": "https://ejemplo.com/comprar/garnier_micellar_cleansing_water",
-        "tipo": "limpieza"
-      },
-      {
-        "nombre": "Olay Regenerist Micro-Sculpting Cream",
-        "img": "imagen_hidratacion_normal_alto.jpg",
-        "descripción": "Crema hidratante anti-envejecimiento que mejora la elasticidad y firmeza de la piel.",
-        "piel": "normal",
-        "precio": "78.99",
-        "tienda": "https://ejemplo.com/comprar/olay_regenerist_micro_sculpting_cream",
-        "tipo": "hidratacion"
-      },
-      {
-        "nombre": "The Body Shop Vitamin E Nourishing Night Cream",
-        "img": "imagen_tratamiento_reparador_normal_alto.jpg",
-        "descripción": "Crema nocturna que nutre e hidrata la piel mientras duermes, ayudando a mejorar su apariencia y textura.",
-        "piel": "normal",
-        "precio": "55.00",
-        "tienda": "https://ejemplo.com/comprar/body_shop_vitamin_e_night_cream",
-        "tipo": "reparador"
-      },
-      {
-        "nombre": "La Roche-Posay Anthelios Melt-in Milk Sunscreen SPF 100",
-        "img": "imagen_proteccion_solar_normal_alto.jpg",
-        "descripción": "Protector solar de amplio espectro que proporciona una alta protección contra los rayos UVA y UVB.",
-        "piel": "normal",
-        "precio": "42.75",
-        "tienda": "https://ejemplo.com/comprar/la_roche_posay_anthelios_sunscreem",
-        "tipo": "protector"
-      }
+      "nombre": "Garnier SkinActive Micellar Cleansing Water",
+      "img": "imagen_limpieza_facial_normal_alto.jpg",
+      "descripción": "Agua micelar que limpia, remueve maquillaje y tonifica la piel sin necesidad de enjuagar.",
+      "piel": "normal",
+      "precio": "32.50",
+      "tienda": "https://ejemplo.com/comprar/garnier_micellar_cleansing_water",
+      "tipo": "limpieza"
+    },
+    {
+      "nombre": "Olay Regenerist Micro-Sculpting Cream",
+      "img": "imagen_hidratacion_normal_alto.jpg",
+      "descripción": "Crema hidratante anti-envejecimiento que mejora la elasticidad y firmeza de la piel.",
+      "piel": "normal",
+      "precio": "78.99",
+      "tienda": "https://ejemplo.com/comprar/olay_regenerist_micro_sculpting_cream",
+      "tipo": "hidratacion"
+    },
+    {
+      "nombre": "The Body Shop Vitamin E Nourishing Night Cream",
+      "img": "imagen_tratamiento_reparador_normal_alto.jpg",
+      "descripción": "Crema nocturna que nutre e hidrata la piel mientras duermes, ayudando a mejorar su apariencia y textura.",
+      "piel": "normal",
+      "precio": "55.00",
+      "tienda": "https://ejemplo.com/comprar/body_shop_vitamin_e_night_cream",
+      "tipo": "reparador"
+    },
+    {
+      "nombre": "La Roche-Posay Anthelios Melt-in Milk Sunscreen SPF 100",
+      "img": "imagen_proteccion_solar_normal_alto.jpg",
+      "descripción": "Protector solar de amplio espectro que proporciona una alta protección contra los rayos UVA y UVB.",
+      "piel": "normal",
+      "precio": "42.75",
+      "tienda": "https://ejemplo.com/comprar/la_roche_posay_anthelios_sunscreem",
+      "tipo": "protector"
+    }
 ]
