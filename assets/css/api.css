@@ -44,10 +44,22 @@
 .g { background-color: #f8cfa4;}
 .g:hover { background-color: #f8cfa4a0;}
 
-.cards-contenedor {
-    border: 2px solid rgba(158, 115, 85, 0.819); 
-    border-radius: 25px; 
-}
 .card{
-    border-radius: 25px;
+    border-radius: 15px;
 }
+
+.boton-comprar {
+    background: #e9b663a9;
+    padding: 5px 20px;
+    border-radius: 10px;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+.boton-comprar:hover{
+    background: #f7c575;
+}
+
+.boton-precio{
+    background: rgba(255, 180, 6, 0.105);
+    border-radius: 10px;
+    padding: 2px 16px;
+  }

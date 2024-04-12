@@ -23,8 +23,8 @@
 }
 
 .boton-rutina {
-  color: rgb(36, 36, 36); /* Color del texto */
-  padding: 10px 20px; /* Espaciado interno (arriba y abajo, izquierda y derecha) */
+  color: rgb(36, 36, 36);
+  padding: 10px 20px;
   border: none; 
   border-radius: 5px; 
   cursor: pointer; 
@@ -37,3 +37,73 @@
 .a:hover { background-color: #ffe1c2a0; color: black; }
 .b { background-color: #f6cda5; }
 .b:hover { background-color: #f6cda5a0; color: black;}
+
+/* Estilos para el modal */
+.modal-dialog {
+  max-width: 500px;
+}
+
+.modal-content {
+  border-radius: 10px;
+}
+
+.modal-header {
+  background-color: #fff8e8;
+  border-bottom: none;
+}
+
+.modal-title {
+  color: #333;
+}
+
+.modal-body {
+  padding: 20px;
+}
+
+.modal-footer {
+  background-color: #fff8e8;
+  border-top: none;
+}
+
+/* Estilos para los botones */
+.btn-secondary {
+  background-color: #a9641a38;
+  color: #1c1c1c;
+}
+.btn-secondary:hover {
+  background-color: #c7833a89;
+  color: black;
+
+}
+
+.btn-primary {
+  background-color: #ce9a66;
+  border-color: #b47a3f;
+  color: black;
+
+}
+.btn-primary:hover {
+  background-color: #c98139;
+  border-color: #b47a3f;
+}
+
+#formulario label.form-label {
+  text-align: left;
+  display: block;
+}
+
+.boton-precio{
+  background: rgba(255, 180, 6, 0.105);
+  border-radius: 10px;
+  padding: 2px 16px;
+}
+
+.boton-comprar {
+  background: #e9b663;
+  padding: 5px 20px;
+  border-radius: 10px;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+.boton-comprar:hover{
+  background: #f7c575;
+}

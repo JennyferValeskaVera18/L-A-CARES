@@ -80,10 +80,10 @@ function mostrarRutina() {
                                             <div class="container">
                                               <div class="row">
                                                 <div class="col-6">
-                                                  <p>Precio: ${rutinaEncontrada['Limpieza Facial Suave'].precio}</p>
+                                                  <p class="boton-precio">Precio: ${rutinaEncontrada['Limpieza Facial Suave'].precio}</p>
                                                 </div>
                                                 <div class="col-6">
-                                                  <a class="text-decoration-none boton-comprar" href="${rutinaEncontrada['Limpieza Facial Suave'].tienda}" target="_blank">Cómpralo aquí</a>
+                                                  <a class="text-decoration-none boton-comprar text-dark" href="${rutinaEncontrada['Limpieza Facial Suave'].tienda}" target="_blank">Cómpralo aquí</a>
                                                 </div>
                                               </div>
                                             </div>
@@ -108,10 +108,10 @@ function mostrarRutina() {
                                             <div class="container">
                                               <div class="row">
                                                 <div class="col-6">
-                                                  <p>Precio: ${rutinaEncontrada['Hidratación Intensa'].precio}</p>
+                                                  <p class="boton-precio">Precio: ${rutinaEncontrada['Hidratación Intensa'].precio}</p>
                                                 </div>
                                                 <div class="col-6">
-                                                  <a class="text-decoration-none boton-comprar" href="${rutinaEncontrada['Hidratación Intensa'].tienda}" target="_blank">Cómpralo aquí</a>
+                                                  <a class="text-decoration-none boton-comprar text-dark" href="${rutinaEncontrada['Hidratación Intensa'].tienda}" target="_blank">Cómpralo aquí</a>
                                                 </div>
                                               </div>
                                             </div>
@@ -136,10 +136,10 @@ function mostrarRutina() {
                                             <div class="container">
                                               <div class="row">
                                                 <div class="col-6">
-                                                  <p>Precio: ${rutinaEncontrada['Tratamiento Reparador'].precio}</p>
+                                                  <p class="boton-precio">Precio: ${rutinaEncontrada['Tratamiento Reparador'].precio}</p>
                                                 </div>
                                                 <div class="col-6">
-                                                  <a class="text-decoration-none boton-comprar" href="${rutinaEncontrada['Tratamiento Reparador'].tienda}" target="_blank">Cómpralo aquí</a>
+                                                  <a class="text-decoration-none boton-comprar text-dark" href="${rutinaEncontrada['Tratamiento Reparador'].tienda}" target="_blank">Cómpralo aquí</a>
                                                 </div>
                                               </div>
                                             </div>
@@ -164,10 +164,10 @@ function mostrarRutina() {
                                             <div class="container">
                                               <div class="row">
                                                 <div class="col-6">
-                                                  <p>Precio: ${rutinaEncontrada['Protección Solar Diaria'].precio}</p>
+                                                  <p class="boton-precio">Precio: ${rutinaEncontrada['Protección Solar Diaria'].precio}</p>
                                                 </div>
                                                 <div class="col-6">
-                                                  <a class="text-decoration-none boton-comprar" href="${rutinaEncontrada['Protección Solar Diaria'].tienda}" target="_blank">Cómpralo aquí</a>
+                                                  <a class="text-decoration-none boton-comprar text-dark" href="${rutinaEncontrada['Protección Solar Diaria'].tienda}" target="_blank">Cómpralo aquí</a>
                                                 </div>
                                               </div>
                                             </div>
@@ -205,10 +205,10 @@ function mostrarRutina() {
                                                 <div class="container">
                                                     <div class="row">
                                                       <div class="col-6">
-                                                        <p>Precio: ${rutinaEncontrada['Limpieza Facial Suave'].precio}</p>
+                                                        <p class="boton-precio">Precio: ${rutinaEncontrada['Limpieza Facial Suave'].precio}</p>
                                                       </div>
                                                       <div class="col-6">
-                                                        <a class="text-decoration-none boton-comprar" href="${rutinaEncontrada['Limpieza Facial Suave'].tienda}" target="_blank">Cómpralo aquí</a>
+                                                        <a class="text-decoration-none boton-comprar text-dark" href="${rutinaEncontrada['Limpieza Facial Suave'].tienda}" target="_blank">Cómpralo aquí</a>
                                                       </div>
                                                     </div>
                                                   </div>
@@ -233,10 +233,10 @@ function mostrarRutina() {
                                                 <div class="container">
                                                     <div class="row">
                                                       <div class="col-6">
-                                                        <p>Precio: ${rutinaEncontrada['Hidratación Intensa'].precio}</p>
+                                                        <p class="boton-precio">Precio: ${rutinaEncontrada['Hidratación Intensa'].precio}</p>
                                                       </div>
                                                       <div class="col-6">
-                                                        <a class="text-decoration-none boton-comprar" href="${rutinaEncontrada['Hidratación Intensa'].tienda}" target="_blank">Cómpralo aquí</a>
+                                                        <a class="text-decoration-none boton-comprar text-dark" href="${rutinaEncontrada['Hidratación Intensa'].tienda}" target="_blank">Cómpralo aquí</a>
                                                       </div>
                                                     </div>
                                                   </div>
@@ -261,10 +261,10 @@ function mostrarRutina() {
                                                 <div class="container">
                                                     <div class="row">
                                                       <div class="col-6">
-                                                        <p>Precio: ${rutinaEncontrada['Tratamiento Reparador'].precio}</p>
+                                                        <p class="boton-precio">Precio: ${rutinaEncontrada['Tratamiento Reparador'].precio}</p>
                                                       </div>
                                                       <div class="col-6">
-                                                        <a class="text-decoration-none boton-comprar" href="${rutinaEncontrada['Tratamiento Reparador'].tienda}" target="_blank">Cómpralo aquí</a>
+                                                        <a class="text-decoration-none boton-comprar text-dark" href="${rutinaEncontrada['Tratamiento Reparador'].tienda}" target="_blank">Cómpralo aquí</a>
                                                       </div>
                                                     </div>
                                                   </div>
@@ -290,10 +290,10 @@ function mostrarRutina() {
                                                 <div class="container">
                                                   <div class="row">
                                                     <div class="col-6">
-                                                      <p>Precio: ${rutinaEncontrada['Hidratación Adicional (Opcional)'].precio}</p>
+                                                      <p class="boton-precio">Precio: ${rutinaEncontrada['Hidratación Adicional (Opcional)'].precio}</p>
                                                     </div>
                                                     <div class="col-6">
-                                                      <a class="text-decoration-none boton-comprar" href="${rutinaEncontrada['Hidratación Adicional (Opcional)'].tienda}" target="_blank">Cómpralo aquí</a>
+                                                      <a class="text-decoration-none boton-comprar text-dark" href="${rutinaEncontrada['Hidratación Adicional (Opcional)'].tienda}" target="_blank">Cómpralo aquí</a>
                                                     </div>
                                                   </div>
                                                 </div>
@@ -328,14 +328,4 @@ function toggleVentana(idVentana) {
     } else {
       abrirVentana(idVentana);
     }
-  }
-  
-  // Función para abrir la ventana emergente
-  function abrirVentana(idVentana) {
-    document.getElementById(idVentana).style.display = 'block';
-  }
-  
-  // Función para cerrar la ventana emergente
-  function cerrarVentana(idVentana) {
-    document.getElementById(idVentana).style.display = 'none';
   }

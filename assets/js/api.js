@@ -24,15 +24,15 @@ fetch('productos.json') //función fetch para obtener datos
             <div class="row g-0">
                 <div class="col-4">
                   <div class="videojuego-thumbnail">
-                    <img class="img-api" src="${producto.img}" alt="${producto.nombre}">
+                    <img class="img-api mt-4" src="${producto.img}" alt="${producto.nombre}">
                   </div>            
                 </div>
                 <div class="col-8">
                     <div class="card-body border-left">
                       <div class="card-title nombre-contenedor">
-                        <h2 class="nombre">${producto.nombre}</h2>
+                        <h2 class="nombre title">${producto.nombre}</h2>
                       </div>                     
-                      <div class="card-text">
+                      <div class="card-text text text-1">
                           <div class="videojuego-info">
                             <div class="videojuego-genre">
                               <p class="genre">Descripción: ${producto.descripción}</p>
@@ -44,12 +44,12 @@ fetch('productos.json') //función fetch para obtener datos
                               <div class="row">
                                 <div class="col-6">
                                   <div class="videojuego-release_date">
-                                    <p class="release_date">Precio: ${producto.precio}</p>
+                                    <p class="release_date boton-precio">Precio: ${producto.precio}</p>
                                   </div>
                                 </div>
                                 <div class="col-6">
                                   <div class="game_url">
-                                    <a class="game_url" href="${producto.tienda}" target="_blank">Comprar aquí</a>
+                                    <a class="game_url boton-comprar text-dark text-decoration-none" href="${producto.tienda}" target="_blank">Comprar aquí</a>
                                   </div>
                                 </div>
                               </div>
