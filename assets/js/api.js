@@ -89,7 +89,8 @@ function mostrarTodosLosProductos() {
 
 // Manejo del botón "Buscar"
 const btnBuscar = document.getElementById("btnBuscar");
-btnBuscar.addEventListener("click", () => {
+btnBuscar.addEventListener("click", (e) => {
+    e.preventDefault();
     const searchTerm = document.getElementById("searchInput").value.toLowerCase();
     const productosEncontrados = listaProductosData.filter(producto => producto.nombre.toLowerCase().includes(searchTerm));
     //Lo filtramos para 
