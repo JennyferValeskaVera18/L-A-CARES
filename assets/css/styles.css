@@ -190,6 +190,7 @@ body {
 
 .imagen-oscuro, .imagen-claro {
   animation: slideIn 0.9s ease-out forwards;
+  margin-right: 1%;
 }
 
 .imagen-oscuro {
@@ -207,6 +208,7 @@ body {
 .ocultar{
   display: none;
 }
+
 
 /* Responsive */
 @media (min-width: 800px) {

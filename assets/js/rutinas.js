@@ -62,13 +62,13 @@ function mostrarRutina() {
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-12">
-                        <h2 class="title"> Rutina para ${tiempoSeleccionado} - Piel ${pielSeleccionada} - Rango ${rangoSeleccionado}</h2>
+                        <h2 class="title"> Rutina de ${tiempoSeleccionado} | Piel ${pielSeleccionada} | Rango ${rangoSeleccionado}</h2>
                         <p class="text text-1">Según las características seleccionadas, la rutina ideal para ti es:</p>
                     </div>
                     <div class="col-6 mb-3">
                         <div class="card h-100">
                             <div class="row g-0">
-                                <div class="col-4">
+                                <div class="col-4 img-container">
                                     <img class="img-rutina" src="${rutinaEncontrada['Limpieza Facial Suave'].img}" alt="Limpieza Facial Suave">            
                                 </div>
                                 <div class="col-8">
@@ -96,7 +96,7 @@ function mostrarRutina() {
                     <div class="col-6 mb-3">
                         <div class="card h-100">
                             <div class="row g-0">
-                                <div class="col-4">
+                                <div class="col-4 img-container">
                                     <img class="img-rutina" src="${rutinaEncontrada['Hidratación Intensa'].img}" alt="Hidratación Intensa">
                                 </div>
                                 <div class="col-8">
@@ -124,7 +124,7 @@ function mostrarRutina() {
                     <div class="col-6 mb-3">
                         <div class="card h-100">
                             <div class="row g-0">
-                                <div class="col-4">
+                                <div class="col-4 img-container">
                                     <img class="img-rutina" src="${rutinaEncontrada['Tratamiento Reparador'].img}" alt="Tratamiento Reparador">
                                 </div>
                                 <div class="col-8">
@@ -152,7 +152,7 @@ function mostrarRutina() {
                     <div class="col-6 mb-3">
                         <div class="card h-100">
                             <div class="row g-0">
-                                <div class="col-4">
+                                <div class="col-4 img-container">
                                     <img class="img-rutina" src="${rutinaEncontrada['Protección Solar Diaria'].img}" alt="Protección Solar Diaria">
                                 </div>
                                 <div class="col-8">
@@ -187,13 +187,13 @@ function mostrarRutina() {
                 <div class="nombre-contenedor">
                     <div class="row mt-3">
                         <div class="col-12">
-                            <h2 class="videojuego-tittle title">Rutina para ${tiempoSeleccionado} - Piel ${pielSeleccionada} - Rango ${rangoSeleccionado}</h2>
+                            <h2 class="videojuego-tittle title">Rutina de ${tiempoSeleccionado} | Piel ${pielSeleccionada} | Rango ${rangoSeleccionado}</h2>
                             <p class="text text-2">Según las características seleccionadas, la rutina ideal para ti es:</p>
                         </div>
                         <div class="col-6 producto mb-3">
                             <div class="card h-100">
                                 <div class="row g-0">
-                                    <div class="col-4">
+                                    <div class="col-4 img-container">
                                         <img class="img-rutina" src="${rutinaEncontrada['Limpieza Facial Suave'].img}" alt="Limpieza Facial Suave">            
                                     </div>
                                     <div class="col-8">
@@ -221,7 +221,7 @@ function mostrarRutina() {
                         <div class="col-6 producto mb-3">
                             <div class="card h-100">
                                 <div class="row g-0">
-                                    <div class="col-4">
+                                    <div class="col-4 img-container">
                                         <img class="img-rutina" src="${rutinaEncontrada['Hidratación Intensa'].img}" alt="Hidratación Intensa">
                                     </div>
                                     <div class="col-8">
@@ -249,8 +249,8 @@ function mostrarRutina() {
                         <div class="col-6 producto mb-3">
                             <div class="card h-100">
                                 <div class="row g-0">
-                                    <div class="col-4">
-                                        <img class="img-rutina" src="${rutinaEncontrada['Tratamiento Reparador'].img}" alt="Tratamiento Reparador">
+                                    <div class="col-4 img-container">
+                                        <img class="img-rutina w-100" src="${rutinaEncontrada['Tratamiento Reparador'].img}" alt="Tratamiento Reparador">
                                     </div>
                                     <div class="col-8">
                                         <div class="card-body border-left">
@@ -277,7 +277,7 @@ function mostrarRutina() {
                         <div class="col-6 producto mb-3">
                             <div class="card h-100">
                                 <div class="row g-0">
-                                    <div class="col-4">
+                                    <div class="col-4 img-container">
                                         <img class="img-rutina" src="${rutinaEncontrada['Hidratación Adicional (Opcional)'].img}" alt="Protección Solar Diaria">
                                     </div>
                                     <div class="col-8">
@@ -319,13 +319,3 @@ function mostrarRutina() {
         console.error("Al menos uno de los valores obtenidos del localStorage es null.");
     }
 }
-
-// Función para abrir o cerrar la ventana emergente
-function toggleVentana(idVentana) {
-    var ventana = document.getElementById(idVentana);
-    if (ventana.style.display === 'block') {
-      cerrarVentana(idVentana);
-    } else {
-      abrirVentana(idVentana);
-    }
-  }

@@ -1,3 +1,4 @@
+
 img {
   width: 30%;
   height: auto;
@@ -17,18 +18,25 @@ input[type="radio"] {
   align-items: center;
 }
 
-.ventanaEmergente{
-  display: none;
-}
-
 .posicionlinea{
   display: inline-block; 
 }
 
-.btn-flecha{
-  left: -5px;
+.btn{
+  border-radius: 17px;
 }
 
-.boton-radius{
-  border-radius: 4px;
+.mi-boton {
+  border-radius: 17px;
+  padding: 10px;
+  padding-bottom: 3px;
+}
+
+.mi-boton:hover {
+  background-color: #c19b6fd7;
+  transform: translateY(2px);
+}
+
+.card{
+  border-radius: 20px;
 }

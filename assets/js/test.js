@@ -82,7 +82,7 @@ function mostrarResultado() {
                 </div>
             </div>
             <div class="row justify-content-center">
-                <div class="col-md-12">
+                <div class="col-md-6">
                     <h4 class='resultado_titulo text-6 title'>¡FELICIDADES!</h4>
                 </div>
             </div>

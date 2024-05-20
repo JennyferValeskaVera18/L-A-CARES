@@ -26,7 +26,7 @@
                             </button>
                             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                                 <div class="navbar-nav mr-auto mt-2">
-                                    <h5 class="nav-link text">LÚA CARES - TEST</h5>
+                                    <h5 class="nav-link title">LÚA CARES - TEST</h5>
                                 </div>
                                 <div class="navbar-nav">
                                     <label class="toggle-container m-2 mr-4">
@@ -43,29 +43,26 @@
                 </div>
                 <div class="container-fluid d-flex px-5 vh-100 col-md-12 d-flex flex-column"  id="tablero">
                     <div class="row m-4">
-                        <h3 class="title">ELIGE EL RANGO DE PRECIOS</h3>
-                        <p class="text text-1">Es importante que elijas un rango de precios acomodado a ti. El rango "Económico" oscila hasta los 70 soles, el rango "Medio" hasta las 300 soles y el "alto"  de 300 soles a más.</p>
+                        <h1 class="title">ELIGE EL RANGO DE PRECIOS</h1>
+                        <p class="text text-3 text-left">Es importante que elijas un rango de precios acomodado a ti. El rango "Económico" oscila hasta los 70 soles, el rango "Medio" hasta las 300 soles y el "alto"  de 300 soles a más.</p>
                         <div class="botones col-12">
                             <div class="row">
                                 <section class="col-md-4">
-                                    <div>
+                                    <div class="mi-boton mt-5">
                                         <input type="radio" name="rango" id="rangoEconomico" value="económico" onclick="guardarSeleccion('rango', this.value); window.location.href='rutina.html?type=económico'">
-                                        <label class="btn button-label text" for="rangoEconomico">PRODUCTOS DE RANGO ECONÓMICO</label>
-                                        <img src="">
+                                        <label class="button-label tamaño-fuente btn btn-border btn-block btn-animate p-0 pt-2 pb-1 text" for="rangoEconomico">PRODUCTOS DE RANGO ECONÓMICO</label>
                                     </div>
                                 </section>
                                 <section class="col-md-4">
-                                    <div>
+                                    <div class="mi-boton mt-5">
                                         <input type="radio" name="rango" id="rangoMedio" value="medio" onclick="guardarSeleccion('rango', this.value); window.location.href='rutina.html?type=medio'">
-                                        <label class="btn button-label text" for="rangoMedio">PRODUCTOS DE RANGO MEDIO</label>
-                                        <img src="">
+                                        <label class="button-label tamaño-fuente btn btn-border btn-block btn-animate p-0 pt-2 pb-1 text" for="rangoMedio">PRODUCTOS DE RANGO MEDIO</label>
                                     </div>
                                 </section>
                                 <section class="col-md-4">
-                                    <div>
+                                    <div class="mi-boton mt-5">
                                         <input type="radio" name="rango" id="rangoAlto" value="alto" onclick="guardarSeleccion('rango', this.value); window.location.href='rutina.html?type=alto'">
-                                        <label class="btn button-label text" for="rangoAlto">PRODUCTOS DE RANGO ALTO</label>
-                                        <img src="">
+                                        <label class="button-label tamaño-fuente btn btn-border btn-block btn-animate p-0 pt-2 pb-1 text" for="rangoAlto">PRODUCTOS DE RANGO ALTO</label>
                                     </div>
                                 </section>
                             </div>

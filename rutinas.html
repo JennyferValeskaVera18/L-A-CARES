@@ -25,7 +25,7 @@
                             </button>
                             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                                 <div class="navbar-nav mr-auto mt-2">
-                                    <h5 class="nav-link text">LÚA CARES</h5>
+                                    <h5 class="nav-link title">LÚA CARES</h5>
                                 </div>
                                 <div class="navbar-nav">
                                     <label class="toggle-container m-2 mr-4">
@@ -41,8 +41,8 @@
                 </div>
                 <div class="container-fluid text-center px-5">
                     <div class="row">
-                        <div class="col-md-12 title mt-4">                        
-                            <h3>ELIGE EN QUÉ QUIERES QUE TE ASESOREMOS</h3>
+                        <div class="col-md-12 title mt-4 m-3">                        
+                            <h2>ELIGE EN QUÉ QUIERES QUE TE ASESOREMOS</h3>
                         </div>
                     </div>
                 </div>
@@ -50,85 +50,50 @@
                     <div class="row">
                         <div class="col-md-4 p-2">
                             <section>
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <img class="m-3" src="https://cdn-icons-png.flaticon.com/512/9055/9055356.png">
-                                    </div>
-                                </div>
                                 <div class="row m-1">
-                                    <div class="col-md-10 pt-2 mi-boton boton-radius">
+                                    <div class="col-md-12 mi-boton boton-radius">
                                         <input type="radio" name="tiempo" id="rutinaManana" value="mañana" onclick="guardarSeleccion('tiempo', this.value); window.location.href='pieles.html'">
-                                        <label for="rutinaManana" class="text text-2 btn btn-border btn-block btn-animate p-0">RUTINA DE MAÑANA</label> 
-                                    </div>
-                                    <div class="col-md-2 pt-2 mi-boton boton-radius">
-                                        <button class="btn btn-border text-2 btn-animate px-2 py-0" onclick="toggleVentana('ventana1')"><i class="bi bi-caret-right"></i></button>
+                                        <label for="rutinaManana" class="text text-3 btn btn-border btn-block btn-animate">
+                                            <div class="font-weight-bold">RUTINA DE MAÑANA</div>
+                                            <img class="m-3" src="https://cdn-icons-png.flaticon.com/512/9055/9055356.png">
+                                            <div class="contenido">
+                                                <p class="text-1">La rutina matutina se enfoca en preparar la piel para el día y protegerla de los elementos ambientales. Incluye limpieza, hidratación y protección solar, con la posibilidad de añadir ingredientes para iluminar la piel y fomentar la producción de colágeno.</p>
+                                            </div>
+                                        </label>
                                     </div>
                                 </div>
                             </section>                            
                         </div>
                         <div class="col-md-4 p-2">
                             <section>
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <img class="m-3" src="https://i.ibb.co/Nrk1MFh/moon.png">
-                                    </div>
-                                </div>
                                 <div class="row m-1">
-                                    <div class="col-md-10 pt-2 mi-boton boton-radius">
+                                    <div class="col-md-12 mi-boton boton-radius">
                                         <input type="radio" name="tiempo" id="rutinaNoche" value="noche" onclick="guardarSeleccion('tiempo', this.value); window.location.href='pieles.html'">
-                                        <label for="rutinaNoche" class="text text-2 btn-block btn btn-border btn-animate p-0">RUTINA DE NOCHE</label>
-                                    </div>
-                                    <div class="col-md-2 pt-2 mi-boton boton-radius">
-                                        <button class="btn btn-border text-2 btn-animate px-2 py-0" onclick="toggleVentana('ventana2')"><i class="bi bi-caret-right"></i></button>
+                                        <label for="rutinaNoche" class="text text-3 btn-block btn btn-border btn-animate">
+                                            <div class="font-weight-bold">RUTINA DE NOCHE</div>
+                                            <img class="m-3" src="https://i.ibb.co/Nrk1MFh/moon.png">
+                                            <div class="contenido">
+                                                <p class="text-1">La rutina nocturna se enfoca en reparar y regenerar la piel durante el descanso, con una limpieza profunda y la aplicación de tratamientos específicos para promover la renovación celular y tratar problemas como el acné, la pigmentación o las arrugas.</p>
+                                            </div>
+                                        </label>
                                     </div>
                                 </div>
                             </section>
                         </div>
                         <div class="col-md-4 p-2">
                             <section>
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <img class="m-3" src="https://mn.gov/puc/assets/info-yellow_tcm14-487794.png">
-                                    </div>
-                                </div>
                                 <div class="row m-1">
-                                    <div class="col-md-10 pt-2 mi-boton boton-radius">
+                                    <div class="col-md-12 mi-boton boton-radius">
                                         <input type="radio" name="tiempo" id="informacionProductos" value="productos" onclick="guardarSeleccion('tiempo', this.value);window.location.href='api.html'">
-                                        <label for="informacionProductos" class="text text-2 btn-block btn btn-border btn-animate p-0">INFORMACIÓN DE PRODUCTOS</label>
-                                    </div>
-                                    <div class="col-md-2 pt-2 mi-boton boton-radius">
-                                        <button class="btn btn-border text-2 btn-animate px-2 py-0" onclick="toggleVentana('ventana3')"><i class="bi bi-caret-right"></i></button>
+                                        <label for="informacionProductos" class="text text-3 btn-block btn btn-border btn-animate">
+                                            <div class="font-weight-bold">INFORMACIÓN DE PRODUCTOS</div>
+                                            <img class="m-3" src="https://mn.gov/puc/assets/info-yellow_tcm14-487794.png">
+                                            <div class="contenido">
+                                                <p class="text-1">Te ofrecemos productos del cuidado de la piel sin necesidad de especificar tus necesidades, puedes buscar datos como el precio, dónde comprarlo y características. Explora nuestras opciones y descubre el secreto para una piel radiante y saludable.</p>
+                                            </div>
+                                        </label>
                                     </div>
                                 </div>
-                            </section>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-4 p-2">
-                            <section>
-                                <div id="ventana1" class="ventanaEmergente">
-                                    <div class="contenido text">
-                                      <p class="text-2"> la rutina matutina se enfoca en preparar la piel para el día y protegerla de los elementos ambientales. Incluye limpieza, hidratación y protección solar, con la posibilidad de añadir ingredientes para iluminar la piel y fomentar la producción de colágeno.</p>
-                                    </div>
-                                  </div>
-                            </section>
-                        </div>
-                        <div class="col-md-4 p-2">
-                            <section>
-                                <div id="ventana2" class="ventanaEmergente">
-                                    <div class="contenido text">
-                                      <p class="text-2">La rutina nocturna se enfoca en reparar y regenerar la piel durante el descanso, con una limpieza profunda y la aplicación de tratamientos específicos para promover la renovación celular y tratar problemas como el acné, la pigmentación o las arrugas.</p>
-                                    </div>
-                                  </div>
-                            </section>
-                        </div>
-                        <div class="col-md-4 p-2">
-                            <section>
-                                <div id="ventana3" class="ventanaEmergente">
-                                    <div class="contenido text">
-                                        <p class="text-2">Te ofrecemos productos del cuidado de la piel sin necesidad de especificar tus necesidades, puedes buscar datos como el precio, dónde comprarlo y características.</p>
-                                    </div>
-                                  </div>
                             </section>
                         </div>
                     </div>
