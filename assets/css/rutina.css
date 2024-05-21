@@ -55,7 +55,8 @@
 }
 
 #enviarBtn:hover {
-  width: 18%; /* Ancho aumentado */
+  width: 18%;
+  color: white;
 }
 
 #enviarBtn:hover .btn-icono {
